@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
+gem 'jekyll-target-blank'
 
     group :jekyll_plugins do
       gem "jekyll-paginate"
@@ -8,4 +9,5 @@ gem "github-pages", group: :jekyll_plugins
       gem "jekyll-gist"
       gem "jekyll-feed"
       gem "jemoji"
+      gem "jekyll-target-blank"
     end

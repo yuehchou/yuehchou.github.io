@@ -243,6 +243,9 @@ compress_html:
   ignore:
     envs: development
 
+ 
+target-blank:
+    add_css_classes: css-class-one css-class-two
 
 # Defaults
 defaults:
