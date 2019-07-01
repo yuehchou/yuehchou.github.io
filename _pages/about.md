@@ -36,6 +36,9 @@ NTU x NTUH medical image projects.
 
 ## Publications:
 
-1. <b> 橢圓及雙曲線焦點三角形的相關幾何量</b><br>
-    2013 (145) 中央研究院 數學傳播期刊
+1. <b>橢圓及雙曲線焦點三角形的相關幾何量</b><br>
+   <small>李岳洲,廖晟峰,莊健祥,(145)數學傳播期刊,中央研究院2013</small>
+
+2. <b>Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge</b><br>
+   <small>Spyridon Bakas, Mauricio Reyes, Yuehchou Lee, et al.</small>
 
