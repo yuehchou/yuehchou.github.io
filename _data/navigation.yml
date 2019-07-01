@@ -6,7 +6,7 @@ main:
     url: /posts/
   - title: "Projects"
     url: /projects/
-  - title: "Course"
+  - title: "Courses"
     url: /courses/
   # - title: "Sample Collections"
   #   url: /collection-archive/

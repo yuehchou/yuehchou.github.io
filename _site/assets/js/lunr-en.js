@@ -53,7 +53,7 @@ var store = [
         "excerpt": "Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of...",
         "teaser":
           
-            null
+            "http://localhost:4000/images/background.jpg"
           
       },
     
@@ -64,7 +64,7 @@ var store = [
         "excerpt": "You can enable math support through use_math: true front matter which enable the MathJax.js rendering. After enable math support, use...",
         "teaser":
           
-            null
+            "http://localhost:4000/images/background.jpg"
           
       },
     
@@ -75,7 +75,7 @@ var store = [
         "excerpt": "Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet sem efficitur, accumsan erat at, molestie dui....",
         "teaser":
           
-            null
+            "http://localhost:4000/images/background.jpg"
           
       }
     
