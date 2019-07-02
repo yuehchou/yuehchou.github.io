@@ -9,7 +9,6 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-# logo                     : "/assets/images/NTU_logo.png"
 title                    : "Yueh-Chou Lee Blog"
 title_separator          : "|"
 name                     : "Yueh-Chou Lee"
@@ -18,8 +17,10 @@ url                      : "https://yuehchou.github.io/"# the base hostname & pr
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/images/background.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
-logo                     : "/images/NTU_logo.png"
+breadcrumbs              : true # true, false (default)
+header:
+  logo: /images/NTU_logo.png
+  teaser: /images/background.jpg
 words_per_minute         : 200
 comments:
   provider               : "disqus"# false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
