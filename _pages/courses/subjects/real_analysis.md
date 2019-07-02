@@ -17,7 +17,8 @@ Real analysis is the basis of advanced analysis theory, and is also an important
 ## Text Book
 
    1. Measure and Integral: An Introduction to Real Analysis<br>
-      <small>Richard L. Wheeden, Antoni Zygmund, Second Edition</small><br>
+      <small>Richard L. Wheeden, Antoni Zygmund, Second Edition</small><br><br>
+      ![](./../../../images/courses/Zygmund.png){:height="20%" width="20%"}<br><br><br>
    2. 
 
 
