@@ -13,6 +13,9 @@
 <lastmod>2018-07-16T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/projects/IBM/CSD.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/courses/TA/ICM.html</loc>
 </url>
 <url>
@@ -35,5 +38,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/courses/subjects/real_analysis.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/PDF/projects/IBM/IBM_poster.pdf</loc>
+<lastmod>2018-08-04T01:24:44+08:00</lastmod>
 </url>
 </urlset>
