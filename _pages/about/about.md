@@ -10,7 +10,7 @@ comments: false
 
 ## Recent Work:
 
-NTU x NTUH medical image projects.
+National Taiwan University x National Taiwan University Hospital Medical Image AI Projects.
 
 ## Experience:
 

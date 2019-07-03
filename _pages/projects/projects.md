@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /projects/index.html
+permalink: /projects/
 excerpt: "This page contains the projects I have involved."
 header:
   overlay_image: /images/projects/coding.jpg
@@ -10,6 +10,16 @@ author_profile: true
 comments: true
 ---
 
+## National Taiwan University x National Taiwan University Hospital
 
+   1. Brain Tumor Classification<br>
+
+## National Taiwan University x IBM T.J. Watson Reasearch Center
+
+   1. Cortical Spreading Despression<br>
+
+## National Taiwan University x National Yang-Ming University
+
+   1. Disorder<br>
 
 
