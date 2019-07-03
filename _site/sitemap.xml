@@ -19,13 +19,16 @@
 <loc>http://localhost:4000/courses/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/courses/subjects/graph_theory.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/courses/subjects/</loc>
+<loc>http://localhost:4000/courses/subjects/real_analysis.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_pages/projects/projects/</loc>

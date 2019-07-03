@@ -11,8 +11,8 @@ comments: true
 ---
 ## Required or Elective Subjects:
 <b>National Taiwan University</b><br>
-    1. [Real Analysis](subjects/)<br>
-    2. Graph Theory<br>
+    1. [Real Analysis](subjects/real_analysis.html)<br>
+    2. [Graph Theory](subjects/graph_theory.html)<br>
     3. Numerical Linear Algebra<br>
     4. Discrete Differential Geometry<br>
 
