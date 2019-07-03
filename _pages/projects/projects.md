@@ -13,10 +13,13 @@ comments: true
 ## National Taiwan University x National Taiwan University Hospital
 
    1. Brain Tumor Classification<br>
+   2. Hypopharyngeal Tumor Classification<br>
+   3. Radiomics<br>
 
 ## National Taiwan University x IBM T.J. Watson Reasearch Center
 
    1. Cortical Spreading Despression<br>
+   2. Extracellular Space (ECS)<br>
 
 ## National Taiwan University x National Yang-Ming University
 
