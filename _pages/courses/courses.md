@@ -14,7 +14,8 @@ comments: true
     1. [Real Analysis](subjects/real_analysis.html)<br>
     2. [Graph Theory](subjects/graph_theory.html)<br>
     3. Numerical Linear Algebra<br>
-    4. Discrete Differential Geometry<br>
+    4. High-Performance Numerical Solver<br>
+    5. Discrete Differential Geometry<br>
 
 <b>National Chiao Tung University</b><br>
     1. 
