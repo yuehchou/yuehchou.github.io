@@ -5,7 +5,7 @@ excerpt: "This project is cooperate with National Yang-Ming University from Feb.
 header:
   overlay_image: /images/projects/NYMU/NYMU.jpg
   overlay_filter: 0.5
-title: "Cortical Spreading Depression"
+title: "Disorder"
 author_profile: true
 comments: true
 ---
