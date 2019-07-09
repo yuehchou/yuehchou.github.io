@@ -1,7 +1,7 @@
 ---
 title:  "Welcome to Minimal Mistakes Jekyll"
-date:   2017-12-21
-categories: update
+date:   2019-07-07
+categories: /posts/update
 tags: jekyll
 author_profile: true
 ---

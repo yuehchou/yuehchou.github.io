@@ -1,7 +1,8 @@
 ---
-title: Math Support
-date: 2018-07-16
+title: "Math Support"
+date: 2019-07-08
 tags: MathJax
+categories: /posts/MathJax/
 use_math: true
 author_profile: true
 ---
