@@ -3,6 +3,7 @@ title:  "Welcome to Minimal Mistakes Jekyll"
 date:   2017-12-21
 categories: update
 tags: jekyll
+author_profile: true
 ---
 
 Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of this blog post to be your own OR delete this post and create a new one.

@@ -16,11 +16,11 @@ description              : "Myself blog."
 url                      : "https://yuehchou.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/images/background.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
+teaser                   : " " # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs              : false # true, false (default)
 header:
-  logo: /images/NTU_logo.png
-  teaser: /images/background.jpg
+  logo: "/images/NTU_logo.png"
+  teaser: /
 words_per_minute         : 200
 comments:
   provider               : "disqus"# false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -187,7 +187,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /posts/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 sticky_sidebar: true # sticky left sidebar (author profile)
 
@@ -226,16 +226,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -256,7 +256,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      use_math: false
+      use_math: true
   # _posts
   - scope:
       path: ""
@@ -268,4 +268,4 @@ defaults:
       comments: true
       share: true
       related: true
-      use_math: false
+      use_math: true
