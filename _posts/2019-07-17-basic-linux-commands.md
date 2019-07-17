@@ -8,6 +8,7 @@ tags: Linux
 categories: /posts/linux/
 author_profile: true
 ---
+<br>
 
 In Ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands. Following, we will introduce basic linux commands so that we can start to operate this system.<br>
 
