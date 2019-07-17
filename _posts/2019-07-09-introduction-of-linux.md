@@ -10,6 +10,8 @@ author_profile: true
 ---
 
 <br>
+
+
 ## What is Linux?
 
 Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.
