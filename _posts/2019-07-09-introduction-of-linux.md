@@ -2,7 +2,6 @@
 title:  "Introduction of Linux"
 date:   2019-07-09
 tags: Linux
-layout: single
 header:
   overlay_image: /images/posts/linux/cover.jpg
   overlay_filter: 0.5
@@ -32,4 +31,8 @@ Linux has today become user-friendly enough to replace Windows on desktops. It i
 9. Better Community Support
 10. Reliability
 11. Privacy
+
+## Linux Shell or "Terminal"
+
+Shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output. Linux's shell is its main part. Its distros come in GUI (graphical user interface), but basically, Linux has a CLI (command line interface).
 
