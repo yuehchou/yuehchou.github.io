@@ -1,8 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T16:28:08+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T17:51:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
 
 After understanding some basic linux commands, we will continue to introduce other intermediate linux commands.&lt;br&gt;
 
-## 1. cat</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Basic Linux Commands</title><link href="http://localhost:4000/posts/linux/basic-linux-commands/" rel="alternate" type="text/html" title="Basic Linux Commands" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/basic-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/basic-linux-commands/">&lt;br&gt;
+## 1. cat
+
+Use the this command to display the contents of a file. It is usually used to easily view programs.&lt;br&gt;
+
+## 2. nano, vim
+
+These are already installed text editors in the Linux command line. The &lt;b&gt;nano&lt;/b&gt; command is a good text editor that denotes keywords with color and can recognize most languages. And &lt;b&gt;vim&lt;/b&gt; is simpler than nano. You can create a new file or modify a file using this editor.&lt;br&gt;
+
+## 3. sudo (SuperUser Do)
+
+A widely used command in the Linux command line, &lt;b&gt;sudo&lt;/b&gt; stands for &lt;b&gt;&quot;SuperUser Do&quot;&lt;/b&gt;. So, if you want any command to be done with administrative or root privileges, you can use the &lt;b&gt;sudo&lt;/b&gt; command. You can also use the command &lt;b&gt;&quot;su&quot;&lt;/b&gt; to do this, but you need to set a root password before that. For that, you can use the command &lt;b&gt;&quot;sudo passwd&quot;&lt;/b&gt;(not misspelled, it is &lt;b&gt;passwd&lt;/b&gt;). Then type in the new root password.&lt;br&gt;
+
+## 4. echo
+
+This command helps us move some data, usually text into a file. For example, if you want to create a new text file or add to an already made text file, you just need to type in, &lt;b&gt;&quot;echo hello, my name is alok &gt;&gt; new.txt&quot;&lt;/b&gt;.&lt;br&gt;
+
+## 5. df
+
+Use this command to see the available disk space in each of the partitions in your system. You can just type in &lt;b&gt;df&lt;/b&gt; in the command line and you can see each mounted partition and their  used/available space in % and in KBs. If you want it shown in megabytes, you can use the command &lt;b&gt;&quot;df -m&quot;&lt;/b&gt;. Also, use the command &lt;b&gt;&quot;df -g&quot;&lt;/b&gt;, if you want to change to gigabytes.&lt;br&gt;
+
+## 6. du
+
+Use this command to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux, you can type in the command &lt;b&gt;df&lt;/b&gt; and the name of the folder or file. For example, if you want to know the disk space used by the documents folder in Linux, you can use the command &lt;b&gt;&quot;du Documents&quot;&lt;/b&gt;. You can also use the command &lt;b&gt;&quot;ls -lah&quot;&lt;/b&gt; to view the file sizes of all the files in a folder.&lt;br&gt;
+
+## 7. tar
+
+Use this command to work with tarballs (or files compressed in a tarball archive) in the Linux command line. It has a long list of uses. It can be used to compress and uncompress different types of tar archives like &lt;b&gt;.tar&lt;/b&gt;, &lt;b&gt;.tar.gz&lt;/b&gt;, &lt;b&gt;.tar.bz2&lt;/b&gt;, etc. It works on the basis of the arguments given to it. You can see more examples for &lt;b&gt;tar&lt;/b&gt; by this [link](https://www.tecmint.com/18-tar-command-examples-in-linux/).&lt;br&gt;
+
+## 8. zip, unzip
+
+Use &lt;b&gt;zip&lt;/b&gt; to compress files into a zip archive, and &lt;b&gt;unzip&lt;/b&gt; to extract files from a zip archive.&lt;br&gt;
+
+## 9. uname
+
+Use this command to show the information about the system your Linux distro is running. Using the command &lt;b&gt;&quot;uname -a&quot;&lt;/b&gt; prints most of the information about the system. This prints the kernel release date, version, processor type, etc.&lt;br&gt;
+
+## 10. apt-get
+
+Use &lt;b&gt;apt&lt;/b&gt; to work with packages in the Linux command line. Use &lt;b&gt;apt-get&lt;/b&gt; to install packages. This requires root privileges, so use the &lt;b&gt;sudo&lt;/b&gt; command with it. For example, if you want to install downloader &lt;b&gt;wget&lt;/b&gt; (this can download files from url), we can type in the command &lt;b&gt;&quot;sudo apt-get install wget&quot;&lt;/b&gt;. Similarly, any packages can be installed like this. It is good to update your repository each time you try to install a new package. You can do that by typing &lt;b&gt;&quot;sudo apt-get update&quot;&lt;/b&gt;. You can upgrade the system by typing &lt;b&gt;&quot;sudo apt-get upgrade&quot;&lt;/b&gt;. We can also upgrade the distro by typing &lt;b&gt;&quot;sudo apt-get dist-upgrade&quot;&lt;/b&gt;. The command &lt;b&gt;&quot;apt-cache search&quot;&lt;/b&gt; is used to search for a package. If you want to search for one, you can type in &lt;b&gt;&quot;apt-cache search wget&quot;&lt;/b&gt;(this doesn't require root).&lt;br&gt;
+
+## 11. hostname
+
+Use this command to know your name in your host or network. Basically, it displays your hostname and IP address. Just typing &lt;b&gt;&quot;hostname&quot;&lt;/b&gt; gives the output. Typing in &lt;b&gt;&quot;hostname -I&quot;&lt;/b&gt; gives you your IP address in your network.&lt;br&gt;
+
+## 12. ping
+
+Use this command to check your connection to a server. Wikipedia says, &quot;&lt;b&gt;Ping&lt;/b&gt; is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network&quot;. Simply, when you type in, for example, &lt;b&gt;&quot;ping google.com&quot;&lt;/b&gt;, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Basic Linux Commands</title><link href="http://localhost:4000/posts/linux/basic-linux-commands/" rel="alternate" type="text/html" title="Basic Linux Commands" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/basic-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/basic-linux-commands/">&lt;br&gt;
 
 In ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands. Following, we will introduce basic linux commands so that we can start to operate this system.&lt;br&gt;
 
@@ -36,35 +86,33 @@ Use this command to delete files and directories. Use &lt;b&gt;&quot;rm -r [dire
 
 ## 8. touch
 
-Use this command to create a file. It can be anything, from an empty txt file to an empty zip file. For example, &lt;b&gt;&quot;touch new.txt&quot;&lt;/b&gt;.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Introduction of Linux</title><link href="http://localhost:4000/posts/linux/introduction-of-linux/" rel="alternate" type="text/html" title="Introduction of Linux" /><published>2019-07-09T00:00:00+08:00</published><updated>2019-07-09T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/introduction-of-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/introduction-of-linux/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+Use this command to create a file. It can be anything, from an empty txt file to an empty zip file. For example, &lt;b&gt;&quot;touch new.txt&quot;&lt;/b&gt;.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Introduction of Linux</title><link href="http://localhost:4000/posts/linux/introduction-of-linux/" rel="alternate" type="text/html" title="Introduction of Linux" /><published>2019-07-09T00:00:00+08:00</published><updated>2019-07-09T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/introduction-of-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/introduction-of-linux/">&lt;br&gt;
 
-&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/linux/logo.png&quot; width=&quot;40%&quot; height=&quot;40%&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/linux/logo.png&quot; width=&quot;40%&quot; height=&quot;40%&quot;/&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;what-is-linux&quot;&gt;What is Linux?&lt;/h2&gt;
+## What is Linux?
 
-&lt;p&gt;Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.&lt;/p&gt;
+Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.
 
-&lt;h2 id=&quot;why-linux&quot;&gt;Why Linux?&lt;/h2&gt;
+## Why Linux?
 
-&lt;p&gt;Linux has today become user-friendly enough to replace Windows on desktops. It is being used by hundreds of thousands of people across the globe. Here are the eleven most important reasons why.&lt;br /&gt;&lt;/p&gt;
+Linux has today become user-friendly enough to replace Windows on desktops. It is being used by hundreds of thousands of people across the globe. Here are the eleven most important reasons why.&lt;br&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Open Source Nature&lt;/li&gt;
-  &lt;li&gt;Secure&lt;/li&gt;
-  &lt;li&gt;Can Revive Older Computers&lt;/li&gt;
-  &lt;li&gt;Perfect for Programmers&lt;/li&gt;
-  &lt;li&gt;Software Updates&lt;/li&gt;
-  &lt;li&gt;Customization&lt;/li&gt;
-  &lt;li&gt;Variety Of Distributions&lt;/li&gt;
-  &lt;li&gt;Free to Use&lt;/li&gt;
-  &lt;li&gt;Better Community Support&lt;/li&gt;
-  &lt;li&gt;Reliability&lt;/li&gt;
-  &lt;li&gt;Privacy&lt;/li&gt;
-&lt;/ol&gt;
+1. Open Source Nature
+2. Secure
+3. Can Revive Older Computers
+4. Perfect for Programmers
+5. Software Updates
+6. Customization
+7. Variety Of Distributions
+8. Free to Use
+9. Better Community Support
+10. Reliability
+11. Privacy
 
-&lt;h2 id=&quot;linux-shell-or-terminal&quot;&gt;Linux Shell or “Terminal”&lt;/h2&gt;
+## Linux Shell or &quot;Terminal&quot;
 
-&lt;p&gt;Shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output. Linux’s shell is its main part. Its distros come in GUI (graphical user interface), but basically, Linux has a CLI (command line interface).&lt;/p&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Math Support</title><link href="http://localhost:4000/posts/mathjax/math-support/" rel="alternate" type="text/html" title="Math Support" /><published>2019-07-08T00:00:00+08:00</published><updated>2019-07-08T00:00:00+08:00</updated><id>http://localhost:4000/posts/mathjax/math-support</id><content type="html" xml:base="http://localhost:4000/posts/mathjax/math-support/">You can enable math support through `use_math: true` front matter which enable the MathJax.js rendering.
+Shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output. Linux's shell is its main part. Its distros come in GUI (graphical user interface), but basically, Linux has a CLI (command line interface).</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Math Support</title><link href="http://localhost:4000/posts/mathjax/math-support/" rel="alternate" type="text/html" title="Math Support" /><published>2019-07-08T00:00:00+08:00</published><updated>2019-07-08T00:00:00+08:00</updated><id>http://localhost:4000/posts/mathjax/math-support</id><content type="html" xml:base="http://localhost:4000/posts/mathjax/math-support/">You can enable math support through `use_math: true` front matter which enable the MathJax.js rendering.
 
 After enable math support, use `$$ ... $$` displaying math equation.
 
