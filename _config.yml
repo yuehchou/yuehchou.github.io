@@ -223,8 +223,8 @@ category_archive:
   type: liquid
   path: /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
+  type: jekyll-archives
+  path: posts/tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
