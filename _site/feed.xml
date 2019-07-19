@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T17:51:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-19T00:58:04+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-19T00:00:00+08:00</published><updated>2019-07-19T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are five tips that can help you operate Linux system more easily and conveniently.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can use the &lt;b&gt;clear&lt;/b&gt; command to clear the terminal if it gets filled up with too many commands.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;TAB&lt;/b&gt; can be used to fill up in terminal. For example, You just need to type &lt;b&gt;“cd Doc”&lt;/b&gt; and then TAB and the terminal fills the rest up and makes it &lt;b&gt;“cd Documents”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Ctrl+C&lt;/b&gt; can be used to stop any command in terminal safely. If it doesn’t stop with that, then &lt;b&gt;Ctrl+Z&lt;/b&gt; can be used to force stop it.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can exit from the terminal by using the &lt;b&gt;“exit”&lt;/b&gt; command.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can power off or reboot the computer by using the command &lt;b&gt;“sudo halt”&lt;/b&gt; and &lt;b&gt;“sudo reboot”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
 
 After understanding some basic linux commands, we will continue to introduce other intermediate linux commands.&lt;br&gt;
 
@@ -48,11 +68,7 @@ Use this command to know your name in your host or network. Basically, it displa
 
 ## 12. ping
 
-Use this command to check your connection to a server. Wikipedia says, &quot;&lt;b&gt;Ping&lt;/b&gt; is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network&quot;. Simply, when you type in, for example, &lt;b&gt;&quot;ping google.com&quot;&lt;/b&gt;, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Basic Linux Commands</title><link href="http://localhost:4000/posts/linux/basic-linux-commands/" rel="alternate" type="text/html" title="Basic Linux Commands" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/basic-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/basic-linux-commands/">&lt;br&gt;
+Use this command to check your connection to a server. Wikipedia says, &quot;&lt;b&gt;Ping&lt;/b&gt; is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network&quot;. Simply, when you type in, for example, &lt;b&gt;&quot;ping google.com&quot;&lt;/b&gt;, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Basic Linux Commands</title><link href="http://localhost:4000/posts/linux/basic-linux-commands/" rel="alternate" type="text/html" title="Basic Linux Commands" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/basic-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/basic-linux-commands/">&lt;br&gt;
 
 In ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands. Following, we will introduce basic linux commands so that we can start to operate this system.&lt;br&gt;
 
