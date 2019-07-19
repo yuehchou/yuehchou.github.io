@@ -18,7 +18,9 @@ comments: true
     5. Discrete Differential Geometry<br>
 
 <b>National Chiao Tung University</b><br>
-    1. 
+    1. Intoduction of Graph Theory<br>
+    2. Data Structure<br>
+    3. Algorithm<br>
 
 
 ## Teaching Assistant Courses:

@@ -1,24 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-19T00:58:04+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-19T00:00:00+08:00</published><updated>2019-07-19T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-19T15:52:08+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-19T00:00:00+08:00</published><updated>2019-07-19T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;br&gt;
 
-&lt;p&gt;Here are five tips that can help you operate Linux system more easily and conveniently.&lt;br /&gt;&lt;/p&gt;
+Here are five tips that can help you operate Linux system more easily and conveniently.&lt;br&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can use the &lt;b&gt;clear&lt;/b&gt; command to clear the terminal if it gets filled up with too many commands.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;TAB&lt;/b&gt; can be used to fill up in terminal. For example, You just need to type &lt;b&gt;“cd Doc”&lt;/b&gt; and then TAB and the terminal fills the rest up and makes it &lt;b&gt;“cd Documents”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Ctrl+C&lt;/b&gt; can be used to stop any command in terminal safely. If it doesn’t stop with that, then &lt;b&gt;Ctrl+Z&lt;/b&gt; can be used to force stop it.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can exit from the terminal by using the &lt;b&gt;“exit”&lt;/b&gt; command.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can power off or reboot the computer by using the command &lt;b&gt;“sudo halt”&lt;/b&gt; and &lt;b&gt;“sudo reboot”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
+1. You can use the &lt;b&gt;clear&lt;/b&gt; command to clear the terminal if it gets filled up with too many commands.&lt;br&gt;
+
+2. &lt;b&gt;TAB&lt;/b&gt; can be used to fill up in terminal. For example, You just need to type &lt;b&gt;&quot;cd Doc&quot;&lt;/b&gt; and then TAB and the terminal fills the rest up and makes it &lt;b&gt;&quot;cd Documents&quot;&lt;/b&gt;.&lt;br&gt;
+
+3. &lt;b&gt;Ctrl+C&lt;/b&gt; can be used to stop any command in terminal safely. If it doesn't stop with that, then &lt;b&gt;Ctrl+Z&lt;/b&gt; can be used to force stop it.&lt;br&gt;
+
+4. You can exit from the terminal by using the &lt;b&gt;&quot;exit&quot;&lt;/b&gt; command.&lt;br&gt;
+
+5. You can power off or reboot the computer by using the command &lt;b&gt;&quot;sudo halt&quot;&lt;/b&gt; and &lt;b&gt;&quot;sudo reboot&quot;&lt;/b&gt;.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
 
 After understanding some basic linux commands, we will continue to introduce other intermediate linux commands.&lt;br&gt;
 
