@@ -44,4 +44,6 @@ It has two major branches, differential calculus and integral calculus. Differen
     <small>James Stewart</small><br><br>
     ![](/images/courses/Calculus.jpg){:height="30%" width="30%"}<br>
 
+## Awards
+   * Excellent Teaching Assistant (2017-2018)
 
