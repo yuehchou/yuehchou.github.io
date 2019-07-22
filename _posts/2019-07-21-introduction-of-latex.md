@@ -1,6 +1,6 @@
 ---
 title: "Introduction of LaTeX"
-date: 2019-07-22
+date: 2019-07-21
 tags: LaTeX
 header:
   overlay_image: /images/posts/latex/header.jpg
