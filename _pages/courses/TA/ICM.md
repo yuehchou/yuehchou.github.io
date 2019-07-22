@@ -33,6 +33,22 @@ comments: true
    * [Lab 5A: Nonsmooth Finite Difference](/PDF/courses/TA/ICM/2018_12_17a_Lab_5A_NonsmoothFD.pdf)
 
 2. Lecture Notes:<br>
+   * [Chapter 1](/PDF/courses/TA/ICM/Chapter1.pdf)
+   * [Chapter 2](/PDF/courses/TA/ICM/Chapter2.pdf)
+   * [Chpater 3](/PDF/courses/TA/ICM/Chapter3.pdf)
+   * [Chapter 4](/PDF/courses/TA/ICM/Chapter4.pdf)
+   * [Chpater 4: Numerical Differetiation and Integration](/PDF/courses/TA/ICM/Chapter4_diff_int.pdf)
+   * [Chapter 5](/PDF/courses/TA/ICM/Chapter5.pdf)
+
+3. Quiz:<br>
+   * Quiz 1 ([Reference Solution](/PDF/courses/TA/ICM/Quiz1_Solution.pdf))
+   * Quiz 2 (Reference Code):<br>
+        1. [LU Factorization](/PDF/courses/TA/ICM/1.LU_Factorization.m)
+        2. a. [Least Square Problem (Method 1)](/PDF/courses/TA/ICM/2a.Least_Square_Problem.m)<br>
+           b. [Least Square Problem (Method 2)](/PDF/courses/TA/ICM/2b.Least_Square_Problem.m)
+   * Quiz 3 ([Reference Solution](/PDF/courses/TA/ICM/Quiz3_Solution.pdf))
+   * Midterm ([Reference Solution](/PDF/courses/TA/ICM/Midterm_Solution.pdf))
+   * Final ([File](/PDF/courses/TA/ICM/Final.pdf))
 
 ## Text Book
 
