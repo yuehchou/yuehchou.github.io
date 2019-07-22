@@ -24,7 +24,13 @@ comments: true
    * [Lab 2A: Magic](/PDF/courses/TA/ICM/2018_10_01a_Lab_2A_Magic.pdf)
    * [Lab 2B: Blur](/PDF/courses/TA/ICM/2018_10_03a_Lab_2B_Blur.pdf)
    * [Lab 2C: You Can't Go Home Again](/PDF/courses/TA/ICM/2018_10_08a_Lab_2C_Deblur.pdf)
-   * []
+   * [Lab 2D: Norms](/PDF/courses/TA/ICM/2018_10_15a_Lab_2D_Norms.pdf)
+   * [Lab 2E: Terms and Conditions](/PDF/courses/TA/ICM/2018_10_17a_Lab_2E_Terms_and_Conditions.pdf)
+   * [Lab 3A: Eye See You](/PDF/courses/TA/ICM/2018_10_22a_Lab_3A_Eye_See_You.pdf)
+   * [Lab 3B: Pressure Fit](/PDF/courses/TA/ICM/2018_10_29a_Lab_3B_Pressure_Fit.pdf)
+   * [Lab 4A: Asteroids](/PDF/courses/TA/ICM/2018_10_31a_Lab_4A_Asteroids.pdf)
+   * [Lab 4B: Gompertz](/PDF/courses/TA/ICM/2018_12_05a_Lab_4B_Gompertz.pdf)
+   * [Lab 5A: Nonsmooth Finite Difference](/PDF/courses/TA/ICM/2018_12_17a_Lab_5A_NonsmoothFD.pdf)
 
 2. Lecture Notes:<br>
 
