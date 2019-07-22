@@ -21,6 +21,10 @@ comments: true
    * [MATLAB Onramp](/PDF/courses/TA/ICM/2018_09_17a_Introduction_to_Matlab.pdf)
    * [Lab 1A: Conditioning](/PDF/courses/TA/ICM/2018_09_19a_Lab1A_Conditioning.pdf)
    * [Lab 1B: Stability](/PDF/courses/TA/ICM/2018_09_19b_Lab1B_Stability.pdf)
+   * [Lab 2A: Magic](/PDF/courses/TA/ICM/2018_10_01a_Lab_2A_Magic.pdf)
+   * [Lab 2B: Blur](/PDF/courses/TA/ICM/2018_10_03a_Lab_2B_Blur.pdf)
+   * [Lab 2C: You Can't Go Home Again](/PDF/courses/TA/ICM/2018_10_08a_Lab_2C_Deblur.pdf)
+   * []
 
 2. Lecture Notes:<br>
 
