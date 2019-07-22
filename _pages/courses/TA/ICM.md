@@ -16,10 +16,13 @@ comments: true
 
 ## Material
 
+1. Hands on:<br>
    * [MATLAB Install](/PDF/courses/TA/ICM/2018_09_12_Install_MATLAB.pdf)
    * [MATLAB Onramp](/PDF/courses/TA/ICM/2018_09_17a_Introduction_to_Matlab.pdf)
    * [Lab 1A: Conditioning](/PDF/courses/TA/ICM/2018_09_19a_Lab1A_Conditioning.pdf)
-   * 
+   * [Lab 1B: Stability](/PDF/courses/TA/ICM/2018_09_19b_Lab1B_Stability.pdf)
+
+2. Lecture Notes:<br>
 
 ## Text Book
 
