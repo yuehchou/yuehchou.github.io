@@ -78,7 +78,11 @@ author_profile: true
 | $$\hookleftarrow$$ | \hookleftarrow | $$\hookrightarrow$$ | \hookrightarrow | $$\searrow$$ | \searrow |
 | $$\leftharpoonup$$ | \leftharpoonup | $$\rightharpoonup$$ | \rightharpoonup | $$\swarrow$$ | \swarrow |
 | $$\leftharpoondown$$ | \leftharpoondown | $$\rightharpoondown$$ | \rightharpoondown | $$\nwarrow$$ | \nwarrow |
-| $$\rightleftharpoons$$ | \rightleftharpoons | $$\leadsto$$ | \leadsto | $$$$ |  |
+| $$\rightleftharpoons$$ | \rightleftharpoons | $$\leadsto$$ | \leadsto | $$\iff$$ | \iff |
+| $$\looparrowleft$$ | \looparrowleft | $$\looparrowright$$ | \looparrowright | $$\curvearrowleft$$ | \curvearrowleft |
+| $$\circlearrowleft$$ | \circlearrowleft | $$\circlearrowright$$ | \circlearrowright | $$\curvearrowright$$ | \curvearrowright |
+| $$\Lsh$$ | \Lsh | $$\Rsh$$ | \Rsh | $$\dashleftarrow$$ | \dashleftarrow |
+| $$\leftarrowtail$$ | \leftarrowtail |  $$\rightarrowtail$$ | \rightarrowtail | $$\dashrightarrow$$ | \dashrightarrow |
 
 ## Miscellaneous Symbols
 
@@ -92,8 +96,9 @@ author_profile: true
 | $$\ell$$ | \ell | $$\top$$ | \top | $$\natural$$ | \natural | $$\clubsuit$$ | \clusuit |
 | $$\wp$$ | \wp | $$\bot$$ | \bot | $$\sharp$$ | \sharp | $$\diamondsuit$$ | \diamondsuit |
 | $$\Re$$ | \Re | $$\|$$ | \| | $$\backslash$$ | \backslash | $$\heartsuit$$ | \heartsuit |
-| $$\Im$$ | \Im | $$\angle$$ | \angle | $$\partial$$ | \partial | $$\spadesuit$$ | \spadesuit |
-| $$\mho$$ | \mho | $$.$$ | . | $$$$ |  | $$$$ |  |
+| $$\Im$$ | \Im | $$\Game$$ | \Game | $$\partial$$ | \partial | $$\spadesuit$$ | \spadesuit |
+| $$\mho$$ | \mho | $$\eth$$ | \eth | $$\Finv$$ | \Finv | $$\Bbbk$$ | \Bbbk |
+| $$\angle$$ | \angle | $$\measuredangle$$ | \measuredangle | $$\sphericalangle$$ | \sphericalangle | $$\bigstar$$ | \bigstar |
 
 ## Variable-sized Symbols
 
@@ -109,17 +114,25 @@ author_profile: true
 
 |Output | Code  |Output | Code  |Output | Code  |Output | Code  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$$$ |  | $$$$ |  | $$$$ |  | $$$$ |  |
-
-<div style="text-align:center"><img src="/images/posts/latex/log-like_symbols.jpg" width="90%" height="90%"/></div>
+| $$\arccos$$ | \arccos | $$\cos$$ | \cos | $$\arcsin$$ | \arcsin | $$\sin$$ | \sin |
+| $$\arctan$$ | \arctan | $$\tan$$ | \tan | $$\cot$$ | \cot | $$\csc$$ | \csc |
+| $$\sec$$ | \sec | $$\cosh$$ | \cosh | $$\sinh$$ | \sinh | $$\tanh$$ | \tanh |
+| $$\coth$$ | \costh | $$\exp$$ | \exp | $$\lg$$ | \lg | $$\ln$$ | \ln |
+| $$\log$$ | \log | $$\deg$$ | \deg | $$\arg$$ | \arg | $$\det$$ | \det |
+| $$\dim$$ | \dim | $$\gcd$$ | \gcd | $$\hom$$ | \hom | $$\ker$$ | \ker |
+| $$\Pr$$ | \Pr | $$\max$$ | \max | $$\min$$ | \min | $$\sup$$ | \sup |
+| $$\inf$$ | \inf | $$\limsup$$ | \limsup | $$\liminf$$ | \liminf | $$\lim$$ | \lim |
 
 ## Delimiters
 
 |Output | Code  |Output | Code  |Output | Code  |Output | Code  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$$$ |  | $$$$ |  | $$$$ |  | $$$$ |  |
-
-<div style="text-align:center"><img src="/images/posts/latex/delimiters.jpg" width="90%" height="90%"/></div>
+| $$($$ | ( | $$)$$ | ) | $$\uparrow$$ | \uparrow | $$\Uparrow$$ | \Uparrow |
+| $$[$$ | [ | $$]$$ | ] | $$\downarrow$$ | \downarrow | $$\Downarrow$$ | \Downarrow |
+| $$\{$$ | \{ | $$\}$$ | \} | $$\updownarrow$$ | \updownarrow | $$\Updownarrow$$ | \Updownarrow |
+| $$\lfloor$$ | \lfloor | $$\rfloor$$ | \rfloor | $$\lceil$$ | \lceil | $$\rceil$$ | \rceil |
+| $$\langle$$ | \langle | $$\rangle$$ | \rangle | $$/$$ | / | $$\backslash$$ | \backslash |
+| $$\|$$ | \| | $$$$ |  | $$$$ |  | $$$$ |  |
 
 ## Large Delimiters
 
@@ -137,11 +150,21 @@ author_profile: true
 
 ## Some Other Constructions
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\widetilde{abc}$$ | \widetilde{abc} | $$$$ |  | $$$$ |  | $$$$ |  |
-| $$$$ |  | $$$$ |  | $$$$ |  | $$$$ |  |
-| $$$$ |  | $$$$ |  | $$$$ |  | $$$$ |  |
+|Output | Code  |Output | Code  |Output | Code  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| $$\widetilde{abc}$$ | \widetilde{abc} | $$\widehat{abc}$$ | \widehat{abc} | $$\overleftarrow{abc}$$ | \overleftarrow{abc} |
+| $$\overline{abc}$$ | \overline{abc} | $$\underline{abc}$$ | \underline{abc} | $$\overrightarrow{abc}$$ | \overrightarrow{abc} |
+| $$\sqrt{abc}$$ | \sqrt{abc} | $$\overbrace{abc}$$ | \overbrace{abc} | $$\underbrace{abc}$$ | \underbrace{abc} |
+| $$\sqrt[n]{abc}$$ | \sqrt[n]{abc} | $$f'$$ | f' | $$\frac{abc}{xyz}$$ | \frac{abc}{xyz} |
 
-<div style="text-align:center"><img src="/images/posts/latex/some_other_constructions.jpg" width="90%" height="90%"/></div>
+## Mathematical Letter Style
+
+|Output | Code  |Package|
+|:-----:|:-----:|:-----:|
+| $$\mathrm{ABCdef}$$ | \mathrm{ABCdef} | - |
+| $$\mathit{ABCdef}$$ | \mathit{ABCdef} | - |
+| $$\mathcal{ABCdef}$$ | \mathcal{ABCdef} | - |
+| $$\mathscr{ABCdef}$$ | \mathscr{ABCdef} | eucal with option: mathscr |
+| $$\mathfrak{ABCdef}$$ | \mathfrak{ABCdef} | eufrak |
+| $$\mathbb{ABCdef}$$ | \mathbb{ABCdef} | amsfonts or amssymb |
 
