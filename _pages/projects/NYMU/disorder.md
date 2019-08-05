@@ -38,14 +38,72 @@ Thorough mental examination, physical and neurological examination, laboratory e
 
 To assist the psychiatrist in diagnosing and simplify the consultation process, we try to classify the mental disorder patients by analysing the MR brain images.<br>
 
+## Data
+
+
 ## Methods
 
-* <big><b>Method 1:</b><big><br>
+* <big><b>Method 1 (Use CNN model):</b><big><br>
+
 
 * <big><b>Method 2:</b><big><br>
 
 
 ## Results
+
+* <big><b>Method 1 (Use CNN model):</b><big><br>
+
+    a. Lerning Rate: $$1\times10^{-5}$$,Batch Size: 10, Epoch: 100<br>
+
+    Testing Accuracy: 0.6097560975609756<br>
+    Confusion Matrix:<br>
+
+    <table>
+        <tr>
+            <th rowspan="2">Actual</th>
+            <th colspan="2">Predict</th>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>Positive</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>17</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>11</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+    b. Lerning Rate: $$1\times10^{-4}$$,Batch Size: 10, Epoch: 100<br>
+
+    Testing Accuracy: 0.6585365853658537<br>
+    Confusion Matrix:<br>
+
+    <table>
+        <tr>
+            <th rowspan="2">Actual</th>
+            <th colspan="2">Predict</th>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>Positive</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>17</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+    </table>
 
 
 ## Conclusions
