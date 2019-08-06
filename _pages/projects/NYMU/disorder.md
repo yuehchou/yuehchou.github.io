@@ -58,13 +58,15 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 1 (Use CNN model):</b><big><br>
 
-    Model Graph (display by Tensorboard):<br>
+    1. Model Graph (display by Tensorboard):<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div><br>
 
 
 * <big><b>Method 2 (Use Radiomics):</b><big><br>
-
+    1. Compute Radiomics features
+    2. Compute ICC to extract useful Radiomics features
+    3. Design classification model
 
 ## Results
 
