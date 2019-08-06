@@ -58,7 +58,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 1 (Use CNN model):</b><big><br>
 
-    Model Graph (present by Tensorboard):<br>
+    Model Graph (display by Tensorboard):<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div><br>
 
