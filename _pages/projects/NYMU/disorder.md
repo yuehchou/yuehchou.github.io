@@ -45,8 +45,12 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 1 (Use CNN model):</b><big><br>
 
+    Model Graph (present by Tensorboard):<br>
 
-* <big><b>Method 2:</b><big><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div><br>
+
+
+* <big><b>Method 2 (Use Radiomics):</b><big><br>
 
 
 ## Results
@@ -115,7 +119,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>9</td>
             <td>10</td>
         </tr>
-    </table><br>
+    </table><br><br>
+
+
+
+* <big><b>Method 2 (Use Radiomics):</b><big><br>
+
+
 
 
 ## Conclusions
@@ -130,7 +140,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## Acknowledgements
 
-I would like to thank Dr. Yang and Jean Lee who provided all brain MR images and gave me guidance and advice.
+I would like to thank [Dr. Albert C Yang](https://www.researchgate.net/profile/Albert_C_Yang) and Jean Lee who provided all brain MR images and gave me guidance and advice.
 
 ## Extension
 
