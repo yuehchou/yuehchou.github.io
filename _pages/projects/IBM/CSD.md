@@ -59,9 +59,13 @@ In this simulation, we focused on the diffusion of potassium ions in the brain a
    * GitHub (I will modify the code to new version.)
 
 ## Acknowledgements
-   I would like to thank Dr. James R. Kozloski and Dr. Tuan M. Hoang Trong
+   I would like to thank [Dr. James R. Kozloski](https://researcher.watson.ibm.com/researcher/view.php?person=us-kozloski) and [Dr. Tuan M. Hoang Trong](https://researcher.watson.ibm.com/researcher/view.php?person=us-tmhoangt)
 who contributed to this research during the summer vacation in 2018.<br><br>
 
 <div style="text-align:center"><img src="./../../../images/projects/IBM/presentation.jpg" width="50%" height="50%"/></div>
 
+## Extension
+  * Intoduction of this project
+    1. [TED@IBM](https://www.ted.com/talks/james_kozloski_why_the_brain_is_simpler_than_we_think#t-18096)
+    2. [IEEE.tv](https://ieeetv.ieee.org/conference-highlights/brain-panelist-james-kozloski-2016-technology-time-machine)
 

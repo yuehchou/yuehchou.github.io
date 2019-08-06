@@ -82,7 +82,7 @@
       "@type" : "Person",
       "name" : "Yueh-Chou Lee",
       "url" : "http://localhost:4000",
-      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yueh-chou-lee-51641b15b/"]
+      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yuehchoulee/"]
     }
   </script>
 
@@ -128,6 +128,23 @@
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [],
+      displayMath: [],
+      processEscapes: false,
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 
 
@@ -223,52 +240,6 @@
 
 
 
-  
-    
-
-
-
-<nav class="breadcrumbs">
-  <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-    
-    
-    
-      
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
-          <meta itemprop="position" content="1">
-        </li>
-        <span class="sep">/</span>
-      
-      
-        
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/projects" itemprop="item"><span itemprop="name">Projects</span></a>
-          <meta itemprop="position" content="2">
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/ibm" itemprop="item"><span itemprop="name">Ibm</span></a>
-          <meta itemprop="position" content="3">
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        <li class="current">Cortical Spreading Depression</li>
-      
-    
-  </ol>
-</nav>
-
-  
-
 
 <div id="main" role="main">
   
@@ -334,7 +305,7 @@
 
       
         <li>
-          <a href="https://www.linkedin.com/in/yueh-chou-lee-51641b15b" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+          <a href="https://www.linkedin.com/in/yuehchoulee" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
             <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
@@ -451,21 +422,31 @@
 <h2 id="material">Material</h2>
 
 <ul>
-  <li><a href="./../../../PDF/projects/IBM/IBM_poster.pdf">Poster</a></li>
+  <li><a href="/PDF/projects/IBM/IBM_poster.pdf">Poster</a></li>
   <li>PPT
     <ol>
-      <li><a href="./../../../PDF/projects/IBM/IBM_Intro.pdf">Introduction of My Background</a></li>
-      <li><a href="./../../../PDF/projects/IBM/IBM_project.pdf">Project Presentation</a></li>
+      <li><a href="/PDF/projects/IBM/IBM_Intro.pdf">Introduction of My Background</a></li>
+      <li><a href="/PDF/projects/IBM/IBM_project.pdf">Project Presentation</a></li>
     </ol>
   </li>
   <li>GitHub (I will modify the code to new version.)</li>
 </ul>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
-<p>I would like to thank Dr. James R. Kozloski and Dr. Tuan M. Hoang Trong
+<p>I would like to thank <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-kozloski" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Dr. James R. Kozloski</a> and <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-tmhoangt" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Dr. Tuan M. Hoang Trong</a>
 who contributed to this research during the summer vacation in 2018.<br><br></p>
 
 <div style="text-align:center"><img src="./../../../images/projects/IBM/presentation.jpg" width="50%" height="50%"></div>
+
+<h2 id="extension">Extension</h2>
+<ul>
+  <li>Intoduction of this project
+    <ol>
+      <li><a href="https://www.ted.com/talks/james_kozloski_why_the_brain_is_simpler_than_we_think#t-18096" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">TED@IBM</a></li>
+      <li><a href="https://ieeetv.ieee.org/conference-highlights/brain-panelist-james-kozloski-2016-technology-time-machine" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">IEEE.tv</a></li>
+    </ol>
+  </li>
+</ul>
 
 
         
@@ -539,6 +520,46 @@ who contributed to this research during the summer vacation in 2018.<br><br></p>
 
 
     
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit Comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
 
   
 
