@@ -68,9 +68,10 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 
 * <big><b>Method 2 (Use Radiomics):</b><big><br>
-    1. Compute Radiomics features (v2.1.0)
-    2. Compute ICC to extract useful Radiomics features
-    3. Design classification model
+    1. Construct brain mask
+    2. Compute Radiomics features (v2.1.0)
+    3. Compute ICC to extract useful Radiomics features
+    4. Design classification model
 
 ## Results
 
