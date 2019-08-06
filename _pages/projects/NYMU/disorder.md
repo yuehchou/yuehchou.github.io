@@ -57,13 +57,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 1 (Use CNN model):</b><big><br>
 
-  a. Lerning Rate: $$1\times10^{-5}$$,Batch Size: 10, Epoch: 100<br>
+  a. Lerning Rate: $$1\times10^{-5}$$, Batch Size: 10, Epoch: 100<br>
   Training Results Figure:<br>
   i. Accuarcy:<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div>
 
-   <br>&nbsp; &nbsp; ii. Loss:<br>
+   <br>ii. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
 
    <br>Testing Accuracy: 0.6097560975609756<br>
@@ -89,7 +89,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
     </table>
 
-   <br><br>b. Lerning Rate: $$1\times10^{-4}$$,Batch Size: 10, Epoch: 100<br>
+   <br><br>b. Lerning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
    Training Results Figure:<br>
    i. Accuarcy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
