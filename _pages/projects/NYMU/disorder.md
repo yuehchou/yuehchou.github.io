@@ -40,6 +40,19 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## Data
 
+<b>Brain MR "T1" Images</b>
+* Source: Dr. Albert C Yang and Jean Lee<br>
+* Cases Number:
+    1. Total: 400
+    2. Healthy: 200
+    3. Schizophrenia: 200
+* Type: NIFTI file<br>
+* Spacing: 1 mm $$\times$$ 1 mm $$\times$$ 1 mm<br>
+* Size: 3D but not fiexd (I will cut into the smallest size of those images)<br>
+* Dataset:
+    1. Training Set: 280 (70%)
+    2. Validation Set: 38 (9.5%)
+    3. Testing Set: 82 (20.5%)
 
 ## Methods
 
@@ -79,13 +92,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
         <tr>
             <td>Negative</td>
-            <td>17</td>
-            <td>5</td>
+            <td>34</td>
+            <td>10</td>
         </tr>
         <tr>
             <td>Positive</td>
-            <td>11</td>
-            <td>8</td>
+            <td>22</td>
+            <td>16</td>
         </tr>
     </table>
 
@@ -111,15 +124,15 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
         <tr>
             <td>Negative</td>
-            <td>17</td>
-            <td>5</td>
+            <td>34</td>
+            <td>10</td>
         </tr>
         <tr>
             <td>Positive</td>
-            <td>9</td>
-            <td>10</td>
+            <td>18</td>
+            <td>20</td>
         </tr>
-    </table><br><br>
+    </table><br>
 
 
 
