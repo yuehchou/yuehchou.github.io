@@ -53,12 +53,18 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 1 (Use CNN model):</b><big><br>
 
-    a. Lerning Rate: $$1\times10^{-5}$$,Batch Size: 10, Epoch: 100<br>
+  a. Lerning Rate: $$1\times10^{-5}$$,Batch Size: 10, Epoch: 100<br>
+  Training Results Figure:<br>
+  i. Accuarcy:<br>
 
-    Testing Accuracy: 0.6097560975609756<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div>
+
+   <br>&nbsp; &nbsp; ii. Loss:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
+
+   <br>Testing Accuracy: 0.6097560975609756<br>
     Confusion Matrix:<br>
-
-    <table>
+   <table>
         <tr>
             <th rowspan="2">Actual</th>
             <th colspan="2">Predict</th>
@@ -79,12 +85,18 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
     </table>
 
-    b. Lerning Rate: $$1\times10^{-4}$$,Batch Size: 10, Epoch: 100<br>
+   <br><br>b. Lerning Rate: $$1\times10^{-4}$$,Batch Size: 10, Epoch: 100<br>
+   Training Results Figure:<br>
+   i. Accuarcy:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 
-    Testing Accuracy: 0.6585365853658537<br>
-    Confusion Matrix:<br>
+   <br>ii. Loss:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 
-    <table>
+   Testing Accuracy: 0.6585365853658537<br>
+   Confusion Matrix:<br>
+
+  <table>
         <tr>
             <th rowspan="2">Actual</th>
             <th colspan="2">Predict</th>
@@ -103,8 +115,24 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>9</td>
             <td>10</td>
         </tr>
-    </table>
+    </table><br>
 
 
 ## Conclusions
+
+
+
+## References
+
+  1. 
+  2. 
+
+
+## Acknowledgements
+
+I would like to thank Dr. Yang and Jean Lee who provided all brain MR images and gave me guidance and advice.
+
+## Extension
+
+  * GitHub Link
 
