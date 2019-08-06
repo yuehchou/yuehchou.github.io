@@ -97,7 +97,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
    <br>ii. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 
-   Testing Accuracy: 0.6585365853658537<br>
+   <br>Testing Accuracy: 0.6585365853658537<br>
    Confusion Matrix:<br>
 
   <table>
