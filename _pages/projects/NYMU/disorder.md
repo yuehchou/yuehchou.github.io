@@ -54,6 +54,10 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     2. Validation Set: 38 (9.5%)
     3. Testing Set: 82 (20.5%)
 
+## Devices
+  1. CPU: Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz $$\times$$ 20 Cores
+  2. GPU: GeForce RTX 2080 $$\times$$ 4 Cores
+
 ## Methods
 
 * <big><b>Method 1 (Use CNN model):</b><big><br>
