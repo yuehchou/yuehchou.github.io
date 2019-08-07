@@ -68,7 +68,8 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 
 * <big><b>Method 2 (Use Radiomics):</b><big><br>
-    1. Construct brain mask
+    1. Construct brain mask:<br>
+       nipy.labs.mask.compute_mask_files $$\rightarrow$$ scipy.ndimage.morphology.binary_fill_holes
     2. Compute Radiomics features (v2.1.0)
     3. Compute ICC to extract useful Radiomics features
     4. Design classification model
@@ -143,12 +144,23 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 
 
-* <big><b>Method 2 (Use Radiomics):</b><big><br>
+* <big><b>Method 2 (Use Radiomics):</b><big>
 
-    1. Radiomics Setting:
+  1. Construct brain mask:<br>
 
+  a. Original brain images:<br>
 
+<div style="text-align:center"><img src="/images/projects/NYMU/brain.png" width="60%" height="60%"/></div><br>
 
+  b. Generate brain mask:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/brain_mask.png" width="60%" height="60%"/></div><br>
+
+  c. Fill the holes:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div>
+
+  <br><br>2. Extract Radiomics features:<br>
+
+  a. Radiomics Setting:
 
 ## Conclusions
 

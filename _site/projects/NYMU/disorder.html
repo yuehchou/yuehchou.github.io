@@ -459,7 +459,8 @@
   <li>
 <big><b>Method 2 (Use Radiomics):</b><big><br>
 </big></big>    <ol>
-      <li>Construct brain mask</li>
+      <li>Construct brain mask:<br>
+nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> scipy.ndimage.morphology.binary_fill_holes</li>
       <li>Compute Radiomics features (v2.1.0)</li>
       <li>Compute ICC to extract useful Radiomics features</li>
       <li>Design classification model</li>
@@ -545,13 +546,30 @@ a. Accuarcy:<br>
 
 <ul>
   <li>
-    <p><big><b>Method 2 (Use Radiomics):</b><big><br></big></big></p>
+    <p><big><b>Method 2 (Use Radiomics):</b><big></big></big></p>
 
     <ol>
-      <li>Radiomics Setting:</li>
+      <li>Construct brain mask:<br>
+</li>
     </ol>
+
+    <p>a. Original brain images:<br></p>
   </li>
 </ul>
+
+<div style="text-align:center"><img src="/images/projects/NYMU/brain.png" width="60%" height="60%"></div>
+<p><br></p>
+
+<p>b. Generate brain mask:<br></p>
+<div style="text-align:center"><img src="/images/projects/NYMU/brain_mask.png" width="60%" height="60%"></div>
+<p><br></p>
+
+<p>c. Fill the holes:<br></p>
+<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"></div>
+
+<p><br><br>2. Extract Radiomics features:<br></p>
+
+<p>a. Radiomics Setting:</p>
 
 <h2 id="conclusions">Conclusions</h2>
 
