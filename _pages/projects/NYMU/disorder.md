@@ -60,14 +60,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## Methods
 
-* <big><b>Method 1 (Use CNN model):</b><big><br>
-
+* <big><b>Method 1 (Use CNN model):</b></big><br>
     1. Tesorflow (v.1.13.1) Model Graph (display by Tensorboard):<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div><br>
 
 
-* <big><b>Method 2 (Use Radiomics):</b><big><br>
+* <big><b>Method 2 (Use Radiomics):</b></big><br>
     1. Construct brain mask:<br>
        nipy.labs.mask.compute_mask_files $$\rightarrow$$ scipy.ndimage.morphology.binary_fill_holes
     2. Compute Radiomics features (v2.1.0)
@@ -76,19 +75,18 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## Results
 
-* <big><b>Method 1 (Use CNN model):</b><big><br>
-
-  1. Lerning Rate: $$1\times10^{-5}$$, Batch Size: 10, Epoch: 100<br>
-  Training Results Figure:<br>
-  a. Accuarcy:<br>
+* <big><b>Method 1 (Use CNN model):</b></big>
+  <br>1. Lerning Rate: $$1\times10^{-5}$$, Batch Size: 10, Epoch: 100<br>
+  &ensp; Training Results Figure:<br>
+  &emsp; a. Accuarcy:<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div>
 
-   <br>b. Loss:<br>
+   <br>&emsp; &emsp; &ensp; b. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
 
-   <br>Testing Accuracy: 0.6097560975609756<br>
-    Confusion Matrix:<br>
+   <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6097560975609756<br>
+    &emsp; &emsp; &emsp; Confusion Matrix:<br>
    <table>
         <tr>
             <th rowspan="2">Actual</th>
@@ -110,16 +108,16 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
     </table>
 
-   <br>2. Lerning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
-   Training Results Figure:<br>
-   a. Accuarcy:<br>
+   <br>&emsp; 2. Lerning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
+   &emsp; &emsp; Training Results Figure:<br>
+   &emsp; &emsp; &ensp; a. Accuarcy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 
-   <br>b. Loss:<br>
+   <br>&emsp; &emsp; &ensp; b. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 
-   <br>Testing Accuracy: 0.6585365853658537<br>
-   Confusion Matrix:<br>
+   <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6585365853658537<br>
+   &emsp; &emsp; &emsp; Confusion Matrix:<br>
 
   <table>
         <tr>
@@ -144,34 +142,30 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 
 
-* <big><b>Method 2 (Use Radiomics):</b><big>
-
-  1. Construct brain mask:<br>
-
-  a. Original brain images:<br>
+* <big><b>Method 2 (Use Radiomics):</b></big>
+  <br>1. Construct brain mask:<br>
+  &ensp; a. Original brain images:<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/brain.png" width="60%" height="60%"/></div><br>
 
-  b. Generate brain mask:<br>
+  &emsp; &emsp; &ensp; b. Generate brain mask:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/brain_mask.png" width="60%" height="60%"/></div><br>
 
-  c. Fill the holes:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div>
+  &emsp; &emsp; &ensp; c. Fill the holes:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div><br><br>
 
-  <br><br>2. Extract Radiomics features:<br>
+  &emsp; 2. Extract Radiomics features:<br>
+  &emsp; &ensp; a. Use defalut Radiomics setting and total meaningful features is 106:<br>
+   &emsp; &emsp; i. First Order Features<br>
+   &emsp; &emsp; ii. Gray Level Co-occurrence Matrix Features (GLCM)<br>
+   &emsp; &emsp; iii. Gray Level Dependence Matrix Features (GLDM)<br>
+   &emsp; &emsp; iv. Gray Level Run Length Matrix Features (GLRLM)<br>
+   &emsp; &emsp; v. Gray Level Size Zone Matrix Features (GLSZM)<br>
+   &emsp; &emsp; vi. Neighbouring Gray Tone Difference Matrix Features (NGTDM)<br>
 
-  a. Use defalut Radiomics setting and total meaningful features is 107.<br>
-
-   i. First Order Features<br>
-   ii. Gray Level Co-occurrence Matrix Features (GLCM)<br>
-   iii. Gray Level Dependence Matrix Features (GLDM)<br>
-   iv. Gray Level Run Length Matrix Features (GLRLM)<br>
-   v. Gray Level Size Zone Matrix Features (GLSZM)<br>
-   vi. Neighbouring Gray Tone Difference Matrix Features (NGTDM)
-
-  <br>3. Use ICC to extract useful Radiomics features:<br>
-
-  a. <br>
+  &emsp; 3. Use ICC to extract useful Radiomics features:<br>
+  &emsp; &ensp; a. Use function "rpy2.robjects.packages.importr("ICC")" to compute ICC values.<br>
+  &emsp; &ensp; b. ICC values:<br>
 
 ## Conclusions
 
