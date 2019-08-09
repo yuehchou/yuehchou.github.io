@@ -71,7 +71,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
        nipy.labs.mask.compute_mask_files $$\rightarrow$$ scipy.ndimage.morphology.binary_fill_holes
     2. Compute Radiomics features (v2.1.0)
     3. Compute ICC to extract useful Radiomics features
-    4. Design classification model<br>
+    4. Design classification model<br><br>
 
 * <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
 
@@ -172,6 +172,11 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
   &emsp; 4. Design model:<br>
   &emsp; &emsp; &ensp; ICC results are very weak so that we cannot to design robust model to classify.<br><br>
+
+
+* <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
+
+
 
 ## Conclusions
 
