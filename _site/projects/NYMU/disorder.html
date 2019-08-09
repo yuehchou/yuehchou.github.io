@@ -462,9 +462,13 @@
 nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> scipy.ndimage.morphology.binary_fill_holes</li>
       <li>Compute Radiomics features (v2.1.0)</li>
       <li>Compute ICC to extract useful Radiomics features</li>
-      <li>Design classification model</li>
+      <li>Design classification model<br>
+</li>
     </ol>
   </li>
+  <li>
+<big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
+</li>
 </ul>
 
 <h2 id="results">Results</h2>
@@ -559,7 +563,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p><br><br></p>
 
 <p>  2. Extract Radiomics features:<br>
-      a. Use defalut Radiomics setting and total meaningful features is 106:<br>
+      a. Use defalut Radiomics setting and total meaningful features is 107:<br>
        i. First Order Features<br>
        ii. Gray Level Co-occurrence Matrix Features (GLCM)<br>
        iii. Gray Level Dependence Matrix Features (GLDM)<br>
@@ -569,7 +573,11 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 
 <p>  3. Use ICC to extract useful Radiomics features:<br>
       a. Use function “rpy2.robjects.packages.importr(“ICC”)” to compute ICC values.<br>
-      b. ICC values:<br></p>
+      b. ICC values:<br>
+          We get very pool results, since all ICC values are less than 0.4 (poor correlation).<br></p>
+
+<p>  4. Design model:<br>
+        ICC results are very weak so that we cannot to design robust model to classify.<br><br></p>
 
 <h2 id="conclusions">Conclusions</h2>
 
@@ -589,7 +597,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <h2 id="extension">Extension</h2>
 
 <ul>
-  <li>GitHub Link</li>
+  <li><a href="https://github.com/yuehchou/Disorder" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">GitHub Link</a></li>
 </ul>
 
 

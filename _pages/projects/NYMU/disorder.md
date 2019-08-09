@@ -71,7 +71,9 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
        nipy.labs.mask.compute_mask_files $$\rightarrow$$ scipy.ndimage.morphology.binary_fill_holes
     2. Compute Radiomics features (v2.1.0)
     3. Compute ICC to extract useful Radiomics features
-    4. Design classification model
+    4. Design classification model<br>
+
+* <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
 
 ## Results
 
@@ -155,7 +157,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 <div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div><br><br>
 
   &emsp; 2. Extract Radiomics features:<br>
-  &emsp; &ensp; a. Use defalut Radiomics setting and total meaningful features is 106:<br>
+  &emsp; &ensp; a. Use defalut Radiomics setting and total meaningful features is 107:<br>
    &emsp; &emsp; i. First Order Features<br>
    &emsp; &emsp; ii. Gray Level Co-occurrence Matrix Features (GLCM)<br>
    &emsp; &emsp; iii. Gray Level Dependence Matrix Features (GLDM)<br>
@@ -166,6 +168,10 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   &emsp; 3. Use ICC to extract useful Radiomics features:<br>
   &emsp; &ensp; a. Use function "rpy2.robjects.packages.importr("ICC")" to compute ICC values.<br>
   &emsp; &ensp; b. ICC values:<br>
+    &emsp; &emsp; &emsp; We get very pool results, since all ICC values are less than 0.4 (poor correlation).<br>
+
+  &emsp; 4. Design model:<br>
+  &emsp; &emsp; &ensp; ICC results are very weak so that we cannot to design robust model to classify.<br><br>
 
 ## Conclusions
 
@@ -187,5 +193,5 @@ I would like to thank [Dr. Albert C Yang](https://www.researchgate.net/profile/A
 
 ## Extension
 
-  * GitHub Link
+  * [GitHub Link](https://github.com/yuehchou/Disorder)
 
