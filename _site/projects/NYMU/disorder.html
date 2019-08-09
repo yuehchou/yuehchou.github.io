@@ -427,8 +427,8 @@
   <li>Dataset:
     <ol>
       <li>Training Set: 280 (70%)</li>
-      <li>Validation Set: 38 (9.5%)</li>
-      <li>Testing Set: 82 (20.5%)</li>
+      <li>Validation Set: 40 (10%)</li>
+      <li>Testing Set: 80 (20%)</li>
     </ol>
   </li>
 </ul>
@@ -445,6 +445,8 @@
   <li>
 <big><b>Method 1 (Use CNN model):</b></big><br>
     <ol>
+      <li>Cut all MR images to the same size since input layer only accepts the same size</li>
+      <li>Train the CNN model and predict</li>
       <li>Tesorflow (v.1.13.1) Model Graph (display by Tensorboard):<br>
 </li>
     </ol>
@@ -468,7 +470,14 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
   </li>
   <li>
 <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
+    <ol>
+      <li>Segment the white matter (MW) from MR brain images</li>
+      <li>Normalize to 0 ~ 1024.</li>
+      <li>Reduce one convolution since segmentation images are smaller than original size</li>
+      <li>Train the CNN model and then predict<br><br>
 </li>
+    </ol>
+  </li>
 </ul>
 
 <h2 id="results">Results</h2>
@@ -478,7 +487,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <big><b>Method 1 (Use CNN model):</b></big>
 <br>1. Lerning Rate: <script type="math/tex">1\times10^{-5}</script>, Batch Size: 10, Epoch: 100<br>
   Training Results Figure:<br>
-  a. Accuarcy:<br>
+  a. Accuracy:<br>
 </li>
 </ul>
 
@@ -487,7 +496,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p><br>      b. Loss:<br></p>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"></div>
 
-<p><br>      Testing Accuracy: 0.6097560975609756<br>
+<p><br>      Testing Accuracy: 0.625<br>
           Confusion Matrix:<br></p>
 <table>
         <tr>
@@ -500,25 +509,25 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
         </tr>
         <tr>
             <td>Negative</td>
-            <td>34</td>
+            <td>33</td>
             <td>10</td>
         </tr>
         <tr>
             <td>Positive</td>
-            <td>22</td>
-            <td>16</td>
+            <td>20</td>
+            <td>17</td>
         </tr>
     </table>
 
 <p><br>  2. Lerning Rate: <script type="math/tex">1\times10^{-4}</script>, Batch Size: 10, Epoch: 100<br>
        Training Results Figure:<br>
-         a. Accuarcy:<br></p>
+         a. Accuracy:<br></p>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"></div>
 
 <p><br>      b. Loss:<br></p>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001.png" width="60%" height="60%"></div>
 
-<p><br>      Testing Accuracy: 0.6585365853658537<br>
+<p><br>      Testing Accuracy: 0.6625<br>
          Confusion Matrix:<br></p>
 
 <table>
@@ -532,12 +541,12 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
         </tr>
         <tr>
             <td>Negative</td>
-            <td>34</td>
+            <td>33</td>
             <td>10</td>
         </tr>
         <tr>
             <td>Positive</td>
-            <td>18</td>
+            <td>17</td>
             <td>20</td>
         </tr>
     </table>
@@ -563,7 +572,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p><br><br></p>
 
 <p>  2. Extract Radiomics features:<br>
-      a. Use defalut Radiomics setting and total meaningful features is 107:<br>
+      a. Use defalut Radiomics setting and total meaningful features is 107<br>
        i. First Order Features<br>
        ii. Gray Level Co-occurrence Matrix Features (GLCM)<br>
        iii. Gray Level Dependence Matrix Features (GLDM)<br>
@@ -574,16 +583,84 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p>  3. Use ICC to extract useful Radiomics features:<br>
       a. Use function “rpy2.robjects.packages.importr(“ICC”)” to compute ICC values.<br>
       b. ICC values:<br>
-          We get very pool results, since all ICC values are less than 0.4 (poor correlation).<br></p>
+          We get very pool results, since all ICC values are less than 0.4 (poor correlation). You can check the more detail Radiomics results in my GItHub.<br></p>
 
 <p>  4. Design model:<br>
         ICC results are very weak so that we cannot to design robust model to classify.<br><br></p>
 
 <ul>
   <li>
-<big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
+<big><b>Method 3 (Use CNN model with segmentation MR images):</b></big>
+<br>1. Segment the white matter<br>
 </li>
 </ul>
+<div style="text-align:center"><img src="/images/projects/NYMU/WM.png" width="60%" height="60%"></div>
+<p><br>
+    2. Use linear normalize original value of the white matter to 0 ~ 1024<br>
+    3. Lerning Rate: <script type="math/tex">1 \times 10^{-5}</script>, Batch Size: 10, Epoch: 100<br>
+      Training Results Figure:<br>
+      a. Accuracy:<br></p>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"></div>
+<p><br>
+      b. Loss:<br></p>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001_WM.png" width="60%" height="60%"></div>
+<p><br>
+        Testing Accuracy: 0.7125<br>
+        Confusion Matrix:<br></p>
+
+<table>
+        <tr>
+            <th rowspan="2">Actual</th>
+            <th colspan="2">Predict</th>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>Positive</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>36</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>16</td>
+            <td>21</td>
+        </tr>
+    </table>
+<p><br></p>
+
+<p>  4. Lerning Rate: <script type="math/tex">1 \times 10^{-4}</script>, Batch Size: 10, Epoch: 100<br>
+      Training Results Figure:<br>
+      a. Accuracy:<br></p>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"></div>
+<p><br>
+      b. Loss:<br></p>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001_WM.png" width="60%" height="60%"></div>
+<p><br>
+        Testing Accuracy: 0.65<br>
+        Confusion Matrix:<br></p>
+
+<table>
+        <tr>
+            <th rowspan="2">Actual</th>
+            <th colspan="2">Predict</th>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>Positive</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>32</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>17</td>
+            <td>20</td>
+        </tr>
+    </table>
 
 <h2 id="conclusions">Conclusions</h2>
 

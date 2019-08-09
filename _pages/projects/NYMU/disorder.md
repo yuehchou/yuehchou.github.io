@@ -51,8 +51,8 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 * Size: 3D but not fiexd (I will cut into the smallest size of those images)<br>
 * Dataset:
     1. Training Set: 280 (70%)
-    2. Validation Set: 38 (9.5%)
-    3. Testing Set: 82 (20.5%)
+    2. Validation Set: 40 (10%)
+    3. Testing Set: 80 (20%)
 
 ## Devices
   1. CPU: Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz $$\times$$ 20 Cores
@@ -61,7 +61,9 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 ## Methods
 
 * <big><b>Method 1 (Use CNN model):</b></big><br>
-    1. Tesorflow (v.1.13.1) Model Graph (display by Tensorboard):<br>
+    1. Cut all MR images to the same size since input layer only accepts the same size
+    2. Train the CNN model and predict
+    3. Tesorflow (v.1.13.1) Model Graph (display by Tensorboard):<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div><br>
 
@@ -74,20 +76,24 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     4. Design classification model<br><br>
 
 * <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
+    1. Segment the white matter (MW) from MR brain images
+    2. Normalize to 0 ~ 1024.
+    3. Reduce one convolution since segmentation images are smaller than original size
+    4. Train the CNN model and then predict<br><br>
 
 ## Results
 
 * <big><b>Method 1 (Use CNN model):</b></big>
   <br>1. Lerning Rate: $$1\times10^{-5}$$, Batch Size: 10, Epoch: 100<br>
   &ensp; Training Results Figure:<br>
-  &emsp; a. Accuarcy:<br>
+  &emsp; a. Accuracy:<br>
 
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div>
 
    <br>&emsp; &emsp; &ensp; b. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
 
-   <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6097560975609756<br>
+   <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.625<br>
     &emsp; &emsp; &emsp; Confusion Matrix:<br>
    <table>
         <tr>
@@ -100,25 +106,25 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
         <tr>
             <td>Negative</td>
-            <td>34</td>
+            <td>33</td>
             <td>10</td>
         </tr>
         <tr>
             <td>Positive</td>
-            <td>22</td>
-            <td>16</td>
+            <td>20</td>
+            <td>17</td>
         </tr>
     </table>
 
    <br>&emsp; 2. Lerning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
    &emsp; &emsp; Training Results Figure:<br>
-   &emsp; &emsp; &ensp; a. Accuarcy:<br>
+   &emsp; &emsp; &ensp; a. Accuracy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 
    <br>&emsp; &emsp; &ensp; b. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001.png" width="60%" height="60%"/></div>
 
-   <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6585365853658537<br>
+   <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6625<br>
    &emsp; &emsp; &emsp; Confusion Matrix:<br>
 
   <table>
@@ -132,12 +138,12 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
         </tr>
         <tr>
             <td>Negative</td>
-            <td>34</td>
+            <td>33</td>
             <td>10</td>
         </tr>
         <tr>
             <td>Positive</td>
-            <td>18</td>
+            <td>17</td>
             <td>20</td>
         </tr>
     </table><br>
@@ -157,7 +163,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 <div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div><br><br>
 
   &emsp; 2. Extract Radiomics features:<br>
-  &emsp; &ensp; a. Use defalut Radiomics setting and total meaningful features is 107:<br>
+  &emsp; &ensp; a. Use defalut Radiomics setting and total meaningful features is 107<br>
    &emsp; &emsp; i. First Order Features<br>
    &emsp; &emsp; ii. Gray Level Co-occurrence Matrix Features (GLCM)<br>
    &emsp; &emsp; iii. Gray Level Dependence Matrix Features (GLDM)<br>
@@ -168,14 +174,75 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   &emsp; 3. Use ICC to extract useful Radiomics features:<br>
   &emsp; &ensp; a. Use function "rpy2.robjects.packages.importr("ICC")" to compute ICC values.<br>
   &emsp; &ensp; b. ICC values:<br>
-    &emsp; &emsp; &emsp; We get very pool results, since all ICC values are less than 0.4 (poor correlation).<br>
+    &emsp; &emsp; &emsp; We get very pool results, since all ICC values are less than 0.4 (poor correlation). You can check the more detail Radiomics results in my GItHub.<br>
 
   &emsp; 4. Design model:<br>
   &emsp; &emsp; &ensp; ICC results are very weak so that we cannot to design robust model to classify.<br><br>
 
 
-* <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big><br>
+* <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big>
+  <br>1. Segment the white matter<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/WM.png" width="60%" height="60%"/></div><br>
+  &emsp; 2. Use linear normalize original value of the white matter to 0 ~ 1024<br>
+  &emsp; 3. Lerning Rate: $$1 \times 10^{-5}$$, Batch Size: 10, Epoch: 100<br>
+  &emsp; &ensp; Training Results Figure:<br>
+  &emsp; &emsp; a. Accuracy:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"/></div><br>
+  &emsp; &emsp; b. Loss:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001_WM.png" width="60%" height="60%"/></div><br>
+  &emsp; &emsp; &ensp; Testing Accuracy: 0.7125<br>
+  &emsp; &emsp; &ensp; Confusion Matrix:<br>
 
+  <table>
+        <tr>
+            <th rowspan="2">Actual</th>
+            <th colspan="2">Predict</th>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>Positive</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>36</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>16</td>
+            <td>21</td>
+        </tr>
+    </table><br>
+
+  &emsp; 4. Lerning Rate: $$1 \times 10^{-4}$$, Batch Size: 10, Epoch: 100<br>
+  &emsp; &ensp; Training Results Figure:<br>
+  &emsp; &emsp; a. Accuracy:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"/></div><br>
+  &emsp; &emsp; b. Loss:<br>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001_WM.png" width="60%" height="60%"/></div><br>
+  &emsp; &emsp; &ensp; Testing Accuracy: 0.65<br>
+  &emsp; &emsp; &ensp; Confusion Matrix:<br>
+
+   <table>
+        <tr>
+            <th rowspan="2">Actual</th>
+            <th colspan="2">Predict</th>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>Positive</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>32</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>17</td>
+            <td>20</td>
+        </tr>
+    </table>
 
 
 ## Conclusions
