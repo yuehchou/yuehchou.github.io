@@ -65,7 +65,8 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     2. Train the CNN model and predict
     3. Tesorflow (v.1.13.1) Model Graph (display by Tensorboard):<br>
 
-<div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div>
+<p align="center">Fig1. CNN model</p><br>
 
 
 * <big><b>Method 2 (Use Radiomics):</b></big><br>
@@ -95,10 +96,11 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   &ensp; Training Results Figure:<br>
   &emsp; a. Accuracy:<br>
 
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div><p align="center">Fig2. Accuracy</p>
 
    <br>&emsp; &emsp; &ensp; b. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
+<p align="center">Fig3. Loss</p>
 
    <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.625<br>
     &emsp; &emsp; &emsp; Confusion Matrix:<br>
@@ -122,14 +124,17 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>17</td>
         </tr>
     </table>
+<p align="center">Form1. Confusion matrix</p>
 
    <br>&emsp; 2. Lerning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
    &emsp; &emsp; Training Results Figure:<br>
    &emsp; &emsp; &ensp; a. Accuracy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
+<p align="center">Fig4. Accuracy</p>
 
    <br>&emsp; &emsp; &ensp; b. Loss:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001.png" width="60%" height="60%"/></div>
+<p align="center">Fig5. Loss</p>
 
    <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6625<br>
    &emsp; &emsp; &emsp; Confusion Matrix:<br>
@@ -153,7 +158,8 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>17</td>
             <td>20</td>
         </tr>
-    </table><br>
+    </table>
+<p align="center">Form2. Confusion matrix</p><br>
 
 
 
@@ -161,13 +167,16 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   <br>1. Construct brain mask:<br>
   &ensp; a. Original brain images:<br>
 
-<div style="text-align:center"><img src="/images/projects/NYMU/brain.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/brain.png" width="60%" height="60%"/></div>
+<p align="center">Fig6. Slice of the brain MR image</p><br>
 
   &emsp; &emsp; &ensp; b. Generate brain mask:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/brain_mask.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/brain_mask.png" width="60%" height="60%"/></div>
+<p align="center">Fig7. Preliminary brain mask</p><br>
 
   &emsp; &emsp; &ensp; c. Fill the holes:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div><br><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div>
+<p align="center">Fig8. Final brain mask</p><br><br>
 
   &emsp; 2. Extract Radiomics features:<br>
   &emsp; &ensp; a. Use defalut Radiomics setting and total meaningful features is 107<br>
@@ -189,14 +198,17 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big>
   <br>1. Segment the white matter<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/WM.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/WM.png" width="60%" height="60%"/></div>
+<p align="center">Fig9. White matter</p><br>
   &emsp; 2. Use linear normalize original value of the white matter to 0 ~ 1024<br>
   &emsp; 3. Lerning Rate: $$1 \times 10^{-5}$$, Batch Size: 10, Epoch: 100<br>
   &emsp; &ensp; Training Results Figure:<br>
   &emsp; &emsp; a. Accuracy:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"/></div>
+<p align="center">Fig10. Accuracy</p><br>
   &emsp; &emsp; b. Loss:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001_WM.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001_WM.png" width="60%" height="60%"/></div>
+<p align="center">Fig11. Loss</p><br>
   &emsp; &emsp; &ensp; Testing Accuracy: 0.7125<br>
   &emsp; &emsp; &ensp; Confusion Matrix:<br>
 
@@ -219,14 +231,17 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>16</td>
             <td>21</td>
         </tr>
-    </table><br>
+    </table>
+<p align="center">Form3. Confusion matrix</p><br>
 
   &emsp; 4. Lerning Rate: $$1 \times 10^{-4}$$, Batch Size: 10, Epoch: 100<br>
   &emsp; &ensp; Training Results Figure:<br>
   &emsp; &emsp; a. Accuracy:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"/></div>
+<p align="center">Fig12. Accuracy</p><br>
   &emsp; &emsp; b. Loss:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001_WM.png" width="60%" height="60%"/></div><br>
+<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001_WM.png" width="60%" height="60%"/></div>
+<p align="center">Fig13. Loss</p><br>
   &emsp; &emsp; &ensp; Testing Accuracy: 0.65<br>
   &emsp; &emsp; &ensp; Confusion Matrix:<br>
 
@@ -249,7 +264,8 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>17</td>
             <td>20</td>
         </tr>
-    </table><br>
+    </table>
+<p align="center">Form4. Confusion matrix</p><br>
 
 
 * <big><b>Method 4 (Try to augment data):</b></big><br>
@@ -259,7 +275,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 
 ## Conclusions
+  In this classification task, we try to use deep learning model and Radiomics to achieve the goal. First method, after directly constructing the CNN model (Fig1.) to train and predict, and adjusting some hyperparameters, we get the following results, compare with Fig2. and Fig4., we can find that the higher accuracy occurs when using $$1 \times 10^{-4}$$ learning rate. Moreover, in the Form2., the number of FP is lower than Form1. but the FN is equivalent. It seems that lower FN is more important than lower FP, because if we judge the schizophrenia patient as the healthy person, the patient may not be able to receive treatment immediately, or even worsen the condition. So it's necessary to come up with other methods to imporve the performance of method 1.<br>
 
+In the method 2, we use Radiomics to classify the brain MR images. To let py-Radiomics working, we need to construct the brain mask first (Fig6. and Fig7.). Since Radiomics will not work very well with the hollow mask, we also need to fill all holes in the mask (Fig8.). After getting 107 Radiomics features, the vital step is to select the useful features by ICC. Unfortunately, all ICC values are lower than 0.4, so this meathod is unacceptable.<br>
+
+About method 3, <br>
+
+Final method, as for the above worse results. The reason <br>
 
 
 ## Future works
@@ -283,7 +305,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## Acknowledgements
 
-I would like to thank [Dr. Albert C Yang](https://www.researchgate.net/profile/Albert_C_Yang), Dr. Che-Yu Hsu (NTUH) and Jean Lee who provided all brain MR images and gave me guidance and advice.
+I would like to thank [Dr. Albert C Yang](https://www.researchgate.net/profile/Albert_C_Yang) and Jean Lee who provided all brain MR images and gave me guidance and advice.
 
 ## Extension
 
