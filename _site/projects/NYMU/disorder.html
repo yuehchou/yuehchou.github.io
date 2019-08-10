@@ -478,6 +478,17 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 </li>
     </ol>
   </li>
+  <li>
+<big><b>Method 4 (Try to augment data):</b></big><br>
+    <ol>
+      <li>Use numpy or scipy package to rotation, translation, reflection and zoom all brain MR images</li>
+      <li>Cut all MR images and augmentation MR images to the same size</li>
+      <li>Train the CNN model and then predict</li>
+      <li>Augment the segmentation data (WM images)</li>
+      <li>Train the CNN model and then predict again<br><br>
+</li>
+    </ol>
+  </li>
 </ul>
 
 <h2 id="results">Results</h2>
@@ -583,7 +594,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p>  3. Use ICC to extract useful Radiomics features:<br>
       a. Use function “rpy2.robjects.packages.importr(“ICC”)” to compute ICC values.<br>
       b. ICC values:<br>
-          We get very pool results, since all ICC values are less than 0.4 (poor correlation). You can check the more detail Radiomics results in my GItHub.<br></p>
+          We get very pool results, since all ICC values are less than 0.4 (poor correlation). You can check the more detail Radiomics results in GitHub.<br></p>
 
 <p>  4. Design model:<br>
         ICC results are very weak so that we cannot to design robust model to classify.<br><br></p>
@@ -661,10 +672,29 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
             <td>20</td>
         </tr>
     </table>
+<p><br></p>
+
+<ul>
+  <li>
+<big><b>Method 4 (Try to augment data):</b></big><br>
+    <ol>
+      <li>The training, validation and testing accuracy will reduce to 0.5</li>
+      <li>The results are extremely worse so that we will not upload this code in GitHub</li>
+      <li>The reasons why we get this weak performance will be explained in the following conculsions<br><br>
+</li>
+    </ol>
+  </li>
+</ul>
 
 <h2 id="conclusions">Conclusions</h2>
 
 <h2 id="future-works">Future works</h2>
+
+<ol>
+  <li>Find out the reason why Radiomics doesn’t work very well and then fix this problem</li>
+  <li>Solve the problem of data shortage and train the model again</li>
+  <li>Improve the validation and testing accuracy of the recent model to 0.8</li>
+</ol>
 
 <h2 id="references">References</h2>
 

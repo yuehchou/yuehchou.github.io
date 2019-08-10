@@ -81,6 +81,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     3. Reduce one convolution since segmentation images are smaller than original size
     4. Train the CNN model and then predict<br><br>
 
+* <big><b>Method 4 (Try to augment data):</b></big><br>
+    1. Use numpy or scipy package to rotation, translation, reflection and zoom all brain MR images
+    2. Cut all MR images and augmentation MR images to the same size
+    3. Train the CNN model and then predict
+    4. Augment the segmentation data (WM images)
+    5. Train the CNN model and then predict again<br><br>
+
 ## Results
 
 * <big><b>Method 1 (Use CNN model):</b></big>
@@ -174,7 +181,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   &emsp; 3. Use ICC to extract useful Radiomics features:<br>
   &emsp; &ensp; a. Use function "rpy2.robjects.packages.importr("ICC")" to compute ICC values.<br>
   &emsp; &ensp; b. ICC values:<br>
-    &emsp; &emsp; &emsp; We get very pool results, since all ICC values are less than 0.4 (poor correlation). You can check the more detail Radiomics results in my GItHub.<br>
+    &emsp; &emsp; &emsp; We get very pool results, since all ICC values are less than 0.4 (poor correlation). You can check the more detail Radiomics results in GitHub.<br>
 
   &emsp; 4. Design model:<br>
   &emsp; &emsp; &ensp; ICC results are very weak so that we cannot to design robust model to classify.<br><br>
@@ -242,7 +249,13 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
             <td>17</td>
             <td>20</td>
         </tr>
-    </table>
+    </table><br>
+
+
+* <big><b>Method 4 (Try to augment data):</b></big><br>
+    1. The training, validation and testing accuracy will reduce to 0.5
+    2. The results are extremely worse so that we will not upload this code in GitHub
+    3. The reasons why we get this weak performance will be explained in the following conculsions<br><br>
 
 
 ## Conclusions
@@ -251,6 +264,9 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## Future works
 
+  1. Find out the reason why Radiomics doesn't work very well and then fix this problem
+  2. Solve the problem of data shortage and train the model again
+  3. Improve the validation and testing accuracy of the recent model to 0.8
 
 
 ## References
