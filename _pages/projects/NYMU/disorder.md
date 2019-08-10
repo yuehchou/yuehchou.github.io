@@ -28,7 +28,7 @@ Moreover, disorders can be classified into the following areas:<br>
 
 Following, we will focus on <b>mental disorder</b>.<br>
 
-A <b>mental disorder</b> is usually called a <b>mental illness</b> or a <b>psychiatric disorder</b>. Different with the normal disease, mental disorder is a behavioral or mental pattern that causes significant distress or impairment of personal functioning. Such features may be persistent, relapsing and remitting, or occur as a single episode. This disorder disease may be diagnosed by a mental health professional.<br>
+A <b>mental disorder</b> is usually called a <b>mental illness</b> or a <b>Schizophrenia</b>. Different with the normal disease, mental disorder is a behavioral or mental pattern that causes significant distress or impairment of personal functioning. Such features may be persistent, relapsing and remitting, or occur as a single episode. This disorder disease may be diagnosed by a mental health professional.<br>
 
 ## How to diagnose the mental disorders?
 
@@ -271,13 +271,19 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 ## References
 
-  1. 
-  2. 
+  1. World Health Organization, Department of Mental Health and Substance Dependence. *Investing in MENTAL HEALTH*. 2003.
+  2. Mahbub Hussain, Jordan J. Bird and Diego R. Faria. *A Study on CNN Transfer Learning for Image Classification*. June 2018.
+  3. Paras Lakhani, Daniel L. Gray, Carl R. Pett, Paul Nagy and George Shih. *Hello World Deep Learning in Medical Imaging*. May 2018.
+  4. Muhammad Imran Razzak, Saeeda Naz and Ahmad Zaib. *Deep Learning for Medical Image Processing: Overview, Challenges and Future*.
+  5. Despina Kontos, Ronald M. Summers and Maryellen Giger. *Radiomics and Deep Learning*. J. Med. Imag. 2018.
+  6. Stefania Rizzo, Francesca Botta, Sara Raimondi, Daniela Origgi, Cristiana Fanciullo, Alessio Giuseppe Morganti and Massimo Bellomi. *Radiomics: the facts and the challenges of image analysis*. Dec 2018.
+  7. Tensorflow Guide. ("https://www.tensorflow.org/guide")
+  8. Py-Radiomics. ("http://www.radiomics.io/pyradiomics.html")<br><br>
 
 
 ## Acknowledgements
 
-I would like to thank [Dr. Albert C Yang](https://www.researchgate.net/profile/Albert_C_Yang) and Jean Lee who provided all brain MR images and gave me guidance and advice.
+I would like to thank [Dr. Albert C Yang](https://www.researchgate.net/profile/Albert_C_Yang), Dr. Che-Yu Hsu (NTUH) and Jean Lee who provided all brain MR images and gave me guidance and advice.
 
 ## Extension
 
