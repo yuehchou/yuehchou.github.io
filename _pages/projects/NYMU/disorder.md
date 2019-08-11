@@ -279,7 +279,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 In the method 2, we use Radiomics to classify the brain MR images. To let py-Radiomics working, we need to construct the brain mask first (Fig6. and Fig7.). Since Radiomics will not work very well with the hollow mask, we also need to fill all holes in the mask (Fig8.). After getting 107 Radiomics features, the vital step is to select the useful features by ICC. Unfortunately, all ICC values are lower than 0.4, so this meathod is unacceptable.<br>
 
-About method 3, <br>
+About method 3, according to pervious sutdies$$^{[2], [3]}$$, we know that the white matter is highly realtive to Schizophrenia.<br>
 
 Final method, as for the above worse results. The reason <br>
 
@@ -294,13 +294,15 @@ Final method, as for the above worse results. The reason <br>
 ## References
 
   1. World Health Organization, Department of Mental Health and Substance Dependence. *Investing in MENTAL HEALTH*. 2003.
-  2. Mahbub Hussain, Jordan J. Bird and Diego R. Faria. *A Study on CNN Transfer Learning for Image Classification*. June 2018.
-  3. Paras Lakhani, Daniel L. Gray, Carl R. Pett, Paul Nagy and George Shih. *Hello World Deep Learning in Medical Imaging*. May 2018.
-  4. Muhammad Imran Razzak, Saeeda Naz and Ahmad Zaib. *Deep Learning for Medical Image Processing: Overview, Challenges and Future*.
-  5. Despina Kontos, Ronald M. Summers and Maryellen Giger. *Radiomics and Deep Learning*. J. Med. Imag. 2018.
-  6. Stefania Rizzo, Francesca Botta, Sara Raimondi, Daniela Origgi, Cristiana Fanciullo, Alessio Giuseppe Morganti and Massimo Bellomi. *Radiomics: the facts and the challenges of image analysis*. Dec 2018.
-  7. Tensorflow Guide. ("https://www.tensorflow.org/guide")
-  8. Py-Radiomics. ("http://www.radiomics.io/pyradiomics.html")<br><br>
+  2. Andrew M. McIntosh, Susana Muñoz Maniega, G. Katherine S. Lymer and et al. *White Matter Tractography in Bipolar Disorder and Schizophrenia*. Dec 2008.
+  3. Kenneth L. Davis, Daniel G. Stewart, Joseph I. Friedman and et al. *White Matter Changes in Schizophrenia: Evidence for Myelin-Related Dysfunction*. May 2003.
+  4. Mahbub Hussain, Jordan J. Bird and Diego R. Faria. *A Study on CNN Transfer Learning for Image Classification*. June 2018.
+  5. Paras Lakhani, Daniel L. Gray, Carl R. Pett, Paul Nagy and George Shih. *Hello World Deep Learning in Medical Imaging*. May 2018.
+  6. Muhammad Imran Razzak, Saeeda Naz and Ahmad Zaib. *Deep Learning for Medical Image Processing: Overview, Challenges and Future*.
+  7. Despina Kontos, Ronald M. Summers and Maryellen Giger. *Radiomics and Deep Learning*. J. Med. Imag. 2018.
+  8. Stefania Rizzo, Francesca Botta, Sara Raimondi, Daniela Origgi, Cristiana Fanciullo, Alessio Giuseppe Morganti and Massimo Bellomi. *Radiomics: the facts and the challenges of image analysis*. Dec 2018.
+  9. Tensorflow Guide. ("https://www.tensorflow.org/guide")
+  10. Py-Radiomics. ("http://www.radiomics.io/pyradiomics.html")<br><br>
 
 
 ## Acknowledgements
