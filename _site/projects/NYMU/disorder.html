@@ -24,7 +24,7 @@
 
 
 
-<meta name="description" content="This project is cooperate with National Yang-Ming University from Feb. 2018 to Jun. 2018.">
+<meta name="description" content="This project cooperates with National Yang-Ming University from Feb. 2018 to Jun. 2018.">
 
 
 
@@ -41,7 +41,7 @@
 
 
 
-  <meta property="og:description" content="This project is cooperate with National Yang-Ming University from Feb. 2018 to Jun. 2018.">
+  <meta property="og:description" content="This project cooperates with National Yang-Ming University from Feb. 2018 to Jun. 2018.">
 
 
 
@@ -227,7 +227,7 @@
         
       </h1>
       
-        <p class="page__lead">This project is cooperate with National Yang-Ming University from Feb. 2018 to Jun. 2018.
+        <p class="page__lead">This project cooperates with National Yang-Ming University from Feb. 2018 to Jun. 2018.
 </p>
       
       
@@ -365,7 +365,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Disorder (Mental)">
-    <meta itemprop="description" content="This project is cooperate with National Yang-Ming University from Feb. 2018 to Jun. 2018.">
+    <meta itemprop="description" content="This project cooperates with National Yang-Ming University from Feb. 2018 to Jun. 2018.">
     
     
 
@@ -380,7 +380,7 @@
 
 <p>Disorder is often called the hidden disability because our behavior and thinking may have very serious problems, and yet disorder patients always have no obvious physical changes. That’s the reason why this hidden disability is easily ignored and misunderstood.<br></p>
 
-<p>Also, disorder is not an intellectual disability. Intelligence is usually not affected, although there are often cognitive changes, such as memory, attention, and attention. Here we give the precise definition of disorder, <b>a disruption of the disease to the normal or regular functions in the body or a part of the body</b>.<br></p>
+<p>Also, disorder is not an intellectual disability. Intelligence is usually not affected, although there are often cognitive changes, such as memory, attention, and attention. Here we give the precise definition of disorder, <b>a disruption of the disease to the normal or regular functions in the body or a part of the body</b><script type="math/tex">^[1]</script>.<br></p>
 
 <p>Moreover, disorders can be classified into the following areas:<br></p>
 <ul>
@@ -497,7 +497,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <ul>
   <li>
 <big><b>Method 1 (Use CNN model):</b></big>
-<br>1. Lerning Rate: <script type="math/tex">1\times10^{-5}</script>, Batch Size: 10, Epoch: 100<br>
+<br>1. Learning Rate: <script type="math/tex">1\times10^{-5}</script>, Batch Size: 10, Epoch: 100<br>
   Training Results Figure:<br>
   a. Accuracy:<br>
 </li>
@@ -534,7 +534,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
     </table>
 <p align="center">Form1. Confusion matrix</p>
 
-<p><br>  2. Lerning Rate: <script type="math/tex">1\times10^{-4}</script>, Batch Size: 10, Epoch: 100<br>
+<p><br>  2. Learning Rate: <script type="math/tex">1\times10^{-4}</script>, Batch Size: 10, Epoch: 100<br>
        Training Results Figure:<br>
          a. Accuracy:<br></p>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"></div>
@@ -619,7 +619,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p align="center">Fig9. White matter</p>
 <p><br>
     2. Use linear normalize original value of the white matter to 0 ~ 1024<br>
-    3. Lerning Rate: <script type="math/tex">1 \times 10^{-5}</script>, Batch Size: 10, Epoch: 100<br>
+    3. Learning Rate: <script type="math/tex">1 \times 10^{-5}</script>, Batch Size: 10, Epoch: 100<br>
       Training Results Figure:<br>
       a. Accuracy:<br></p>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"></div>
@@ -655,7 +655,7 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 <p align="center">Form3. Confusion matrix</p>
 <p><br></p>
 
-<p>  4. Lerning Rate: <script type="math/tex">1 \times 10^{-4}</script>, Batch Size: 10, Epoch: 100<br>
+<p>  4. Learning Rate: <script type="math/tex">1 \times 10^{-4}</script>, Batch Size: 10, Epoch: 100<br>
       Training Results Figure:<br>
       a. Accuracy:<br></p>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"></div>
@@ -708,9 +708,9 @@ nipy.labs.mask.compute_mask_files <script type="math/tex">\rightarrow</script> s
 
 <p>In the method 2, we use Radiomics to classify the brain MR images. To let py-Radiomics working, we need to construct the brain mask first (Fig6. and Fig7.). Since Radiomics will not work very well with the hollow mask, we also need to fill all holes in the mask (Fig8.). After getting 107 Radiomics features, the vital step is to select the useful features by ICC. Unfortunately, all ICC values are lower than 0.4, so this meathod is unacceptable.<br></p>
 
-<p>About method 3, according to pervious sutdies<script type="math/tex">^{[2], [3]}</script>, we know that the white matter is highly realtive to Schizophrenia.<br></p>
+<p>About method 3, according to pervious sutdies<script type="math/tex">^{[2], [3]}</script>, we know that the white matter is highly realtive to Schizophrenia. Isteading of using whole brain MR images, we train the CNN model with the segmentation images of the white matter (Fig9.). Compare with Fig10. ~ Fig13., we get the higher accuracy by using learning rate <script type="math/tex">10 \times 10^{-4}</script>. In addition, comparing with Form1. ~ Form4., method 3 with <script type="math/tex">1 \times 10^{-4}</script> leanring rate will have the higher accuracy, lower FP and “lower FN”.<br></p>
 
-<p>Final method, as for the above worse results. The reason <br></p>
+<p>Final method, we try to augment the dataset since we notice that our dataset might be shortage. Because the human brain structure is very complex and explicit, we can not use rotation rotation, translation, reflection and zoom to augment our dataset. That’s the reason why these weak performance.<br><br></p>
 
 <h2 id="future-works">Future works</h2>
 

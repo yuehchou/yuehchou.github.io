@@ -24,7 +24,7 @@
 
 
 
-<meta name="description" content="This project is cooperate with IBM from Sep. 2018 to Jun. 2019.">
+<meta name="description" content="This project cooperates with IBM from Sep. 2018 to Jun. 2019.">
 
 
 
@@ -41,7 +41,7 @@
 
 
 
-  <meta property="og:description" content="This project is cooperate with IBM from Sep. 2018 to Jun. 2019.">
+  <meta property="og:description" content="This project cooperates with IBM from Sep. 2018 to Jun. 2019.">
 
 
 
@@ -82,7 +82,7 @@
       "@type" : "Person",
       "name" : "Yueh-Chou Lee",
       "url" : "http://localhost:4000",
-      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yueh-chou-lee-51641b15b/"]
+      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yuehchoulee/"]
     }
   </script>
 
@@ -128,6 +128,23 @@
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [],
+      displayMath: [],
+      processEscapes: false,
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 
 
@@ -210,7 +227,7 @@
         
       </h1>
       
-        <p class="page__lead">This project is cooperate with IBM from Sep. 2018 to Jun. 2019.
+        <p class="page__lead">This project cooperates with IBM from Sep. 2018 to Jun. 2019.
 </p>
       
       
@@ -222,52 +239,6 @@
 
 
 
-
-  
-    
-
-
-
-<nav class="breadcrumbs">
-  <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-    
-    
-    
-      
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
-          <meta itemprop="position" content="1">
-        </li>
-        <span class="sep">/</span>
-      
-      
-        
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/projects" itemprop="item"><span itemprop="name">Projects</span></a>
-          <meta itemprop="position" content="2">
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/ibm" itemprop="item"><span itemprop="name">Ibm</span></a>
-          <meta itemprop="position" content="3">
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        <li class="current">Cortical Spreading Depression</li>
-      
-    
-  </ol>
-</nav>
-
-  
 
 
 <div id="main" role="main">
@@ -334,7 +305,7 @@
 
       
         <li>
-          <a href="https://www.linkedin.com/in/yueh-chou-lee-51641b15b" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+          <a href="https://www.linkedin.com/in/yuehchoulee" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
             <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
@@ -394,7 +365,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Cortical Spreading Depression">
-    <meta itemprop="description" content="This project is cooperate with IBM from Sep. 2018 to Jun. 2019.">
+    <meta itemprop="description" content="This project cooperates with IBM from Sep. 2018 to Jun. 2019.">
     
     
 
@@ -476,6 +447,46 @@
 
 
     
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit Comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
 
   
 

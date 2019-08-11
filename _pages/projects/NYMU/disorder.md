@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /projects/NYMU/disorder.html
-excerpt: "This project is cooperate with National Yang-Ming University from Feb. 2018 to Jun. 2018."
+excerpt: "This project cooperates with National Yang-Ming University from Feb. 2018 to Jun. 2018."
 header:
   overlay_image: /images/projects/NYMU/NYMU.jpg
   overlay_filter: 0.5
@@ -16,7 +16,7 @@ comments: true
 
 Disorder is often called the hidden disability because our behavior and thinking may have very serious problems, and yet disorder patients always have no obvious physical changes. That's the reason why this hidden disability is easily ignored and misunderstood.<br>
 
-Also, disorder is not an intellectual disability. Intelligence is usually not affected, although there are often cognitive changes, such as memory, attention, and attention. Here we give the precise definition of disorder, <b>a disruption of the disease to the normal or regular functions in the body or a part of the body</b>.<br>
+Also, disorder is not an intellectual disability. Intelligence is usually not affected, although there are often cognitive changes, such as memory, attention, and attention. Here we give the precise definition of disorder, <b>a disruption of the disease to the normal or regular functions in the body or a part of the body</b>$$^[1]$$.<br>
 
 Moreover, disorders can be classified into the following areas:<br>
    * Mental
@@ -92,7 +92,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 ## Results
 
 * <big><b>Method 1 (Use CNN model):</b></big>
-  <br>1. Lerning Rate: $$1\times10^{-5}$$, Batch Size: 10, Epoch: 100<br>
+  <br>1. Learning Rate: $$1\times10^{-5}$$, Batch Size: 10, Epoch: 100<br>
   &ensp; Training Results Figure:<br>
   &emsp; a. Accuracy:<br>
 
@@ -126,7 +126,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     </table>
 <p align="center">Form1. Confusion matrix</p>
 
-   <br>&emsp; 2. Lerning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
+   <br>&emsp; 2. Learning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
    &emsp; &emsp; Training Results Figure:<br>
    &emsp; &emsp; &ensp; a. Accuracy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
@@ -201,7 +201,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 <div style="text-align:center"><img src="/images/projects/NYMU/WM.png" width="60%" height="60%"/></div>
 <p align="center">Fig9. White matter</p><br>
   &emsp; 2. Use linear normalize original value of the white matter to 0 ~ 1024<br>
-  &emsp; 3. Lerning Rate: $$1 \times 10^{-5}$$, Batch Size: 10, Epoch: 100<br>
+  &emsp; 3. Learning Rate: $$1 \times 10^{-5}$$, Batch Size: 10, Epoch: 100<br>
   &emsp; &ensp; Training Results Figure:<br>
   &emsp; &emsp; a. Accuracy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"/></div>
@@ -234,7 +234,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     </table>
 <p align="center">Form3. Confusion matrix</p><br>
 
-  &emsp; 4. Lerning Rate: $$1 \times 10^{-4}$$, Batch Size: 10, Epoch: 100<br>
+  &emsp; 4. Learning Rate: $$1 \times 10^{-4}$$, Batch Size: 10, Epoch: 100<br>
   &emsp; &ensp; Training Results Figure:<br>
   &emsp; &emsp; a. Accuracy:<br>
 <div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"/></div>
@@ -279,9 +279,9 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 In the method 2, we use Radiomics to classify the brain MR images. To let py-Radiomics working, we need to construct the brain mask first (Fig6. and Fig7.). Since Radiomics will not work very well with the hollow mask, we also need to fill all holes in the mask (Fig8.). After getting 107 Radiomics features, the vital step is to select the useful features by ICC. Unfortunately, all ICC values are lower than 0.4, so this meathod is unacceptable.<br>
 
-About method 3, according to pervious sutdies$$^{[2], [3]}$$, we know that the white matter is highly realtive to Schizophrenia.<br>
+About method 3, according to pervious sutdies$$^{[2], [3]}$$, we know that the white matter is highly realtive to Schizophrenia. Isteading of using whole brain MR images, we train the CNN model with the segmentation images of the white matter (Fig9.). Compare with Fig10. ~ Fig13., we get the higher accuracy by using learning rate $$10 \times 10^{-4}$$. In addition, comparing with Form1. ~ Form4., method 3 with $$1 \times 10^{-4}$$ leanring rate will have the higher accuracy, lower FP and "lower FN".<br>
 
-Final method, as for the above worse results. The reason <br>
+Final method, we try to augment the dataset since we notice that our dataset might be shortage. Because the human brain structure is very complex and explicit, we can not use rotation rotation, translation, reflection and zoom to augment our dataset. That's the reason why these weak performance.<br><br>
 
 
 ## Future works
