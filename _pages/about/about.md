@@ -10,7 +10,10 @@ comments: false
 
 ## Recent Work:
 
-National Taiwan University x National Taiwan University Hospital Medical Image AI Projects.
+1. National Taiwan University x National Taiwan University Hospital Medical Image AI Projects.<br>
+2. National Taiwan University Course for Introduction to Computational Mathematics (Python).<br>
+    More information: [course page](https://yuanyuyuan.github.io/itcm/).<br>
+    This cooperates with [Yu-Yuan Yuan](https://github.com/yuanyuyuan).<br>
 
 ## Experience:
 
