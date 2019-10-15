@@ -28,3 +28,7 @@ comments: true
     1. [Calculus](TA/Calculus.html)<br>
     2. [Introduction to Computational Mathematics](TA/ICM.html) <small>(MATLAB)</small><br>
 
+## Workshop & Mini-courses
+<b>National Health Insurance Administration</b><br>
+    1. [AI Application in Medicine](workshop/ai_application.html)<br>
+

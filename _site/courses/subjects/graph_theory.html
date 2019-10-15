@@ -82,7 +82,7 @@
       "@type" : "Person",
       "name" : "Yueh-Chou Lee",
       "url" : "http://localhost:4000",
-      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yueh-chou-lee-51641b15b/"]
+      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yuehchoulee/"]
     }
   </script>
 
@@ -128,6 +128,23 @@
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [],
+      displayMath: [],
+      processEscapes: false,
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 
 
@@ -223,52 +240,6 @@
 
 
 
-  
-    
-
-
-
-<nav class="breadcrumbs">
-  <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-    
-    
-    
-      
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
-          <meta itemprop="position" content="1">
-        </li>
-        <span class="sep">/</span>
-      
-      
-        
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/courses" itemprop="item"><span itemprop="name">Courses</span></a>
-          <meta itemprop="position" content="2">
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        
-        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="http://localhost:4000/subjects" itemprop="item"><span itemprop="name">Subjects</span></a>
-          <meta itemprop="position" content="3">
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        <li class="current">Graph Theory</li>
-      
-    
-  </ol>
-</nav>
-
-  
-
 
 <div id="main" role="main">
   
@@ -334,7 +305,7 @@
 
       
         <li>
-          <a href="https://www.linkedin.com/in/yueh-chou-lee-51641b15b" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+          <a href="https://www.linkedin.com/in/yuehchoulee" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
             <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
@@ -488,6 +459,46 @@
 
 
     
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit Comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
 
   
 
