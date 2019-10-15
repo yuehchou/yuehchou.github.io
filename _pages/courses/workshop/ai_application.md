@@ -15,6 +15,7 @@ comments: true
 
 ## Materials
    1. Slide<br>
+      [Lecture](/PDF/courses/workshop/Liver_20191017.pdf), [Radiomics features introduction](/PDF/courses/workshop/Radiomics_20170904.pdf)<br>
    2. Hands-on<br>
 
 ## Agenda
