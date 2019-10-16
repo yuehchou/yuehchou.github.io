@@ -17,7 +17,7 @@ comments: true
    1. Slide<br>
       [Lecture](/PDF/courses/workshop/Liver_20191017.pdf), [Radiomics features introduction](/PDF/courses/workshop/Radiomics_20170904.pdf)<br>
    2. Hands-on<br>
-   [Download via Google Drive](https://drive.google.com/open?id=1hTQk2S3MZH_Z-MctSXEItcsf-M7ksm9f), [Online demo](https://mybinder.org/v2/gh/yuehchou/NHI-mini-course-20191017/master)<br>
+   [Download via GitHub](https://github.com/yuehchou/NHI-mini-course-20191017), [Online demo](https://mybinder.org/v2/gh/yuehchou/NHI-mini-course-20191017/master)<br>
 
 ## Agenda
    1. Course introduction (Tinghui Wu): 9:30 - 9:35<br>
