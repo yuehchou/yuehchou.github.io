@@ -26,6 +26,7 @@ comments: false
 
 3. <b>National Taiwan University</b><br>
    * <b>Computer Science Teaching Assistant for MATLAB</b> <small>(Sep 2018-Jan 2019)</small><br>
+   * <b>Computer Science Teaching Assistant for Python</b> <small>(Sep 2019-present)</small><br>
    * <b>Research Assistant</b> <small>(Sep 2017-present)</small><br>
    * <b>Teaching Assistant for Calculus</b> <small>(Sep 2017-present)</small>
 
