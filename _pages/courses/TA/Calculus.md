@@ -42,6 +42,19 @@ It has two major branches, differential calculus and integral calculus. Differen
    * Chapter 16: Vector Calculus<br>
    * Chapter 17: Second-Order Differential Equations<br>
 
+## Announcement
+   * Calculus 1 Module class<br>
+    1. Midterm:<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Date: November 2, 2019 (Sat.)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Time: 14:00 - 16:30<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Location and more information](/PDF/courses/TA/Calculus/1081Midterm.pdf)<br>
+
+
+## Open Course
+   * [NTU Calculus (for science and engineering)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/100S111)<br>
+   * [NTU Calculus (for others)](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/103S121)<br>
+
+
 ## Extension
    * Draw Graph Online: [FooPlot](http://fooplot.com/#W3sidHlwZSI6MCwiZXEiOiJ4XjIiLCJjb2xvciI6IiMwMDAwMDAifSx7InR5cGUiOjEwMDB9XQ--), &nbsp;
    [GeoGebra](https://www.geogebra.org/)

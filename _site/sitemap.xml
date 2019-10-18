@@ -90,6 +90,10 @@
 <loc>http://localhost:4000/posts/page2/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/PDF/courses/TA/Calculus/1081Midterm.pdf</loc>
+<lastmod>2019-10-09T12:03:26+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/PDF/courses/TA/Calculus/Note0912.pdf</loc>
 <lastmod>2019-09-12T16:17:58+08:00</lastmod>
 </url>
@@ -103,7 +107,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/PDF/courses/TA/Calculus/Note1017.pdf</loc>
-<lastmod>2019-10-17T16:36:54+08:00</lastmod>
+<lastmod>2019-10-17T17:10:26+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/PDF/courses/TA/ICM/2018_09_12_Install_MATLAB.pdf</loc>
