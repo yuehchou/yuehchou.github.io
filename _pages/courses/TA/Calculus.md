@@ -27,7 +27,7 @@ It has two major branches, differential calculus and integral calculus. Differen
    * Chapter 3: Differentiation Rules<br>
         Note: [10/3](/PDF/courses/TA/Calculus/Note1003.pdf), &nbsp; [10/10](/PDF/courses/TA/Calculus/Note1010.pdf)<br>
    * Chapter 4: Applications of Differentiation<br>
-        Note: [10/17](/PDF/courses/TA/Calculus/Note1017.pdf), &nbsp; [10/24](/PDF/courses/TA/Calculus/Note1024.pdf)<br>
+        Note: [10/17](/PDF/courses/TA/Calculus/Note1017.pdf), &nbsp; [10/24](/PDF/courses/TA/Calculus/Note1024.pdf), &nbsp; [10/31](/PDF/courses/TA/Calculus/Note1031.pdf)<br>
    * Chapter 5: Intergals<br>
    * Chapter 6: Applications of Integration<br>
    * Chapter 7: Techniques of Integration<br>
