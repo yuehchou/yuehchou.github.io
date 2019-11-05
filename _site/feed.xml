@@ -1,320 +1,1266 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-05T20:01:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Basic LaTeX Symbols</title><link href="http://localhost:4000/posts/latex/basic-latex-symbols/" rel="alternate" type="text/html" title="Basic LaTeX Symbols" /><published>2019-07-22T00:00:00+08:00</published><updated>2019-07-22T00:00:00+08:00</updated><id>http://localhost:4000/posts/latex/basic-latex-symbols</id><content type="html" xml:base="http://localhost:4000/posts/latex/basic-latex-symbols/">&lt;br&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-05T21:33:52+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><entry><title type="html">Basic LaTeX Symbols</title><link href="http://localhost:4000/posts/latex/basic-latex-symbols/" rel="alternate" type="text/html" title="Basic LaTeX Symbols" /><published>2019-07-22T00:00:00+08:00</published><updated>2019-07-22T00:00:00+08:00</updated><id>http://localhost:4000/posts/latex/basic-latex-symbols</id><content type="html" xml:base="http://localhost:4000/posts/latex/basic-latex-symbols/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-## Greek Letters
+&lt;h2 id=&quot;greek-letters&quot;&gt;Greek Letters&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\alpha$$ | \alpha | $$\theta$$ | \theta | $$o$$ | o | $$\tau$$ | \tau |
-| $$\beta$$ | \beta | $$\vartheta$$ | \vartheta | $$\pi$$ | \pi | $$\upsilon$$ | \upsilon |
-| $$\gamma$$ | \gamma | $$\xi$$ | \xi | $$\varpi$$ | \varpi | $$\phi$$ | \phi |
-| $$\delta$$ | \delta | $$\kappa$$ | \kappa | $$\rho$$ | \rho | $$\varphi$$ | \varphi |
-| $$\epsilon$$ | \epsilon | $$\lambda$$ | \lambda | $$\varrho$$ | \varrho | $$\chi$$ | \chi |
-| $$\varepsilon$$ | \varepsilon | $$\mu$$ | \mu | $$\sigma$$ | \sigma | $$\psi$$ | \psi |
-| $$\zeta$$ | \zeta | $$\nu$$ | \nu | $$\varsigma$$ | \varsigma | $$\omega$$ | \omega |
-| $$\eta$$ | \eta | $$$$ |  | $$$$ |  | $$$$ |  |
-| $$\Gamma$$ | \Gamma | $$\Lambda$$ | \Lambda | $$\Sigma$$ | \Sigma | $$\Psi$$ | \Psi |
-| $$\Delta$$ | \Delta | $$\Xi$$ | \Xi | $$\Upsilon$$ | \Upsilon | $$\Omega$$ | \Omega |
-| $$\Theta$$ | \Theta | $$\Pi$$ | \Pi | $$\Phi$$ | \Phi | $$$$ |  |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\alpha&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\theta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;o&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;o&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\tau&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\tau&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\beta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\vartheta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\vartheta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\pi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\pi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\upsilon&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\upsilon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\gamma&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\gamma&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\xi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\xi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\varpi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\varpi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\phi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\delta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\delta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\kappa&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\kappa&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rho&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rho&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\varphi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\varphi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\epsilon&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lambda&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lambda&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\varrho&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\varrho&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\chi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\chi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\varepsilon&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\varepsilon&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mu&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sigma&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\psi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\psi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\zeta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\zeta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\nu&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\nu&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\varsigma&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\varsigma&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\omega&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\eta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\eta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Gamma&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Gamma&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Lambda&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Lambda&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Sigma&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Sigma&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Psi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Psi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Delta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Delta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Xi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Xi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Upsilon&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Upsilon&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Omega&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Theta&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Theta&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Pi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Pi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Phi&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Phi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Binary Operation Symbols
+&lt;h2 id=&quot;binary-operation-symbols&quot;&gt;Binary Operation Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\pm$$ | \pm | $$\cap$$ | \cap | $$\diamond$$ | \diamond | $$\oplus$$ | \oplus |
-| $$\mp$$ | \mp | $$\cup$$ | \cup | $$\bigtriangleup$$ | \bigtriangleup | $$\ominus$$ | \ominus |
-| $$\times$$ | \times | $$\uplus$$ | \uplus | $$\bigtriangledown$$ | \bigtriangledown | $$\otimes$$ | \otimes |
-| $$\div$$ | \div | $$\sqcap$$ | \sqcap | $$\triangleleft$$ | \triangleleft | $$\oslash$$ | \oslash |
-| $$\ast$$ | \ast | $$\sqcup$$ | \sqcup | $$\triangleright$$ | \triangleright | $$\odot$$ | \odot |
-| $$\star$$ | \star | $$\vee$$ | \vee | $$\lhd$$ | \lhd | $$\bigcirc$$ | \bigcirc |
-| $$\circ$$ | \circ | $$\wedge$$ | \wedge | $$\rhd$$ | \rhd | $$\dagger$$ | \dagger |
-| $$\bullet$$ | \bullet | $$\setminus$$ | \setminus | $$\unlhd$$ | \unlhd | $$\ddagger$$ | \ddagger |
-| $$\cdot$$ | \cdot | $$\wr$$ | \wr | $$\unrhd$$ | \unrhd | $$\amalg$$ | \smalg |
-| $$+$$ | + | $$-$$ | - | $$$$ |  | $$$$ |  |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\pm&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\pm&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cap&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cap&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\diamond&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\diamond&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\oplus&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\oplus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigtriangleup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigtriangleup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ominus&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ominus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\times&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\times&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\uplus&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\uplus&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigtriangledown&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigtriangledown&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\otimes&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\otimes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\div&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\div&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqcap&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqcap&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\triangleleft&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\triangleleft&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\oslash&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\oslash&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ast&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ast&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqcup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqcup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\triangleright&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\triangleright&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\odot&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\odot&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\star&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\star&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\vee&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\vee&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lhd&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lhd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigcirc&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigcirc&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\circ&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\circ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\wedge&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\wedge&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rhd&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rhd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\dagger&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\dagger&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bullet&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bullet&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\setminus&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\setminus&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\unlhd&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\unlhd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ddagger&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ddagger&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cdot&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cdot&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\wr&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\wr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\unrhd&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\unrhd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\amalg&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\smalg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;-&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Relation Symbols
+&lt;h2 id=&quot;relation-symbols&quot;&gt;Relation Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\leq$$ | \leq | $$\geq$$ | \geq | $$\equiv$$ | \equiv | $$\models$$ | \models |
-| $$\prec$$ | \prec | $$\succ$$ | \succ | $$\sim$$ | \sim | $$\perp$$ | \perp |
-| $$\preceq$$ | \preceq | $$\succeq$$ | \succeq | $$\simeq$$ | \simeq | $$\mid$$ | \mid |
-| $$\ll$$ | \ll | $$\gg$$ | \gg | $$\asymp$$ | \asymp | $$\parallel$$ | \parallel |
-| $$\subset$$ | \subset | $$\supset$$ | \supset | $$\approx$$ | \approx | $$\bowtie$$ | \bowtie |
-| $$\subseteq$$ | \subseteq | $$\supseteq$$ | \supseteq | $$\cong$$ | \cong | $$\Join$$ | \Join |
-| $$sqsubset$$ | \sqsubset | $$\sqsupset$$ | \sqsupset | $$\neq$$ | \neq | $$\smile$$ | \smile |
-| $$\sqsubseteq$$ | \sqsubseteq | $$\sqsupseteq$$ | \sqsupseteq | $$\doteq$$ | \doteq | $$\frown$$ | \frown |
-| $$\in$$ | \in | $$\ni$$ | \ni | $$\propto$$ | \propto | $$=$$ | = |
-| $$\vdash$$ | \vdash | $$\dashv$$ | \dashv | $$&lt;$$ | &lt; | $$&gt;$$ | &gt; |
-| $$:$$ | : | $$$$ |  | $$$$ |  | $$$$ |  |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\geq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\geq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\equiv&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\equiv&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\models&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\models&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\prec&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\prec&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\succ&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\succ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sim&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sim&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\perp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\perp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\preceq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\preceq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\succeq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\succeq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\simeq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\simeq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mid&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ll&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ll&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\gg&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\gg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\asymp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\asymp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\parallel&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\parallel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\subset&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\subset&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\supset&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\supset&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\approx&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\approx&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bowtie&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bowtie&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\subseteq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\subseteq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\supseteq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\supseteq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cong&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Join&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Join&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;sqsubset&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqsubset&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqsupset&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqsupset&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\neq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\neq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\smile&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\smile&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqsubseteq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqsubseteq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqsupseteq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqsupseteq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\doteq&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\doteq&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\frown&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\frown&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\in&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\in&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ni&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ni&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\propto&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\propto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;=&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;=&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\vdash&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\vdash&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\dashv&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\dashv&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; %]]&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;:&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Punctuation Symbols
+&lt;h2 id=&quot;punctuation-symbols&quot;&gt;Punctuation Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$,$$ | , | $$;$$ | ; | $$\colon$$ | \colon | $$\ldotp$$ | \ldotp | $$\cdotp$$ | \cdotp |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;,&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;,&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\colon&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\colon&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ldotp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ldotp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cdotp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cdotp&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Arrow Symbols
+&lt;h2 id=&quot;arrow-symbols&quot;&gt;Arrow Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\leftarrow$$ | \leftarrow | $$\longleftarrow$$ | \longleftarrow | $$\uparrow$$ | \uparrow |
-| $$\Leftarrow$$ | \Leftarrow | $$\Longleftarrow$$ | \Longleftarrow | $$\Uparrow$$ | \Uparrow |
-| $$\rightarrow$$ | \rightarrow | $$\longrightarrow$$ | \longrightarrow | $$\downarrow$$ | \downarrow |
-| $$\Rightarrow$$ | \Rightarrow | $$\Longrightarrow$$ | \Longrightarrow | $$\Downarrow$$ | \Downarrow |
-| $$\leftrightarrow$$ | \leftrightarrow | $$\longleftrightarrow$$ | \longleftrightarrow | $$\updownarrow$$ | \updownarrow |
-| $$\Leftrightarrow$$ | \Leftrightarrow | $$\Longleftrightarrow$$ | \Longleftrightarrow | $$\Updownarrow$$ | \Updownarrow |
-| $$\mapsto$$ | \mapsto | $$\longmapsto$$ | \longmapsto | $$\nearrow$$ | \nearrow |
-| $$\hookleftarrow$$ | \hookleftarrow | $$\hookrightarrow$$ | \hookrightarrow | $$\searrow$$ | \searrow |
-| $$\leftharpoonup$$ | \leftharpoonup | $$\rightharpoonup$$ | \rightharpoonup | $$\swarrow$$ | \swarrow |
-| $$\leftharpoondown$$ | \leftharpoondown | $$\rightharpoondown$$ | \rightharpoondown | $$\nwarrow$$ | \nwarrow |
-| $$\rightleftharpoons$$ | \rightleftharpoons | $$\leadsto$$ | \leadsto | $$\iff$$ | \iff |
-| $$\looparrowleft$$ | \looparrowleft | $$\looparrowright$$ | \looparrowright | $$\curvearrowleft$$ | \curvearrowleft |
-| $$\circlearrowleft$$ | \circlearrowleft | $$\circlearrowright$$ | \circlearrowright | $$\curvearrowright$$ | \curvearrowright |
-| $$\Lsh$$ | \Lsh | $$\Rsh$$ | \Rsh | $$\dashleftarrow$$ | \dashleftarrow |
-| $$\leftarrowtail$$ | \leftarrowtail |  $$\rightarrowtail$$ | \rightarrowtail | $$\dashrightarrow$$ | \dashrightarrow |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leftarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leftarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\longleftarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\longleftarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\uparrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\uparrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Leftarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Longleftarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Longleftarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Uparrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Uparrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\longrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\longrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\downarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\downarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Rightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Rightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Longrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Longrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Downarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Downarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leftrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leftrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\longleftrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\longleftrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\updownarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\updownarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Leftrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Longleftrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Longleftrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Updownarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Updownarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mapsto&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mapsto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\longmapsto&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\longmapsto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\nearrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\nearrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\hookleftarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\hookleftarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\hookrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\hookrightarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\searrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\searrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leftharpoonup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leftharpoonup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rightharpoonup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rightharpoonup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\swarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\swarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leftharpoondown&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leftharpoondown&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rightharpoondown&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rightharpoondown&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\nwarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\nwarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rightleftharpoons&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rightleftharpoons&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leadsto&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leadsto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\iff&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\iff&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\looparrowleft&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\looparrowleft&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\looparrowright&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\looparrowright&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\curvearrowleft&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\curvearrowleft&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\circlearrowleft&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\circlearrowleft&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\circlearrowright&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\circlearrowright&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\curvearrowright&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\curvearrowright&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Lsh&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Lsh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Rsh&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Rsh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\dashleftarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\dashleftarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\leftarrowtail&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\leftarrowtail&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rightarrowtail&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rightarrowtail&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\dashrightarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\dashrightarrow&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Miscellaneous Symbols
+&lt;h2 id=&quot;miscellaneous-symbols&quot;&gt;Miscellaneous Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\ldots$$ | \ldots | $$\cdots$$ | \cdots | $$\vdots$$ | \vdots | $$\ddots$$ | \ddots |
-| $$\aleph$$ | \aleph | $$\prime$$ | \prime | $$\forall$$ | \forall | $$\infty$$ | \infty |
-| $$\hbar$$ | \hbar | $$\emptyset$$ | \emptyset | $$\exists$$ | \exists | $$\Box$$ | \Box |
-| $$\imath$$ | \imath | $$\nabla$$ | \nabla | $$\neg$$ | \neg | $$\Diamond$$ | \Diamond |
-| $$\jmath$$ | \jmath | $$\surd$$ | \surd | $$\flat$$ | \flat | $$\triangle$$ | \triangle |
-| $$\ell$$ | \ell | $$\top$$ | \top | $$\natural$$ | \natural | $$\clubsuit$$ | \clusuit |
-| $$\wp$$ | \wp | $$\bot$$ | \bot | $$\sharp$$ | \sharp | $$\diamondsuit$$ | \diamondsuit |
-| $$\Re$$ | \Re | $$\|$$ | \| | $$\backslash$$ | \backslash | $$\heartsuit$$ | \heartsuit |
-| $$\Im$$ | \Im | $$\Game$$ | \Game | $$\partial$$ | \partial | $$\spadesuit$$ | \spadesuit |
-| $$\mho$$ | \mho | $$\eth$$ | \eth | $$\Finv$$ | \Finv | $$\Bbbk$$ | \Bbbk |
-| $$\angle$$ | \angle | $$\measuredangle$$ | \measuredangle | $$\sphericalangle$$ | \sphericalangle | $$\bigstar$$ | \bigstar |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ldots&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ldots&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cdots&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cdots&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\vdots&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\vdots&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ddots&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ddots&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\aleph&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\aleph&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\prime&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\prime&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\forall&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\forall&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\infty&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\hbar&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\hbar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\emptyset&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\emptyset&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\exists&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\exists&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Box&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Box&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\imath&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\imath&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\nabla&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\nabla&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\neg&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\neg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Diamond&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Diamond&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\jmath&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\jmath&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\surd&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\surd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\flat&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\flat&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\triangle&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\triangle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ell&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\top&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\top&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\natural&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\natural&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\clubsuit&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\clusuit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\wp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\wp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bot&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bot&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sharp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sharp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\diamondsuit&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\diamondsuit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Re&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Re&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;|&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;|&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\backslash&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\backslash&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\heartsuit&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\heartsuit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Im&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Im&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Game&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Game&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\partial&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\partial&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\spadesuit&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\spadesuit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mho&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mho&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\eth&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\eth&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Finv&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Finv&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Bbbk&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Bbbk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\angle&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\angle&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\measuredangle&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\measuredangle&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sphericalangle&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sphericalangle&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigstar&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigstar&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Variable-sized Symbols
+&lt;h2 id=&quot;variable-sized-symbols&quot;&gt;Variable-sized Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\sum$$ | \sum | $$\bigcap$$ | \bigcap | $$\bigodot$$ | \bigodot |
-| $$\prod$$ | \prod | $$\bigcup$$ | \bigcup | $$\bigotimes$$ | \bigotimes |
-| $$\coprod$$ | \coprod | $$\bigsqcup$$ | \bigsqcup | $$\bigoplus$$ | \bigoplus |
-| $$\int$$ | \int | $$\bigvee$$ | \bigvee | $$\biguplus$$ | \biguplus |
-| $$\oint$$ | \oint | $$\bigwedge$$ | \bigwedge | $$$$ |  |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sum&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sum&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigcap&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigcap&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigodot&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigodot&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\prod&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\prod&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigcup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigcup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigotimes&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigotimes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\coprod&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\coprod&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigsqcup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigsqcup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigoplus&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigoplus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\int&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\int&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigvee&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigvee&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\biguplus&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\biguplus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\oint&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\oint&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bigwedge&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bigwedge&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Log-like Symbols
+&lt;h2 id=&quot;log-like-symbols&quot;&gt;Log-like Symbols&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\arccos$$ | \arccos | $$\cos$$ | \cos | $$\arcsin$$ | \arcsin | $$\sin$$ | \sin |
-| $$\arctan$$ | \arctan | $$\tan$$ | \tan | $$\cot$$ | \cot | $$\csc$$ | \csc |
-| $$\sec$$ | \sec | $$\cosh$$ | \cosh | $$\sinh$$ | \sinh | $$\tanh$$ | \tanh |
-| $$\coth$$ | \costh | $$\exp$$ | \exp | $$\lg$$ | \lg | $$\ln$$ | \ln |
-| $$\log$$ | \log | $$\deg$$ | \deg | $$\arg$$ | \arg | $$\det$$ | \det |
-| $$\dim$$ | \dim | $$\gcd$$ | \gcd | $$\hom$$ | \hom | $$\ker$$ | \ker |
-| $$\Pr$$ | \Pr | $$\max$$ | \max | $$\min$$ | \min | $$\sup$$ | \sup |
-| $$\inf$$ | \inf | $$\limsup$$ | \limsup | $$\liminf$$ | \liminf | $$\lim$$ | \lim |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\arccos&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\arccos&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cos&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cos&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\arcsin&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\arcsin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sin&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\arctan&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\arctan&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\tan&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\tan&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cot&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cot&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\csc&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\csc&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sec&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sec&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\cosh&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\cosh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sinh&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sinh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\tanh&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\tanh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\coth&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\costh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\exp&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\exp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lg&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ln&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ln&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\log&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\log&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\deg&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\deg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\arg&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\arg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\det&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\det&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\dim&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\dim&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\gcd&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\gcd&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\hom&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\hom&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ker&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ker&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Pr&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Pr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\max&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\max&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\min&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\min&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sup&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\inf&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\inf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\limsup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\limsup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\liminf&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\liminf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lim&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lim&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Delimiters
+&lt;h2 id=&quot;delimiters&quot;&gt;Delimiters&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$($$ | ( | $$)$$ | ) | $$\uparrow$$ | \uparrow | $$\Uparrow$$ | \Uparrow |
-| $$[$$ | [ | $$]$$ | ] | $$\downarrow$$ | \downarrow | $$\Downarrow$$ | \Downarrow |
-| $$\{$$ | \{ | $$\}$$ | \} | $$\updownarrow$$ | \updownarrow | $$\Updownarrow$$ | \Updownarrow |
-| $$\lfloor$$ | \lfloor | $$\rfloor$$ | \rfloor | $$\lceil$$ | \lceil | $$\rceil$$ | \rceil |
-| $$\langle$$ | \langle | $$\rangle$$ | \rangle | $$/$$ | / | $$\backslash$$ | \backslash |
-| $$\|$$ | \| | $$$$ |  | $$$$ |  | $$$$ |  |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;(&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;)&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\uparrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\uparrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Uparrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Uparrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;[&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;[&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;]&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;]&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\downarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\downarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Downarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Downarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\{&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;{&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\updownarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\updownarrow&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Updownarrow&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Updownarrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lfloor&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lfloor&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rfloor&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rfloor&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lceil&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lceil&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rceil&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rceil&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\langle&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\langle&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rangle&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rangle&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;/&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;/&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\backslash&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\backslash&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;|&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;|&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Large Delimiters
+&lt;h2 id=&quot;large-delimiters&quot;&gt;Large Delimiters&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\rmoustache$$ | \rmoustache | $$\lmoustache$$ | \lmoustache | $$\rgroup$$ | \rgroup | $$\lgroup$$ | \lgroup |
-| $$\arrowvert$$ | \arrowvert | $$\Arrowvert$$ | \Arrowvert | $$\bracevert$$ | \bracevert | $$$$ |  |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rmoustache&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rmoustache&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lmoustache&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lmoustache&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\rgroup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\rgroup&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\lgroup&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\lgroup&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\arrowvert&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\arrowvert&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\Arrowvert&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\Arrowvert&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bracevert&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bracevert&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Math Mode Accents
+&lt;h2 id=&quot;math-mode-accents&quot;&gt;Math Mode Accents&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\hat{a}$$ | \hat{a} | $$\acute{a}$$ | \acute{a} | $$\bar{a}$$ | \bar{a} | $$\dot{a}$$ | \dot{a} | $$\breve{a}$$ | \breve{a} |
-| $$\check{a}$$ | \check{a} | $$\grave{a}$$ | \grave{a} | $$\vec{a}$$ | \vec{a} | $$\ddot{a}$$ | \ddot{a} | $$\tilde{a}$$ | \tilde{a} |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\hat{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\hat{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\acute{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\acute{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\bar{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\bar{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\dot{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\dot{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\breve{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\breve{a}&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\check{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\check{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\grave{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\grave{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\vec{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\ddot{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\ddot{a}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\tilde{a}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\tilde{a}&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Some Other Constructions
+&lt;h2 id=&quot;some-other-constructions&quot;&gt;Some Other Constructions&lt;/h2&gt;
 
-|Output | Code  |Output | Code  |Output | Code  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| $$\widetilde{abc}$$ | \widetilde{abc} | $$\widehat{abc}$$ | \widehat{abc} | $$\overleftarrow{abc}$$ | \overleftarrow{abc} |
-| $$\overline{abc}$$ | \overline{abc} | $$\underline{abc}$$ | \underline{abc} | $$\overrightarrow{abc}$$ | \overrightarrow{abc} |
-| $$\sqrt{abc}$$ | \sqrt{abc} | $$\overbrace{abc}$$ | \overbrace{abc} | $$\underbrace{abc}$$ | \underbrace{abc} |
-| $$\sqrt[n]{abc}$$ | \sqrt[n]{abc} | $$f'$$ | f' | $$\frac{abc}{xyz}$$ | \frac{abc}{xyz} |
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\widetilde{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\widetilde{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\widehat{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\widehat{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\overleftarrow{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\overleftarrow{abc}&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\overline{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\overline{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\underline{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\underline{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\overrightarrow{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\overrightarrow{abc}&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqrt{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqrt{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\overbrace{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\overbrace{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\underbrace{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\underbrace{abc}&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqrt[n]{abc}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\sqrt[n]{abc}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;f'&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;f’&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{abc}{xyz}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\frac{abc}{xyz}&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-## Mathematical Letter Style
+&lt;h2 id=&quot;mathematical-letter-style&quot;&gt;Mathematical Letter Style&lt;/h2&gt;
 
-|Output | Code  |Package|
-|:-----:|:-----:|:-----:|
-| $$\mathrm{ABCdef}$$ | \mathrm{ABCdef} | - |
-| $$\mathit{ABCdef}$$ | \mathit{ABCdef} | - |
-| $$\mathcal{ABCdef}$$ | \mathcal{ABCdef} | - |
-| $$\mathscr{ABCdef}$$ | \mathscr{ABCdef} | eucal with option: mathscr |
-| $$\mathfrak{ABCdef}$$ | \mathfrak{ABCdef} | eufrak |
-| $$\mathbb{ABCdef}$$ | \mathbb{ABCdef} | amsfonts or amssymb |</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="LaTeX" /><summary type="html"></summary></entry><entry><title type="html">Introduction of LaTeX</title><link href="http://localhost:4000/posts/latex/introduction-of-latex/" rel="alternate" type="text/html" title="Introduction of LaTeX" /><published>2019-07-21T00:00:00+08:00</published><updated>2019-07-21T00:00:00+08:00</updated><id>http://localhost:4000/posts/latex/introduction-of-latex</id><content type="html" xml:base="http://localhost:4000/posts/latex/introduction-of-latex/">&lt;br&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Output&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Package&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathrm{ABCdef}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mathrm{ABCdef}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathit{ABCdef}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mathit{ABCdef}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathcal{ABCdef}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mathcal{ABCdef}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathscr{ABCdef}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mathscr{ABCdef}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;eucal with option: mathscr&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathfrak{ABCdef}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mathfrak{ABCdef}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;eufrak&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbb{ABCdef}&lt;/script&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\mathbb{ABCdef}&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;amsfonts or amssymb&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="LaTeX" /><summary type="html"></summary></entry><entry><title type="html">Introduction of LaTeX</title><link href="http://localhost:4000/posts/latex/introduction-of-latex/" rel="alternate" type="text/html" title="Introduction of LaTeX" /><published>2019-07-21T00:00:00+08:00</published><updated>2019-07-21T00:00:00+08:00</updated><id>http://localhost:4000/posts/latex/introduction-of-latex</id><content type="html" xml:base="http://localhost:4000/posts/latex/introduction-of-latex/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/latex/logo.png&quot; width=&quot;30%&quot; height=&quot;30%&quot;/&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/latex/logo.png&quot; width=&quot;30%&quot; height=&quot;30%&quot; /&gt;&lt;/div&gt;
 
-## What is LaTeX?
+&lt;h2 id=&quot;what-is-latex&quot;&gt;What is LaTeX?&lt;/h2&gt;
 
-LaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in word processors like Microsoft Word, LibreOffice Writer and Apple Pages. The writer uses markup tagging conventions to define the general structure of a document, to stylise text throughout a document and to add citations and cross-references.&lt;br&gt;
+&lt;p&gt;LaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in word processors like Microsoft Word, LibreOffice Writer and Apple Pages. The writer uses markup tagging conventions to define the general structure of a document, to stylise text throughout a document and to add citations and cross-references.&lt;br /&gt;&lt;/p&gt;
 
-This typesetting system is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, statistics, computer science, engineering, chemistry, physics, economics, linguistics, quantitative psychology, philosophy, and political science. It also has a prominent role in the preparation and publication of books and articles that contain complex multilingual materials, such as Sanskrit and Greek. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language.&lt;br&gt;
+&lt;p&gt;This typesetting system is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, statistics, computer science, engineering, chemistry, physics, economics, linguistics, quantitative psychology, philosophy, and political science. It also has a prominent role in the preparation and publication of books and articles that contain complex multilingual materials, such as Sanskrit and Greek. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language.&lt;br /&gt;&lt;/p&gt;
 
-LaTeX is intended to provide a high-level, descriptive markup language that accesses the power of TeX in an easier way for writers. In essence, TeX handles the layout side, while LaTeX handles the content side for document processing. LaTeX comprises a collection of TeX macros and a program to process LaTeX documents, and because the plain TeX formatting commands are elementary, it provides authors with ready-made commands for formatting and layout requirements such as chapter headings, footnotes, cross-references and bibliographies.&lt;br&gt;
+&lt;p&gt;LaTeX is intended to provide a high-level, descriptive markup language that accesses the power of TeX in an easier way for writers. In essence, TeX handles the layout side, while LaTeX handles the content side for document processing. LaTeX comprises a collection of TeX macros and a program to process LaTeX documents, and because the plain TeX formatting commands are elementary, it provides authors with ready-made commands for formatting and layout requirements such as chapter headings, footnotes, cross-references and bibliographies.&lt;br /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;text-align: right&quot;&gt;&lt;small&gt; - Wikipedia&lt;/small&gt;&lt;/div&gt;
 
-## Why LaTeX?
+&lt;h2 id=&quot;why-latex&quot;&gt;Why LaTeX?&lt;/h2&gt;
 
-  1. LaTeX provides very high quality and is extremely customizable.
-  2. It's extremely stable, no matter how complex the documents are.
-  3. It's free and Open Source, we can study and improve everything as we do on this site.
-  4. LaTeX is portable concerning its implementation, your document source and its output (all is cross-platform).
-  5. It provides a logical approach to create documents instead of a physical, enhancing consistency.
-  6. Your document is safe because the file format is open and there's no virus threat.&lt;br&gt;
+&lt;ol&gt;
+  &lt;li&gt;LaTeX provides very high quality and is extremely customizable.&lt;/li&gt;
+  &lt;li&gt;It’s extremely stable, no matter how complex the documents are.&lt;/li&gt;
+  &lt;li&gt;It’s free and Open Source, we can study and improve everything as we do on this site.&lt;/li&gt;
+  &lt;li&gt;LaTeX is portable concerning its implementation, your document source and its output (all is cross-platform).&lt;/li&gt;
+  &lt;li&gt;It provides a logical approach to create documents instead of a physical, enhancing consistency.&lt;/li&gt;
+  &lt;li&gt;Your document is safe because the file format is open and there’s no virus threat.&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-  &amp;nbsp; &amp;nbsp; But you shouldn't use LaTeX if&lt;br&gt;
-  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 
-    * You don't have time to learn it.&lt;br&gt;
-  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 
-    * Your document is already written.&lt;br&gt;
-  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 
-    * What you care about is the design of the document.&lt;br&gt;
+&lt;p&gt;    But you shouldn’t use LaTeX if&lt;br /&gt;
+          
+    * You don’t have time to learn it.&lt;br /&gt;
+          
+    * Your document is already written.&lt;br /&gt;
+          
+    * What you care about is the design of the document.&lt;br /&gt;&lt;/p&gt;
 
-## Getting Started with LaTeX
+&lt;h2 id=&quot;getting-started-with-latex&quot;&gt;Getting Started with LaTeX&lt;/h2&gt;
 
-  The following link provides the guide for editting the documents by LaTeX.
+&lt;p&gt;The following link provides the guide for editting the documents by LaTeX.&lt;/p&gt;
 
-  * [Quick Start Guide](https://www.latex-tutorial.com/quick-start/)</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="LaTeX" /><summary type="html"></summary></entry><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-19T00:00:00+08:00</published><updated>2019-07-19T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;br&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.latex-tutorial.com/quick-start/&quot;&gt;Quick Start Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="LaTeX" /><summary type="html"></summary></entry><entry><title type="html">Tips for Linux Commands</title><link href="http://localhost:4000/posts/linux/tips-for-linux-commands/" rel="alternate" type="text/html" title="Tips for Linux Commands" /><published>2019-07-19T00:00:00+08:00</published><updated>2019-07-19T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/tips-for-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/tips-for-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-Here are five tips that can help you operate Linux system more easily and conveniently.&lt;br&gt;
+&lt;p&gt;Here are five tips that can help you operate Linux system more easily and conveniently.&lt;br /&gt;&lt;/p&gt;
 
-1. You can use the &lt;b&gt;clear&lt;/b&gt; command to clear the terminal if it gets filled up with too many commands.&lt;br&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can use the &lt;b&gt;clear&lt;/b&gt; command to clear the terminal if it gets filled up with too many commands.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;TAB&lt;/b&gt; can be used to fill up in terminal. For example, You just need to type &lt;b&gt;“cd Doc”&lt;/b&gt; and then TAB and the terminal fills the rest up and makes it &lt;b&gt;“cd Documents”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Ctrl+C&lt;/b&gt; can be used to stop any command in terminal safely. If it doesn’t stop with that, then &lt;b&gt;Ctrl+Z&lt;/b&gt; can be used to force stop it.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can exit from the terminal by using the &lt;b&gt;“exit”&lt;/b&gt; command.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can power off or reboot the computer by using the command &lt;b&gt;“sudo halt”&lt;/b&gt; and &lt;b&gt;“sudo reboot”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-2. &lt;b&gt;TAB&lt;/b&gt; can be used to fill up in terminal. For example, You just need to type &lt;b&gt;&quot;cd Doc&quot;&lt;/b&gt; and then TAB and the terminal fills the rest up and makes it &lt;b&gt;&quot;cd Documents&quot;&lt;/b&gt;.&lt;br&gt;
+&lt;p&gt;After understanding some basic linux commands, we will continue to introduce other intermediate linux commands.&lt;br /&gt;&lt;/p&gt;
 
-3. &lt;b&gt;Ctrl+C&lt;/b&gt; can be used to stop any command in terminal safely. If it doesn't stop with that, then &lt;b&gt;Ctrl+Z&lt;/b&gt; can be used to force stop it.&lt;br&gt;
+&lt;h2 id=&quot;1-cat&quot;&gt;1. cat&lt;/h2&gt;
 
-4. You can exit from the terminal by using the &lt;b&gt;&quot;exit&quot;&lt;/b&gt; command.&lt;br&gt;
+&lt;p&gt;Use the this command to display the contents of a file. It is usually used to easily view programs.&lt;br /&gt;&lt;/p&gt;
 
-5. You can power off or reboot the computer by using the command &lt;b&gt;&quot;sudo halt&quot;&lt;/b&gt; and &lt;b&gt;&quot;sudo reboot&quot;&lt;/b&gt;.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Intermediate Linux Commands</title><link href="http://localhost:4000/posts/linux/intermediate-linux-commands/" rel="alternate" type="text/html" title="Intermediate Linux Commands" /><published>2019-07-18T00:00:00+08:00</published><updated>2019-07-18T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/intermediate-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/intermediate-linux-commands/">&lt;br&gt;
+&lt;h2 id=&quot;2-nano-vim&quot;&gt;2. nano, vim&lt;/h2&gt;
 
-After understanding some basic linux commands, we will continue to introduce other intermediate linux commands.&lt;br&gt;
+&lt;p&gt;These are already installed text editors in the Linux command line. The &lt;b&gt;nano&lt;/b&gt; command is a good text editor that denotes keywords with color and can recognize most languages. And &lt;b&gt;vim&lt;/b&gt; is simpler than nano. You can create a new file or modify a file using this editor.&lt;br /&gt;&lt;/p&gt;
 
-## 1. cat
+&lt;h2 id=&quot;3-sudo-superuser-do&quot;&gt;3. sudo (SuperUser Do)&lt;/h2&gt;
 
-Use the this command to display the contents of a file. It is usually used to easily view programs.&lt;br&gt;
+&lt;p&gt;A widely used command in the Linux command line, &lt;b&gt;sudo&lt;/b&gt; stands for &lt;b&gt;“SuperUser Do”&lt;/b&gt;. So, if you want any command to be done with administrative or root privileges, you can use the &lt;b&gt;sudo&lt;/b&gt; command. You can also use the command &lt;b&gt;“su”&lt;/b&gt; to do this, but you need to set a root password before that. For that, you can use the command &lt;b&gt;“sudo passwd”&lt;/b&gt;(not misspelled, it is &lt;b&gt;passwd&lt;/b&gt;). Then type in the new root password.&lt;br /&gt;&lt;/p&gt;
 
-## 2. nano, vim
+&lt;h2 id=&quot;4-echo&quot;&gt;4. echo&lt;/h2&gt;
 
-These are already installed text editors in the Linux command line. The &lt;b&gt;nano&lt;/b&gt; command is a good text editor that denotes keywords with color and can recognize most languages. And &lt;b&gt;vim&lt;/b&gt; is simpler than nano. You can create a new file or modify a file using this editor.&lt;br&gt;
+&lt;p&gt;This command helps us move some data, usually text into a file. For example, if you want to create a new text file or add to an already made text file, you just need to type in, &lt;b&gt;“echo hello, my name is alok » new.txt”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
 
-## 3. sudo (SuperUser Do)
+&lt;h2 id=&quot;5-df&quot;&gt;5. df&lt;/h2&gt;
 
-A widely used command in the Linux command line, &lt;b&gt;sudo&lt;/b&gt; stands for &lt;b&gt;&quot;SuperUser Do&quot;&lt;/b&gt;. So, if you want any command to be done with administrative or root privileges, you can use the &lt;b&gt;sudo&lt;/b&gt; command. You can also use the command &lt;b&gt;&quot;su&quot;&lt;/b&gt; to do this, but you need to set a root password before that. For that, you can use the command &lt;b&gt;&quot;sudo passwd&quot;&lt;/b&gt;(not misspelled, it is &lt;b&gt;passwd&lt;/b&gt;). Then type in the new root password.&lt;br&gt;
+&lt;p&gt;Use this command to see the available disk space in each of the partitions in your system. You can just type in &lt;b&gt;df&lt;/b&gt; in the command line and you can see each mounted partition and their  used/available space in % and in KBs. If you want it shown in megabytes, you can use the command &lt;b&gt;“df -m”&lt;/b&gt;. Also, use the command &lt;b&gt;“df -g”&lt;/b&gt;, if you want to change to gigabytes.&lt;br /&gt;&lt;/p&gt;
 
-## 4. echo
+&lt;h2 id=&quot;6-du&quot;&gt;6. du&lt;/h2&gt;
 
-This command helps us move some data, usually text into a file. For example, if you want to create a new text file or add to an already made text file, you just need to type in, &lt;b&gt;&quot;echo hello, my name is alok &gt;&gt; new.txt&quot;&lt;/b&gt;.&lt;br&gt;
+&lt;p&gt;Use this command to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux, you can type in the command &lt;b&gt;df&lt;/b&gt; and the name of the folder or file. For example, if you want to know the disk space used by the documents folder in Linux, you can use the command &lt;b&gt;“du Documents”&lt;/b&gt;. You can also use the command &lt;b&gt;“ls -lah”&lt;/b&gt; to view the file sizes of all the files in a folder.&lt;br /&gt;&lt;/p&gt;
 
-## 5. df
+&lt;h2 id=&quot;7-tar&quot;&gt;7. tar&lt;/h2&gt;
 
-Use this command to see the available disk space in each of the partitions in your system. You can just type in &lt;b&gt;df&lt;/b&gt; in the command line and you can see each mounted partition and their  used/available space in % and in KBs. If you want it shown in megabytes, you can use the command &lt;b&gt;&quot;df -m&quot;&lt;/b&gt;. Also, use the command &lt;b&gt;&quot;df -g&quot;&lt;/b&gt;, if you want to change to gigabytes.&lt;br&gt;
+&lt;p&gt;Use this command to work with tarballs (or files compressed in a tarball archive) in the Linux command line. It has a long list of uses. It can be used to compress and uncompress different types of tar archives like &lt;b&gt;.tar&lt;/b&gt;, &lt;b&gt;.tar.gz&lt;/b&gt;, &lt;b&gt;.tar.bz2&lt;/b&gt;, etc. It works on the basis of the arguments given to it. You can see more examples for &lt;b&gt;tar&lt;/b&gt; by this &lt;a href=&quot;https://www.tecmint.com/18-tar-command-examples-in-linux/&quot;&gt;link&lt;/a&gt;.&lt;br /&gt;&lt;/p&gt;
 
-## 6. du
+&lt;h2 id=&quot;8-zip-unzip&quot;&gt;8. zip, unzip&lt;/h2&gt;
 
-Use this command to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux, you can type in the command &lt;b&gt;df&lt;/b&gt; and the name of the folder or file. For example, if you want to know the disk space used by the documents folder in Linux, you can use the command &lt;b&gt;&quot;du Documents&quot;&lt;/b&gt;. You can also use the command &lt;b&gt;&quot;ls -lah&quot;&lt;/b&gt; to view the file sizes of all the files in a folder.&lt;br&gt;
+&lt;p&gt;Use &lt;b&gt;zip&lt;/b&gt; to compress files into a zip archive, and &lt;b&gt;unzip&lt;/b&gt; to extract files from a zip archive.&lt;br /&gt;&lt;/p&gt;
 
-## 7. tar
+&lt;h2 id=&quot;9-uname&quot;&gt;9. uname&lt;/h2&gt;
 
-Use this command to work with tarballs (or files compressed in a tarball archive) in the Linux command line. It has a long list of uses. It can be used to compress and uncompress different types of tar archives like &lt;b&gt;.tar&lt;/b&gt;, &lt;b&gt;.tar.gz&lt;/b&gt;, &lt;b&gt;.tar.bz2&lt;/b&gt;, etc. It works on the basis of the arguments given to it. You can see more examples for &lt;b&gt;tar&lt;/b&gt; by this [link](https://www.tecmint.com/18-tar-command-examples-in-linux/).&lt;br&gt;
+&lt;p&gt;Use this command to show the information about the system your Linux distro is running. Using the command &lt;b&gt;“uname -a”&lt;/b&gt; prints most of the information about the system. This prints the kernel release date, version, processor type, etc.&lt;br /&gt;&lt;/p&gt;
 
-## 8. zip, unzip
+&lt;h2 id=&quot;10-apt-get&quot;&gt;10. apt-get&lt;/h2&gt;
 
-Use &lt;b&gt;zip&lt;/b&gt; to compress files into a zip archive, and &lt;b&gt;unzip&lt;/b&gt; to extract files from a zip archive.&lt;br&gt;
+&lt;p&gt;Use &lt;b&gt;apt&lt;/b&gt; to work with packages in the Linux command line. Use &lt;b&gt;apt-get&lt;/b&gt; to install packages. This requires root privileges, so use the &lt;b&gt;sudo&lt;/b&gt; command with it. For example, if you want to install downloader &lt;b&gt;wget&lt;/b&gt; (this can download files from url), we can type in the command &lt;b&gt;“sudo apt-get install wget”&lt;/b&gt;. Similarly, any packages can be installed like this. It is good to update your repository each time you try to install a new package. You can do that by typing &lt;b&gt;“sudo apt-get update”&lt;/b&gt;. You can upgrade the system by typing &lt;b&gt;“sudo apt-get upgrade”&lt;/b&gt;. We can also upgrade the distro by typing &lt;b&gt;“sudo apt-get dist-upgrade”&lt;/b&gt;. The command &lt;b&gt;“apt-cache search”&lt;/b&gt; is used to search for a package. If you want to search for one, you can type in &lt;b&gt;“apt-cache search wget”&lt;/b&gt;(this doesn’t require root).&lt;br /&gt;&lt;/p&gt;
 
-## 9. uname
+&lt;h2 id=&quot;11-hostname&quot;&gt;11. hostname&lt;/h2&gt;
 
-Use this command to show the information about the system your Linux distro is running. Using the command &lt;b&gt;&quot;uname -a&quot;&lt;/b&gt; prints most of the information about the system. This prints the kernel release date, version, processor type, etc.&lt;br&gt;
+&lt;p&gt;Use this command to know your name in your host or network. Basically, it displays your hostname and IP address. Just typing &lt;b&gt;“hostname”&lt;/b&gt; gives the output. Typing in &lt;b&gt;“hostname -I”&lt;/b&gt; gives you your IP address in your network.&lt;br /&gt;&lt;/p&gt;
 
-## 10. apt-get
+&lt;h2 id=&quot;12-ping&quot;&gt;12. ping&lt;/h2&gt;
 
-Use &lt;b&gt;apt&lt;/b&gt; to work with packages in the Linux command line. Use &lt;b&gt;apt-get&lt;/b&gt; to install packages. This requires root privileges, so use the &lt;b&gt;sudo&lt;/b&gt; command with it. For example, if you want to install downloader &lt;b&gt;wget&lt;/b&gt; (this can download files from url), we can type in the command &lt;b&gt;&quot;sudo apt-get install wget&quot;&lt;/b&gt;. Similarly, any packages can be installed like this. It is good to update your repository each time you try to install a new package. You can do that by typing &lt;b&gt;&quot;sudo apt-get update&quot;&lt;/b&gt;. You can upgrade the system by typing &lt;b&gt;&quot;sudo apt-get upgrade&quot;&lt;/b&gt;. We can also upgrade the distro by typing &lt;b&gt;&quot;sudo apt-get dist-upgrade&quot;&lt;/b&gt;. The command &lt;b&gt;&quot;apt-cache search&quot;&lt;/b&gt; is used to search for a package. If you want to search for one, you can type in &lt;b&gt;&quot;apt-cache search wget&quot;&lt;/b&gt;(this doesn't require root).&lt;br&gt;
+&lt;p&gt;Use this command to check your connection to a server. Wikipedia says, “&lt;b&gt;Ping&lt;/b&gt; is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network”. Simply, when you type in, for example, &lt;b&gt;“ping google.com”&lt;/b&gt;, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.&lt;br /&gt;&lt;/p&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Basic Linux Commands</title><link href="http://localhost:4000/posts/linux/basic-linux-commands/" rel="alternate" type="text/html" title="Basic Linux Commands" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/basic-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/basic-linux-commands/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-## 11. hostname
+&lt;p&gt;In ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands. Following, we will introduce basic linux commands so that we can start to operate this system.&lt;br /&gt;&lt;/p&gt;
 
-Use this command to know your name in your host or network. Basically, it displays your hostname and IP address. Just typing &lt;b&gt;&quot;hostname&quot;&lt;/b&gt; gives the output. Typing in &lt;b&gt;&quot;hostname -I&quot;&lt;/b&gt; gives you your IP address in your network.&lt;br&gt;
+&lt;h2 id=&quot;1-ls-list&quot;&gt;1. ls (list)&lt;/h2&gt;
 
-## 12. ping
+&lt;p&gt;Use this command to know what files are in the directory you are in. You can see all the hidden files by using the command &lt;b&gt;“ls -a”&lt;/b&gt;. Also, you can only show all text files by using the command &lt;b&gt;“ls *.txt”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
 
-Use this command to check your connection to a server. Wikipedia says, &quot;&lt;b&gt;Ping&lt;/b&gt; is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network&quot;. Simply, when you type in, for example, &lt;b&gt;&quot;ping google.com&quot;&lt;/b&gt;, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Basic Linux Commands</title><link href="http://localhost:4000/posts/linux/basic-linux-commands/" rel="alternate" type="text/html" title="Basic Linux Commands" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/basic-linux-commands</id><content type="html" xml:base="http://localhost:4000/posts/linux/basic-linux-commands/">&lt;br&gt;
+&lt;h2 id=&quot;2-cd-change-directory&quot;&gt;2. cd (change directory)&lt;/h2&gt;
 
-In ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands. Following, we will introduce basic linux commands so that we can start to operate this system.&lt;br&gt;
+&lt;p&gt;Use the this command to go to a directory. For example, if you are in the home folder, and you want to go to the documents folder, then you can type in &lt;b&gt;“cd Documents”&lt;/b&gt;. Remember, this command is case sensitive, and you have to type in the name of the folder exactly as it is. To go back from a folder to the folder before that, you can type &lt;b&gt;“cd ..”&lt;/b&gt;. The two dots represent back.&lt;br /&gt;&lt;/p&gt;
 
-## 1. ls (list)
+&lt;h2 id=&quot;3-pwd-print-work-directory&quot;&gt;3. pwd (print work directory)&lt;/h2&gt;
 
-Use this command to know what files are in the directory you are in. You can see all the hidden files by using the command &lt;b&gt;&quot;ls -a&quot;&lt;/b&gt;. Also, you can only show all text files by using the command &lt;b&gt;&quot;ls *.txt&quot;&lt;/b&gt;.&lt;br&gt;
+&lt;p&gt;To know which directory you are in, you can use the this command. It gives us the absolute path, which means the path that starts from the root. The root is the base of the Linux file system. It is denoted by a forward slash&lt;b&gt;(/)&lt;/b&gt;. The user directory is usually something like &lt;b&gt;“/home/username/”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
 
-## 2. cd (change directory)
+&lt;h2 id=&quot;4-mkdir-make-directory&quot;&gt;4. mkdir (make directory)&lt;/h2&gt;
 
-Use the this command to go to a directory. For example, if you are in the home folder, and you want to go to the documents folder, then you can type in &lt;b&gt;&quot;cd Documents&quot;&lt;/b&gt;. Remember, this command is case sensitive, and you have to type in the name of the folder exactly as it is. To go back from a folder to the folder before that, you can type &lt;b&gt;&quot;cd ..&quot;&lt;/b&gt;. The two dots represent back.&lt;br&gt;
+&lt;p&gt;Use this command when you need to create a folder or a directory. For example, if you want to make a directory called &lt;b&gt;“Test”&lt;/b&gt;, then you can type &lt;b&gt;“mkdir Test”&lt;/b&gt;. If you want to create a directory named &lt;b&gt;“Just A Test”&lt;/b&gt;, then you can type &lt;b&gt;“mkdir Just\ A\ Test”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
 
-## 3. pwd (print work directory)
+&lt;h2 id=&quot;5-cp-copy&quot;&gt;5. cp (copy)&lt;/h2&gt;
 
-To know which directory you are in, you can use the this command. It gives us the absolute path, which means the path that starts from the root. The root is the base of the Linux file system. It is denoted by a forward slash&lt;b&gt;(/)&lt;/b&gt;. The user directory is usually something like &lt;b&gt;&quot;/home/username/&quot;&lt;/b&gt;.&lt;br&gt;
+&lt;p&gt;Use this command to copy files through the command line. It takes two arguments: The first is the location of the file to be copied, the second is where to copy, such as &lt;b&gt;“cp [source file path] [destination path]”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;
 
-## 4. mkdir (make directory)
+&lt;h2 id=&quot;6-mv-move-files-or-rename-files&quot;&gt;6. mv (move files or rename files)&lt;/h2&gt;
 
-Use this command when you need to create a folder or a directory. For example, if you want to make a directory called &lt;b&gt;&quot;Test&quot;&lt;/b&gt;, then you can type &lt;b&gt;&quot;mkdir Test&quot;&lt;/b&gt;. If you want to create a directory named &lt;b&gt;&quot;Just A Test&quot;&lt;/b&gt;, then you can type &lt;b&gt;&quot;mkdir Just\ A\ Test&quot;&lt;/b&gt;.&lt;br&gt;
+&lt;p&gt;Use this command to move files through the command line. We can also use the &lt;b&gt;mv&lt;/b&gt; command to rename a file. For example, if we want to rename the file &lt;b&gt;“old.txt”&lt;/b&gt; to &lt;b&gt;“new.txt”&lt;/b&gt;, we can use &lt;b&gt;“mv old.txt new.txt”&lt;/b&gt;. It also takes the two arguments, just like the &lt;b&gt;cp&lt;/b&gt; command.&lt;br /&gt;&lt;/p&gt;
 
-## 5. cp (copy)
+&lt;h2 id=&quot;7-rm-remove-files&quot;&gt;7. rm (remove files)&lt;/h2&gt;
 
-Use this command to copy files through the command line. It takes two arguments: The first is the location of the file to be copied, the second is where to copy, such as &lt;b&gt;&quot;cp [source file path] [destination path]&quot;&lt;/b&gt;.&lt;br&gt;
+&lt;p&gt;Use this command to delete files and directories. Use &lt;b&gt;“rm -r [directory name]”&lt;/b&gt; to delete just the directory. It deletes both the folder and the files it contains when using only the &lt;b&gt;rm&lt;/b&gt; command.&lt;br /&gt;&lt;/p&gt;
 
-## 6. mv (move files or rename files)
+&lt;h2 id=&quot;8-touch&quot;&gt;8. touch&lt;/h2&gt;
 
-Use this command to move files through the command line. We can also use the &lt;b&gt;mv&lt;/b&gt; command to rename a file. For example, if we want to rename the file &lt;b&gt;&quot;old.txt&quot;&lt;/b&gt; to &lt;b&gt;&quot;new.txt&quot;&lt;/b&gt;, we can use &lt;b&gt;&quot;mv old.txt new.txt&quot;&lt;/b&gt;. It also takes the two arguments, just like the &lt;b&gt;cp&lt;/b&gt; command.&lt;br&gt;
+&lt;p&gt;Use this command to create a file. It can be anything, from an empty txt file to an empty zip file. For example, &lt;b&gt;“touch new.txt”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Introduction of Linux</title><link href="http://localhost:4000/posts/linux/introduction-of-linux/" rel="alternate" type="text/html" title="Introduction of Linux" /><published>2019-07-09T00:00:00+08:00</published><updated>2019-07-09T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/introduction-of-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/introduction-of-linux/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-## 7. rm (remove files)
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/linux/logo.png&quot; width=&quot;40%&quot; height=&quot;40%&quot; /&gt;&lt;/div&gt;
 
-Use this command to delete files and directories. Use &lt;b&gt;&quot;rm -r [directory name]&quot;&lt;/b&gt; to delete just the directory. It deletes both the folder and the files it contains when using only the &lt;b&gt;rm&lt;/b&gt; command.&lt;br&gt;
+&lt;h2 id=&quot;what-is-linux&quot;&gt;What is Linux?&lt;/h2&gt;
 
-## 8. touch
+&lt;p&gt;Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.&lt;/p&gt;
 
-Use this command to create a file. It can be anything, from an empty txt file to an empty zip file. For example, &lt;b&gt;&quot;touch new.txt&quot;&lt;/b&gt;.&lt;br&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Introduction of Linux</title><link href="http://localhost:4000/posts/linux/introduction-of-linux/" rel="alternate" type="text/html" title="Introduction of Linux" /><published>2019-07-09T00:00:00+08:00</published><updated>2019-07-09T00:00:00+08:00</updated><id>http://localhost:4000/posts/linux/introduction-of-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/introduction-of-linux/">&lt;br&gt;
+&lt;h2 id=&quot;why-linux&quot;&gt;Why Linux?&lt;/h2&gt;
 
-&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/linux/logo.png&quot; width=&quot;40%&quot; height=&quot;40%&quot;/&gt;&lt;/div&gt;
+&lt;p&gt;Linux has today become user-friendly enough to replace Windows on desktops. It is being used by hundreds of thousands of people across the globe. Here are the eleven most important reasons why.&lt;br /&gt;&lt;/p&gt;
 
-## What is Linux?
+&lt;ol&gt;
+  &lt;li&gt;Open Source Nature&lt;/li&gt;
+  &lt;li&gt;Secure&lt;/li&gt;
+  &lt;li&gt;Can Revive Older Computers&lt;/li&gt;
+  &lt;li&gt;Perfect for Programmers&lt;/li&gt;
+  &lt;li&gt;Software Updates&lt;/li&gt;
+  &lt;li&gt;Customization&lt;/li&gt;
+  &lt;li&gt;Variety Of Distributions&lt;/li&gt;
+  &lt;li&gt;Free to Use&lt;/li&gt;
+  &lt;li&gt;Better Community Support&lt;/li&gt;
+  &lt;li&gt;Reliability&lt;/li&gt;
+  &lt;li&gt;Privacy&lt;/li&gt;
+&lt;/ol&gt;
 
-Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function.
+&lt;h2 id=&quot;linux-shell-or-terminal&quot;&gt;Linux Shell or “Terminal”&lt;/h2&gt;
 
-## Why Linux?
+&lt;p&gt;Shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output. Linux’s shell is its main part. Its distros come in GUI (graphical user interface), but basically, Linux has a CLI (command line interface).&lt;/p&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Math Support</title><link href="http://localhost:4000/posts/mathjax/math-support/" rel="alternate" type="text/html" title="Math Support" /><published>2019-07-08T00:00:00+08:00</published><updated>2019-07-08T00:00:00+08:00</updated><id>http://localhost:4000/posts/mathjax/math-support</id><content type="html" xml:base="http://localhost:4000/posts/mathjax/math-support/">&lt;p&gt;You can enable math support through &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use_math: true&lt;/code&gt; front matter which enable the MathJax.js rendering.&lt;/p&gt;
 
-Linux has today become user-friendly enough to replace Windows on desktops. It is being used by hundreds of thousands of people across the globe. Here are the eleven most important reasons why.&lt;br&gt;
-
-1. Open Source Nature
-2. Secure
-3. Can Revive Older Computers
-4. Perfect for Programmers
-5. Software Updates
-6. Customization
-7. Variety Of Distributions
-8. Free to Use
-9. Better Community Support
-10. Reliability
-11. Privacy
-
-## Linux Shell or &quot;Terminal&quot;
-
-Shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output. Linux's shell is its main part. Its distros come in GUI (graphical user interface), but basically, Linux has a CLI (command line interface).</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Math Support</title><link href="http://localhost:4000/posts/mathjax/math-support/" rel="alternate" type="text/html" title="Math Support" /><published>2019-07-08T00:00:00+08:00</published><updated>2019-07-08T00:00:00+08:00</updated><id>http://localhost:4000/posts/mathjax/math-support</id><content type="html" xml:base="http://localhost:4000/posts/mathjax/math-support/">You can enable math support through `use_math: true` front matter which enable the MathJax.js rendering.
-
-After enable math support, use `$$ ... $$` displaying math equation.
+&lt;p&gt;After enable math support, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ ... $$&lt;/code&gt; displaying math equation.&lt;/p&gt;
 
 &lt;div&gt;
 &lt;strong&gt;&lt;em&gt;For inline mode&lt;/em&gt;&lt;/strong&gt;
@@ -327,10 +1273,9 @@ After enable math support, use `$$ ... $$` displaying math equation.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;br&gt;
-As an example, the following *code*:
-```
-The Pythagoras' theorem state that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides $$a$$, $$b$$ and
+&lt;p&gt;&lt;br /&gt;
+As an example, the following &lt;em&gt;code&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The Pythagoras' theorem state that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides $$a$$, $$b$$ and
 $$c$$, often called the &quot;Pythagorean equation&quot;:
 
 $$a^2 + b^2 = c^2$$
@@ -344,47 +1289,50 @@ Let the length of diagonal be $$d$$. Apply Pythagoras theorem on the right angle
 
 $$
 \begin{align*}
-x^2 + x^2 &amp;= d^2 \\
-d^2 &amp;= 2x^2 \\
-d &amp;= \sqrt{2}x \tag*{$\blacksquare$}
+x^2 + x^2 &amp;amp;= d^2 \\
+d^2 &amp;amp;= 2x^2 \\
+d &amp;amp;= \sqrt{2}x \tag*{$\blacksquare$}
 \end{align*}
 $$
 
-```
-&lt;br&gt;
-*produces*:
-&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;produces&lt;/em&gt;:&lt;/p&gt;
+&lt;hr /&gt;
 
-The Pythagoras' theorem state that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides $$a$$, $$b$$ and
-$$c$$, often called the &quot;Pythagorean equation&quot;:
+&lt;p&gt;The Pythagoras’ theorem state that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; and
+&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;, often called the “Pythagorean equation”:&lt;/p&gt;
 
-$$a^2 + b^2 = c^2$$
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
 
-where $$c$$ represents the length of the hypotenuse and $$a$$ and $$b$$ the lengths of the triangle's other two sides. `[source: wikipedia]`
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; represents the length of the hypotenuse and &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt; the lengths of the triangle’s other two sides. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[source: wikipedia]&lt;/code&gt;&lt;/p&gt;
 
-This also implies that for any square with side length $$x$$, the length of its diagonal is $$\sqrt{2}x$$.
+&lt;p&gt;This also implies that for any square with side length &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, the length of its diagonal is &lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}x&lt;/script&gt;.&lt;/p&gt;
 
-**_Proof:_** Let the length of diagonal be $$d$$. Apply Pythagoras theorem on the right angle triangle that has the diagonal as hypotenuse, and side of square as the other two side, we have:
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Proof:&lt;/em&gt;&lt;/strong&gt; Let the length of diagonal be &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;. Apply Pythagoras theorem on the right angle triangle that has the diagonal as hypotenuse, and side of square as the other two side, we have:&lt;/p&gt;
 
-$$
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{align*}
 x^2 + x^2 &amp;= d^2 \\
 d^2 &amp;= 2x^2 \\
 d &amp;= \sqrt{2}x \tag*{$\blacksquare$}
-\end{align*}
-$$
+\end{align*} %]]&gt;&lt;/script&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
-**_Reference_**
-- &lt;https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-qu%E2%80%8C%E2%80%8Bick-reference&gt; (MathJax cheatsheet)
-- &lt;https://cdn.rawgit.com/mathjax/MathJax/2.7.1/test/sample-eqnum.html&gt; (some MathJax example)
-- &lt;https://www.mathjax.org/#demo&gt; (test your equation at here)
-- &lt;https://kramdown.gettalong.org/syntax.html#math-blocks&gt; (Kramdown rendering of `$$...$$` to math mode)</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="MathJax" /><summary type="html">You can enable math support through use_math: true front matter which enable the MathJax.js rendering.</summary></entry><entry><title type="html">Welcome to Minimal Mistakes Jekyll</title><link href="http://localhost:4000/posts/update/welcome-to-minimal-mistakes-jekyll/" rel="alternate" type="text/html" title="Welcome to Minimal Mistakes Jekyll" /><published>2019-07-07T00:00:00+08:00</published><updated>2019-07-07T00:00:00+08:00</updated><id>http://localhost:4000/posts/update/welcome-to-minimal-mistakes-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/update/welcome-to-minimal-mistakes-jekyll/">Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of this blog post to be your own OR delete this post and create a new one.
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Reference&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-qu%E2%80%8C%E2%80%8Bick-reference&quot;&gt;https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-qu%E2%80%8C%E2%80%8Bick-reference&lt;/a&gt; (MathJax cheatsheet)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cdn.rawgit.com/mathjax/MathJax/2.7.1/test/sample-eqnum.html&quot;&gt;https://cdn.rawgit.com/mathjax/MathJax/2.7.1/test/sample-eqnum.html&lt;/a&gt; (some MathJax example)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mathjax.org/#demo&quot;&gt;https://www.mathjax.org/#demo&lt;/a&gt; (test your equation at here)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#math-blocks&quot;&gt;https://kramdown.gettalong.org/syntax.html#math-blocks&lt;/a&gt; (Kramdown rendering of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$...$$&lt;/code&gt; to math mode)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="MathJax" /><summary type="html">You can enable math support through use_math: true front matter which enable the MathJax.js rendering.</summary></entry><entry><title type="html">Welcome to Minimal Mistakes Jekyll</title><link href="http://localhost:4000/posts/update/welcome-to-minimal-mistakes-jekyll/" rel="alternate" type="text/html" title="Welcome to Minimal Mistakes Jekyll" /><published>2019-07-07T00:00:00+08:00</published><updated>2019-07-07T00:00:00+08:00</updated><id>http://localhost:4000/posts/update/welcome-to-minimal-mistakes-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/update/welcome-to-minimal-mistakes-jekyll/">&lt;p&gt;Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of this blog post to be your own OR delete this post and create a new one.&lt;/p&gt;
 
-### Things to take note when creating a blog posts
+&lt;h3 id=&quot;things-to-take-note-when-creating-a-blog-posts&quot;&gt;Things to take note when creating a blog posts&lt;/h3&gt;
 
-- Categories and tags are optionals
-- All posts should follow the naming convention `YYYY-MM-DD-name-of-post.md`, look at the name of this file to get the idea
-- It is recommended that the `name-of-post` in the file name to be all lower case  
-- Check this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) out to write your blog posts in markdown</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="jekyll" /><summary type="html">Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of this blog post to be your own OR delete this post and create a new one.</summary></entry></feed>
+&lt;ul&gt;
+  &lt;li&gt;Categories and tags are optionals&lt;/li&gt;
+  &lt;li&gt;All posts should follow the naming convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.md&lt;/code&gt;, look at the name of this file to get the idea&lt;/li&gt;
+  &lt;li&gt;It is recommended that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name-of-post&lt;/code&gt; in the file name to be all lower case&lt;/li&gt;
+  &lt;li&gt;Check this &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Cheatsheet&lt;/a&gt; out to write your blog posts in markdown&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Yueh-Chou Lee</name><email>R06221012@ntu.edu.tw</email></author><category term="jekyll" /><summary type="html">Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of this blog post to be your own OR delete this post and create a new one.</summary></entry></feed>
