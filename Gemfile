@@ -10,4 +10,5 @@ gem 'jekyll-target-blank'
       gem "jekyll-feed"
       gem "jemoji"
       gem "jekyll-target-blank"
+      gem "nokogiri", ">= 1.10.4"
     end
