@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /courses/subjects/real_analysis.html
+permalink: /courses/subjects/Real_analysis.html
 excerpt: "This course is the required subject of the Institute of Mathematics."
 header:
   overlay_image: /images/Mathematics.jpg
