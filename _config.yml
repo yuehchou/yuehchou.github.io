@@ -270,4 +270,5 @@ defaults:
       related: true
       use_math: true
 
+future: true
 github: [metadata]
