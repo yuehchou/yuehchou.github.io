@@ -253,7 +253,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-target-blank
   jemoji
-  nokogiri (>= 1.10.4)
+  nokogiri
 
 BUNDLED WITH
    1.17.2
