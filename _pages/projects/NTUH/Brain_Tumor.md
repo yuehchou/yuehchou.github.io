@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /projects/NTUH/Brain_Tumor.html
-excerpt: This project coperates with Dr. Che-Yu Hsu (NTUH)
+excerpt: This project cooperates with Dr. Che-Yu Hsu (NTUH)
 header:
   overlay_image: /images/projects/NTUH/NTUH.jpg
   overlay_filter: 0.5
