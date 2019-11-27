@@ -33,6 +33,7 @@ It has two major branches, differential calculus and integral calculus. Differen
    * Chapter 6: Applications of Integration<br>
         Note: [11/21](/PDF/courses/TA/Calculus/Note1121.pdf)<br>
    * Chapter 7: Techniques of Integration<br>
+        Note: [11/28](/PDF/courses/TA/Calculus/Note1128.pdf)<br>
    * Chapter 8: Further Applications of Integration<br>
    * Chpater 9: Differential Equations<br>
    * Chapter 10: Parametric Equations and Polar Coordinates<br>
