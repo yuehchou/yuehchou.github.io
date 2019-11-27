@@ -46,11 +46,70 @@ It has two major branches, differential calculus and integral calculus. Differen
    * Chapter 17: Second-Order Differential Equations<br>
 
 ## Announcement
-   * Calculus 1 Module class<br>
-    1. Midterm:<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; Date: November 2, 2019 (Sat.)<br>
+   * **Calculus 1 Module class 07** (2019)<br/>
+    1. Homework 1 (From TA 黃常勛):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw1.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: September 24 (Tue.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: October 3 (Thur.), 2019<br>
+    2. Quiz 1 (From TA 黃常勛):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download solution](/PDF/courses/TA/Calculus/108_1_Q1.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Date: October 3 (Thur.), 2019<br>
+    3. Homework 2 (From TA 鄭楷融):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw2.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: October 8 (Tue.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: October 17 (Thur.), 2019<br>
+    4. Homework 3 (From TA Yuehchou Lee):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw3.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: October 17 (Thur.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: October 24 (Thur.), 2019<br>
+    5. Homework 4 (From TA 陳世昕):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw4.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: October 22 (Tue.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: October 31 (Thur.), 2019<br>
+    6. Quiz 2 (From TA 陳世昕):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download solution](/PDF/courses/TA/Calculus/108_1_Q2.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Date: October 31 (Thur.), 2019<br>
+    7. Final Exam:<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Date: November 2 (Sat.), 2019<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Time: 14:00 - 16:30<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; [Location and more information](/PDF/courses/TA/Calculus/1081Midterm.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Location and more information](/PDF/courses/TA/Calculus/108_1_Final.pdf)<br><br>
+
+   * **Calculus 2 Module class 07** (2019)<br/>
+    1. Homework 1 (From TA 黃常勛):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_2_Hw1.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: November 12(Tue.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: November 21 (Thur.), 2019<br>
+    2. Quiz 1 (From TA 鄭楷融):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download solution]()<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Date: November 28 (Thur.), 2019<br>
+    3. Homework 2 (From TA 鄭楷融):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file]()<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: <br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: <br><br>
+
+
+   * **Calculus 1 A05 Class** (2018)<br/>
+    1. Homework:<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Hw1](/PDF/courses/TA/Calculus/107_1_Hw1.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Hw1_sol.pdf);
+    &nbsp; [Hw2](/PDF/courses/TA/Calculus/107_1_Hw2.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Hw2_sol.pdf);
+    &nbsp; [Hw3](/PDF/courses/TA/Calculus/107_1_Hw3.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Hw3_sol.pdf);
+    &nbsp; [Hw4](/PDF/courses/TA/Calculus/107_1_Hw4.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Hw4_sol.pdf);
+    &nbsp; [Hw5](/PDF/courses/TA/Calculus/107_1_Hw5.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Hw5_sol.pdf)<br>
+    2. Quiz:<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Quiz1](/PDF/courses/TA/Calculus/107_1_Q1.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Q1_sol.pdf);
+    &nbsp; [Quiz2](/PDF/courses/TA/Calculus/107_1_Q2.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Q2_sol.pdf);
+    &nbsp; [Quiz3](/PDF/courses/TA/Calculus/107_1_Q3.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_1_Q3_sol.pdf)<br><br>
+   * **Calculus 2 A05 Class** (2018)<br/>
+    1. Homework:<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Hw1](/PDF/courses/TA/Calculus/107_2_Hw1.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Hw1_sol.pdf);
+    &nbsp; [Hw2](/PDF/courses/TA/Calculus/107_2_Hw2.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Hw2_sol.pdf);
+    &nbsp; [Hw3](/PDF/courses/TA/Calculus/107_2_Hw3.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Hw3_sol.pdf);
+    &nbsp; [Hw4](/PDF/courses/TA/Calculus/107_2_Hw4.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Hw4_sol.pdf);
+    &nbsp; [Hw5](/PDF/courses/TA/Calculus/107_2_Hw5.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Hw5_sol.pdf)<br>
+    2. Quiz:<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Quiz1](/PDF/courses/TA/Calculus/107_2_Q1.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Q1_sol.pdf);
+    &nbsp; [Quiz2](/PDF/courses/TA/Calculus/107_2_Q2.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Q2_sol.pdf);
+    &nbsp; [Quiz3](/PDF/courses/TA/Calculus/107_2_Q3.pdf), &nbsp;[Sol](/PDF/courses/TA/Calculus/107_2_Q3_sol.pdf)<br><br>
 
 
 ## Open Course
@@ -59,6 +118,7 @@ It has two major branches, differential calculus and integral calculus. Differen
 
 
 ## Extension
+   * 微積分統一教學網站: [Link](http://www.math.ntu.edu.tw/~calc/Default.html)<br>
    * Draw Graph Online: [FooPlot](http://fooplot.com/#W3sidHlwZSI6MCwiZXEiOiJ4XjIiLCJjb2xvciI6IiMwMDAwMDAifSx7InR5cGUiOjEwMDB9XQ--), &nbsp;
    [GeoGebra](https://www.geogebra.org/)
 
