@@ -1,0 +1,648 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.8.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>            reveal.js-menu      Yueh-Chou Lee Blog      </title>
+
+
+
+
+<meta name="description" content="Myself blog.">
+
+
+
+
+<meta name="author" content="Yueh-Chou Lee">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Yueh-Chou Lee Blog">
+<meta property="og:title" content="reveal.js-menu">
+
+
+  <link rel="canonical" href="http://localhost:4000/presentation/reveal.js-plugins/menu/">
+  <meta property="og:url" content="http://localhost:4000/presentation/reveal.js-plugins/menu/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Yueh-Chou Lee",
+      "url" : "http://localhost:4000",
+      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yuehchoulee/"]
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Yueh-Chou Lee Blog Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [],
+      displayMath: [],
+      processEscapes: false,
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Yueh-Chou Lee Blog</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about/">About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/posts/">Posts</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/projects/">Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/courses/">Courses</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="http://localhost:4000/images/SelfPhoto.jpg" alt="Yueh-Chou Lee" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Yueh-Chou Lee</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Master Student<br> Mathematics<br> National Taiwan University
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Taiwan</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:R06221012@ntu.edu.tw">
+            <meta itemprop="email" content="R06221012@ntu.edu.tw">
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100000499267906" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+            <i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/yuehchoulee" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="reveal.js-menu">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">reveal.js-menu
+</h1>
+          <p class="page__meta">
+            
+            
+          </p>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="revealjs-menu">reveal.js-menu</h1>
+
+<p>A slideout menu plugin for <a href="https://github.com/hakimel/reveal.js" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Reveal.js</a> to quickly jump to any slide by title. Also optionally change the theme and set the default transition. <a href="https://denehyg.github.io/reveal.js-menu" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Check out the live demo</a></p>
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="bower">Bower</h3>
+
+<p>Download and install the package in your project:</p>
+
+<p><code class="language-plaintext highlighter-rouge">bower install reveal.js-menu</code></p>
+
+<p>Add the plugin to the dependencies in your presentation, as below.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+	  
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">bower_components/reveal.js-menu/menu.js</span><span class="dl">'</span> <span class="p">}</span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h3 id="manual">Manual</h3>
+
+<p>Copy this repository into the plugins folder of your reveal.js presentation, ie <code class="language-plaintext highlighter-rouge">plugins/menu</code>.</p>
+
+<p>Add the plugin to the dependencies in your presentation, as below.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+	  
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">plugin/menu/menu.js</span><span class="dl">'</span> <span class="p">}</span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>You can configure the menu for your presentation by providing a <code class="language-plaintext highlighter-rouge">menu</code> option in the reveal.js initialization options. Note that all config values are optional and will default as specified below.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+
+	<span class="na">menu</span><span class="p">:</span> <span class="p">{</span>
+		<span class="c1">// Specifies which side of the presentation the menu will </span>
+		<span class="c1">// be shown. Use 'left' or 'right'.</span>
+		<span class="na">side</span><span class="p">:</span> <span class="dl">'</span><span class="s1">left</span><span class="dl">'</span><span class="p">,</span>
+
+		<span class="c1">// Add slide numbers to the titles in the slide list.</span>
+		<span class="c1">// Use 'true' or format string (same as reveal.js slide numbers)</span>
+		<span class="na">numbers</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+
+		<span class="c1">// Specifies which slide elements will be used for generating</span>
+		<span class="c1">// the slide titles in the menu. The default selects the first</span>
+		<span class="c1">// heading element found in the slide, but you can specify any</span>
+		<span class="c1">// valid css selector and the text from the first matching</span>
+		<span class="c1">// element will be used.</span>
+		<span class="c1">// Note: that a section data-menu-title attribute or an element</span>
+		<span class="c1">// with a menu-title class will take precedence over this option</span>
+		<span class="na">titleSelector</span><span class="p">:</span> <span class="dl">'</span><span class="s1">h1, h2, h3, h4, h5, h6</span><span class="dl">'</span><span class="p">,</span>
+
+		<span class="c1">// Hide slides from the menu that do not have a title.</span>
+		<span class="c1">// Set to 'true' to only list slides with titles.</span>
+		<span class="na">hideMissingTitles</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+
+		<span class="c1">// Add markers to the slide titles to indicate the </span>
+		<span class="c1">// progress through the presentation</span>
+		<span class="na">markers</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+
+		<span class="c1">// Specify custom panels to be included in the menu, by</span>
+		<span class="c1">// providing an array of objects with 'title', 'icon'</span>
+		<span class="c1">// properties, and either a 'src' or 'content' property.</span>
+		<span class="na">custom</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+
+		<span class="c1">// Specifies the themes that will be available in the themes</span>
+		<span class="c1">// menu panel. Set to 'false' to hide themes panel.</span>
+		<span class="na">themes</span><span class="p">:</span> <span class="p">[</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Black</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/black.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">White</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/white.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">League</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/league.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Sky</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/sky.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Beige</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/beige.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Simple</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/simple.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Serif</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/serif.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Blood</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/blood.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Night</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/night.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Moon</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/moon.css</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Solarized</span><span class="dl">'</span><span class="p">,</span> <span class="na">theme</span><span class="p">:</span> <span class="dl">'</span><span class="s1">css/theme/solarized.css</span><span class="dl">'</span> <span class="p">}</span>
+		<span class="p">],</span>
+
+		<span class="c1">// Specifies if the transitions menu panel will be shown.</span>
+		<span class="na">transitions</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+
+		<span class="c1">// Adds a menu button to the slides to open the menu panel.</span>
+		<span class="c1">// Set to 'false' to hide the button.</span>
+		<span class="na">openButton</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+
+		<span class="c1">// If 'true' allows the slide number in the presentation to</span>
+		<span class="c1">// open the menu panel. The reveal.js slideNumber option must </span>
+		<span class="c1">// be displayed for this to take effect</span>
+		<span class="na">openSlideNumber</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+
+		<span class="c1">// If true allows the user to open and navigate the menu using</span>
+		<span class="c1">// the keyboard. Standard keyboard interaction with reveal</span>
+		<span class="c1">// will be disabled while the menu is open.</span>
+		<span class="na">keyboard</span><span class="p">:</span> <span class="kc">true</span>
+	<span class="p">},</span>
+
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h2 id="slide-titles">Slide Titles</h2>
+
+<p>The slide titles used in the menu can be supplied explicitly or are taken directly from the presentation, using the following rules…</p>
+
+<h6 id="1-the-sections-data-menu-title-attribute">1. The section’s <code class="language-plaintext highlighter-rouge">data-menu-title</code> attribute.</h6>
+<p>If the slide’s section element contains a <code class="language-plaintext highlighter-rouge">data-menu-title</code> attribute this will be used for the slide title in the menu. For example…</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section</span> <span class="na">data-menu-title=</span><span class="s">"Custom Menu Title"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;h1&gt;</span>Title<span class="nt">&lt;/h1&gt;</span>
+	<span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<h6 id="2-any-element-with-the-class-menu-title">2. Any element with the class <code class="language-plaintext highlighter-rouge">menu-title</code>.</h6>
+<p>If the slide’s section contains an element with the class <code class="language-plaintext highlighter-rouge">menu-title</code> then the element’s text will be used for the title. The first such element found will be used if there are more than one. Note the element need not be displayed to be used. For example…</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section&gt;</span>
+	<span class="nt">&lt;h1&gt;</span>Title<span class="nt">&lt;/h1&gt;</span>
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"menu-title"</span> <span class="na">style=</span><span class="s">"display: none"</span><span class="nt">&gt;</span>Custom Menu Title<span class="nt">&lt;/span&gt;</span>
+	<span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<h6 id="3-the-first-heading-found-or-a-custom-element-selector">3. The first heading found or a custom element selector</h6>
+<p>The <code class="language-plaintext highlighter-rouge">titleSelector</code> option can be used to customise the elements that will be used to generate the slide titles in the menu. The default option selects the first heading element found in the slide. For example…</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section&gt;</span>
+	<span class="nt">&lt;h3&gt;</span>This will be the slide title in the menu<span class="nt">&lt;/h3&gt;</span>
+	<span class="nt">&lt;h1&gt;</span>Title<span class="nt">&lt;/h1&gt;</span>
+	<span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<p>Any valid CSS selector should work but note the selector will only be applied to elements contained within the slide section. You could use the <code class="language-plaintext highlighter-rouge">'h1'</code> selector to only use level 1 headings or <code class="language-plaintext highlighter-rouge">'p'</code> to use the first paragraph element. For example, <code class="language-plaintext highlighter-rouge">titleSelector: 'p.lead'</code> would be used like this…</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section&gt;</span>
+	<span class="nt">&lt;h1&gt;</span>Title<span class="nt">&lt;/h1&gt;</span>
+	<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"lead"</span><span class="nt">&gt;</span>This will be the slide title in the menu<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<p>Using <code class="language-plaintext highlighter-rouge">titleSelector: ''</code> will ignore all elements and no title will be provided, unless the slide section contains a <code class="language-plaintext highlighter-rouge">data-menu-title</code> attribute or an element with the <code class="language-plaintext highlighter-rouge">menu-title</code> class.</p>
+
+<h6 id="4-no-title-is-provided">4. No title is provided</h6>
+<p>If no title can be found using the above methods, a default title incorporating the slide number will be used. For example, the following would result in a slide title in the format of ‘Slide 12’…</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;section&gt;</span>
+	<span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div></div>
+
+<p>If the <code class="language-plaintext highlighter-rouge">hideMissingTitles</code> option is set to <code class="language-plaintext highlighter-rouge">true</code>, however, the slide will not be listed in the menu.</p>
+
+<h2 id="custom-menu-panels">Custom Menu Panels</h2>
+
+<p>Additional custom panels can be added the menu using the <code class="language-plaintext highlighter-rouge">custom</code> option.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+
+	<span class="na">menu</span><span class="p">:</span> <span class="p">{</span>
+		<span class="c1">// ...</span>
+
+		<span class="na">custom</span><span class="p">:</span> <span class="p">[</span>
+			<span class="p">{</span> <span class="na">title</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Links</span><span class="dl">'</span><span class="p">,</span> <span class="na">icon</span><span class="p">:</span> <span class="dl">'</span><span class="s1">&lt;i class="fa fa-external-link"&gt;</span><span class="dl">'</span><span class="p">,</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">links.html</span><span class="dl">'</span> <span class="p">},</span>
+			<span class="p">{</span> <span class="na">title</span><span class="p">:</span> <span class="dl">'</span><span class="s1">About</span><span class="dl">'</span><span class="p">,</span> <span class="na">icon</span><span class="p">:</span> <span class="dl">'</span><span class="s1">&lt;i class="fa fa-info"&gt;</span><span class="dl">'</span><span class="p">,</span> <span class="na">content</span><span class="p">:</span> <span class="dl">'</span><span class="s1">&lt;p&gt;This slidedeck is created with reveal.js&lt;/p&gt;</span><span class="dl">'</span> <span class="p">}</span>
+		<span class="p">]</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">title</code> and <code class="language-plaintext highlighter-rouge">icon</code> are used for the toolbar buttons at the top of the menu. There are two approaches you can use to provide content for the panels…</p>
+
+<ul>
+  <li>Provide html in <code class="language-plaintext highlighter-rouge">content</code> and this will be added to the custom panel.</li>
+  <li>You can also provide a URL in <code class="language-plaintext highlighter-rouge">src</code> to load html from another file.</li>
+</ul>
+
+<h6 id="custom-slide-menu-items">Custom slide menu items</h6>
+
+<p>You can provide menu items in your custom panels using the following format. This allows you to define your own navigation links for your presentation.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>Links<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"slide-menu-items"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"slide-menu-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#/transitions"</span><span class="nt">&gt;</span>Transitions<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"slide-menu-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#/13"</span><span class="nt">&gt;</span>Code highlighting<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>You are not limited to linking to presentation slides. You can provide any link you wish.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>External Links<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"slide-menu-items"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"slide-menu-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://github.com/denehyg/reveal.js-menu"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Reveal.js-menu<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"slide-menu-item"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://github.com/hakimel/reveal.js"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Reveal.js<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>Using menu items enables keyboard navigation of your links as with the other panels. However, you don’t have to use menu items for your links. You can simply provide standard links and unordered lists in your html. Notice you can provide your custom menu items mixed with other html if you wish.</p>
+
+<h2 id="license">License</h2>
+
+<p>MIT licensed</p>
+
+<p>Copyright (C) 2015 Greg Denehy</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+  <input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  <div id="results" class="results"></div>
+</div>
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2019 Yueh-Chou Lee. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank" class="css-class-one css-class-two">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank" class="css-class-one css-class-two">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+  <script src="http://localhost:4000/assets/js/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/js/lunr-en.js"></script>
+
+
+
+
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>

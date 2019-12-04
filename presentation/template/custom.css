@@ -1,0 +1,30 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+  /* margin-top: 100px; */
+}
+
+.reveal section img {
+    background:none;
+    border:none;
+    box-shadow:none;
+}
+
+
+/* ref: https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js#answer-44392145 */
+.columns {
+    display: flex;
+}
+.col {
+    flex: 1;
+}
+
+
+/* fix position for better interaction on mobile devices */
+/* html { */
+/*     position: fixed; */
+/* } */

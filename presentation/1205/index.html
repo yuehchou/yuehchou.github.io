@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>RandAugment: Practical automated data augmentation with a reduced search space</title>
+
+		<link rel="stylesheet" href="../reveal.js/css/reset.css">
+		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../reveal.js/lib/css/monokai.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+        <link rel="stylesheet" href="../template/custom.css">
+
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+                <section class="title-slide" data-background="../template/banner.png">
+                    <h1 style="text-align:left; color:black">
+                        RandAugment:<br>
+                    </h1>
+                    <h2 style="text-align:left; color:black">
+                        Practical automated data augmentation with a reduced search space
+                        <br><br>
+                        <br><br>
+                        <br>
+                    </h2>
+                    <div style="position:absolute; bottom: 5%; right:5%">
+                        <h4 style="text-align:right; color:black">
+                            Ekin D. Cubuk, Barret Zoph, Jonathon Shlens, Quoc V. Le
+                        </h4><br>
+                        <h6 style="text-align:right; color:black"><em>
+                            Yuehchou Lee<br>
+                            National Taiwan University, Mathematics
+                        </em></h6>
+                    </div>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Introduction</h1>
+                    </section>
+                    <section >
+                        <h3>The reasons why I choose this paper:</h3><br>
+                        <ul>
+                            <li class="fragment">Lack of our dataset (Brain tumor, hypopharyngeal cancer and hepatocellular carcinoma)</li><br>
+                            <li class="fragment">Widely used method for generating additional data</li><br>
+                            <li class="fragment">Simplifying the process of adjusting parameters</li><br>
+                            <li class="fragment">Recently published (14 Nov. 2019)</li><br>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Pervious Publication (AutoAugment)</h2><br>
+                        <h3 style="position:absolute; left:10%">Disadvantage:</h3><br><br>
+                            <ul>
+                                <li class="fragment">
+                                    Rapidly increasing training complexity and computing time
+                                </li><br>
+                                <li class="fragment">
+                                    NOT flexibly adjusting parameters
+                                </li>
+                            </ul>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>RandAugmentation Matches or Exceeds Predictive Performance of Other Augmentation Methods</h3>
+                        <img src="pic/Table1.png" width="70%"/><br>
+                            <small>
+                                AA: AutoAugment,
+                                Fast AA: Fast AutoAugment,
+                                PBA: Population Based Augmentation,
+                                RA:  RandAugment
+                            </small>
+                    </section>
+                    <section>
+                        <h3>Contributions of Their Team</h3><br>
+                        <ul>
+                            <li class="fragment">
+                                Demonstrate that the optimal strength of a data augmentation depends on the model size and training set size
+                                </i><br><br>
+                            <li class="fragment">
+                                Introduce a vastly simplified search space for data augmentation containing 2 interpretable hyperparameters
+                                </i><br><br>
+                            <li class="fragment">
+                                Demonstrate state-of-the-art results on CIFAR, SVHN, and ImageNet
+                                </i><br>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Methods</h1>
+                    </section>
+                    <section>
+                        <h2>Augmentation Policies (K = 14)</h2><br>
+                        <div class="fragment" style="position:absolute; left:16.5%"><p align="left">
+                            1. identity &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            2. autoContrast &nbsp; &nbsp;
+                            3. equalize<br>
+                            4. rotate &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            5. solarize &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            6. color<br>
+                            7. posterize &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            8. contrast &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            9. brightness<br>
+                            10. sharpness &nbsp; &nbsp; &nbsp;
+                            11. shear-x &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            12. shear-y<br>
+                            13. translate-x &nbsp; &nbsp; 14. translate-y
+                        </p></div>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>Python Code for RandAugment Based on Numpy</h3>
+                        <img src="pic/Figure2.png" width="40%"/><br>
+                        <div class="fragment">
+                            <font color="red">
+                                So RandAugmentation may express "$K^N$" potential policies!
+                            </font>
+                        </div>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h4>Fixed $N = 2$ with $M = 9, 17, 28$ (Magnitude)</h4>
+                        <img src="pic/Figure1.png" width="50%"/>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>Operation Magnitudes Increase Rapidly in the Initial Phase of Training</h3>
+                        <img src="pic/range_M.png" width="45%"/><br>
+                        <div class="fragment">
+                            <font color="red">
+                                The sum of all magnitude values are between $0 \sim 10$!
+                            </font>
+                        </div>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>Normalized Plot of Operation Probability Parameters over Time</h3>
+                        <img src="pic/prob_policies.png" width="45%"/><br>
+                    </section>
+                    <section>
+                        <h4>Policies Will be (Operation, Probability, Magnitude)</h4><br><br>
+                        <div class="fragment">
+                            <h4 style="position:absolute; left:10%">For example,</h4><br>
+                            <pre class="brush: python">
+                                policies = [('ShearX', 0.6, 2), ...]
+                            </pre>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Results</h1>
+                    </section>
+                    <section>
+                        <h2>CIFAR and SVHN</h2>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>Test Accuracy (%) on CIFAR-10, CIFAR-100, SVHN and SVHN Core Set</h3>
+                        <img src="pic/Table2.png" width="50%"/><br>
+                            <small>
+                                AA: AutoAugment,
+                                Fast AA: Fast AutoAugment,
+                                PBA: Population Based Augmentation,
+                                RA:  RandAugment
+                            </small>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h4>Optimal Magnitude of Augmentation</h4>
+                        <img src="pic/Figure3.png" width="42.5%"/>
+                        <div style="position:absolute; left:2.5%">
+                            <p align="left"><small>
+                                (a) Accuracy of Wide-ResNet-28-2, Wide-ResNet-28-7,
+                                and Wide-ResNet-28-10 across varying distortion magnitudes<br>
+                                (b) Optimal distortion magnitude across 7 Wide-ResNet-28 architectures
+                                with varying widening parameters (k)<br>
+                                (c) Accuracy of Wide-ResNet-28-10 for three training set sizes
+                                (1K, 4K, and 10K) across varying distortion magnitudes<br>
+                                (d) Optimal distortion magnitude across 8 training set sizes<br>
+                            </small></p>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>ImageNet</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>ImageNet Results</h3><br>
+                        <img src="pic/ImageNet.png" width="70%"/><br>
+                        <small>
+                            Note: Population Based Augmentation (PBA)  has not been implemented on
+                            ImageNet.
+                        </small><br><br>
+                        <div class="fragment">
+                            <font color="red">
+                                The performance of RandAugmentation on ImageNet is best!!
+                            </font>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>COCO</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>Results on Object Detection (COCO)</h3><br>
+                        <img src="pic/COCO.png" width="50%"/><br>
+                        <small>
+                            mAP: Mean average precision
+                        </small>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Discussion</h1>
+                    </section>
+                    <section>
+                        <h2>Open Quetion</h2><br>
+                        <div class="fragment">
+                            How one may tailor the set of transformations to a given tasks in order to further improve the predictive performance of a given model?
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>My Implementation</h1>
+                    </section>
+                    <section>
+                        <h2>The things what I have changed:</h2><br>
+                        <ul >
+                            <li class="fragment">
+                                Convert RGB to Grayscale
+                            </li><br>
+                            <li class="fragment">
+                                Allow to augmenting 3D images
+                            </li><br>
+                            <li class="fragment">
+                                Upgrade tensorflow "v1" to "v2.0"
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Preliminary Results</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Contrast</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Solarize</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Brightness</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Shaprpness</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Poserize</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Equalize</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Translate</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Shear</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Rotate</h2><br>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h2>Color</h2><br>
+                        <div class="fragment" style="text-align:left">
+                            <b>Function:</b><br>
+                            &nbsp; &nbsp; Converting RGB images to grayscale images, then converting grayscale images to RGB images
+                        </div><br>
+                        <div class="fragment">
+                            <font color="red">
+                                <b>We will NOT use this function!!<br>Since medical images are grayscale</b>
+                            </font>
+                        <div>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Future Works</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <h3>
+                            The things what I will continue to complete:
+                        </h3><br>
+                        <ul>
+                            <li class="fragment">
+                                Modify the function of randomly adjusting parameters to fit our task
+                            </li><br>
+                            <li class="fragment">
+                                Test what's the better range of parameters for our task
+                            </li><br>
+                            <li class="fragment">
+                                Augment our dataset to improve the accuracy of segmentation tumor
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Related Link</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li><a href="https://arxiv.org/abs/1909.13719">
+                                    RandAugment: Practical automated data augmentation with a reduced search space<br>
+                                <em><small>Ekin D. Cubuk, Barret Zoph, Jonathon Shlens, Quoc V. Le</small></em>
+                                </a></li>
+                            <li><a href="https://github.com/tensorflow/tpu/blob/master/models/official/efficientnet/autoaugment.py">
+                                    Source Code<br>
+                                <em><small>Barret Zoph</small></em>
+                                </a></li>
+                            <li><a href="https://arxiv.org/abs/1805.09501">
+                                AutoAgment: Learning Augmentation Strategies from Data<br>
+                                <em><small>Ekin D. Cubuk, Barret Zoph, Dandelion Mane, Vijay Vasudevan, Quoc V. Le</small></em>
+                                </a></li>
+                            <li><a href="https://arxiv.org/abs/1905.00397">
+                                Fast AutoAugmentation<br>
+                                <em><small>Sungbin Lim, Ildoo Kim, Taesup Kim, Chiheon Kim, Sungwoong Kim</small></em>
+                            </a></li>
+                            <li><a href="https://arxiv.org/abs/1905.05393">
+                                Population Based Augmentation: Efficient Learning of Augmentation Policy Schedules<br>
+                                <em><small>Daniel Ho, Eric Liang, Ion Stoica, Pieter Abbeel, Xi Chen</small></em>
+                            </a></li>
+                        </ul>
+                    </section>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="../reveal.js/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+                history: true,
+                slideNumber: true,
+                mouseWheel: true,
+                width: "90%",
+                height: "90%",
+                pdfSeparateFragments: false,
+                <!-- width: 1024, -->
+                <!-- height: 640, -->
+                margin: 0.1,
+				dependencies: [
+					{ src: '../reveal.js/plugin/markdown/marked.js' },
+					{ src: '../reveal.js/plugin/markdown/markdown.js' },
+					{ src: '../reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '../reveal.js/plugin/highlight/highlight.js', async: true },
+                    { src: '../reveal.js/plugin/math/math.js', async: true },
+                    { src: '../reveal.js-plugins/chalkboard/chalkboard.js', async: true }
+				],
+			});
+		</script>
+	</body>
+</html>

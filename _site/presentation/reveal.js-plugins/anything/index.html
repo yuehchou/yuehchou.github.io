@@ -1,0 +1,680 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.8.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>            Anything      Yueh-Chou Lee Blog      </title>
+
+
+
+
+<meta name="description" content="Myself blog.">
+
+
+
+
+<meta name="author" content="Yueh-Chou Lee">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Yueh-Chou Lee Blog">
+<meta property="og:title" content="Anything">
+
+
+  <link rel="canonical" href="http://localhost:4000/presentation/reveal.js-plugins/anything/">
+  <meta property="og:url" content="http://localhost:4000/presentation/reveal.js-plugins/anything/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Yueh-Chou Lee",
+      "url" : "http://localhost:4000",
+      "sameAs" : ["https://www.facebook.com/profile.php?id=100000499267906","https://www.linkedin.com/in/yuehchoulee/"]
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Yueh-Chou Lee Blog Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [],
+      displayMath: [],
+      processEscapes: false,
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Yueh-Chou Lee Blog</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about/">About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/posts/">Posts</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/projects/">Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/courses/">Courses</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="http://localhost:4000/images/SelfPhoto.jpg" alt="Yueh-Chou Lee" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Yueh-Chou Lee</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Master Student<br> Mathematics<br> National Taiwan University
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Taiwan</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:R06221012@ntu.edu.tw">
+            <meta itemprop="email" content="R06221012@ntu.edu.tw">
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100000499267906" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+            <i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/yuehchoulee" itemprop="sameAs" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">
+            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Anything">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Anything
+</h1>
+          <p class="page__meta">
+            
+            
+          </p>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="anything">Anything</h1>
+
+<p>A plugin for <a href="https://github.com/hakimel/reveal.js" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Reveal.js</a> allowing to add anything inside an HTML object using a JSON string and a javascript function. 
+The plugin allows you to define a class for which the content of all HTML object of this class will be modified by a given javascript function. 
+Inside the HTML object you can provide a comment containing a JSON string that will be used by function to customise the content.</p>
+
+<p><a href="https://rajgoel.github.io/reveal.js-demos/anything-demo.html" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Check out the live demo</a></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Copy the files <code class="language-plaintext highlighter-rouge">anything.js</code> into the plugin folder of your reveal.js presentation, i.e. <code class="language-plaintext highlighter-rouge">plugin/anything</code>.</p>
+
+<p>Add the plugins to the dependencies in your presentation, as below.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">plugin/anything/anything.js</span><span class="dl">'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<h2 id="configuration--basic-usage">Configuration &amp; basic usage</h2>
+
+<p>The plugin can be configured by providing an <code class="language-plaintext highlighter-rouge">anything</code> option containing an array of <code class="language-plaintext highlighter-rouge">className</code>, <code class="language-plaintext highlighter-rouge">defaults</code>, and <code class="language-plaintext highlighter-rouge">f</code> within the reveal.js initialization options.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+	  <span class="na">className</span><span class="p">:</span> <span class="dl">"</span><span class="s2">random</span><span class="dl">"</span><span class="p">,</span> 
+	  <span class="na">defaults</span><span class="p">:</span> <span class="p">{</span><span class="na">min</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="na">max</span><span class="p">:</span> <span class="mi">9</span><span class="p">},</span> 
+	  <span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> 
+	    <span class="nx">container</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">trunc</span><span class="p">(</span> <span class="nx">options</span><span class="p">.</span><span class="nx">min</span> <span class="o">+</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="p">(</span><span class="nx">options</span><span class="p">.</span><span class="nx">max</span><span class="o">-</span><span class="nx">options</span><span class="p">.</span><span class="nx">min</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">);</span> 
+	    <span class="p">})</span> 
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+</code></pre></div></div>
+
+<p>With the above configuration the plugin searches for all HTML object with class <code class="language-plaintext highlighter-rouge">random</code>. 
+For each of the HTML objects it checks whether there is a JSON string within a comment inside the HTML object.
+Then, it calls the function <code class="language-plaintext highlighter-rouge">function(container, options)</code> where <code class="language-plaintext highlighter-rouge">container</code> is the HTML object and <code class="language-plaintext highlighter-rouge">options</code> is the JSON string.
+It is possible to specify the <code class="language-plaintext highlighter-rouge">defaults</code> parameter to be used if no JSON string is provided or not all values required by the function are given in the JSON string.</p>
+
+<p>The code</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's winning 3 digit number is : 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+<p>produces the output</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's winning 3 digit number is : 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>8<span class="nt">&lt;/span&gt;</span>, 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>0<span class="nt">&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+<p>The code</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's roll of a die is: 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span><span class="c">&lt;!-- { "min": 1, "max": 6 } --&gt;</span><span class="nt">&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+<p>produces the output</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	Today's roll of a die is: 
+	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"random"</span><span class="nt">&gt;</span>4<span class="nt">&lt;/span&gt;</span>.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h2 id="advanced-usage">Advanced usage</h2>
+
+<p>The plugin can be used to easily integrate external javascript libraries.</p>
+
+<h3 id="chartsjs">Charts.js</h3>
+
+<p>With the plugin charts created by <a href="http://www.chartjs.org/" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Chart.js v2.0</a> can easily be  included in the slides.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+		<span class="na">className</span><span class="p">:</span> <span class="dl">"</span><span class="s2">chart</span><span class="dl">"</span><span class="p">,</span>  
+		<span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> <span class="nx">container</span><span class="p">.</span><span class="nx">chart</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Chart</span><span class="p">(</span><span class="nx">container</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="dl">"</span><span class="s2">2d</span><span class="dl">"</span><span class="p">),</span> <span class="nx">options</span><span class="p">);</span>  <span class="p">})</span>
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Chart.min.js</span><span class="dl">'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">plugin/anything/anything.js</span><span class="dl">'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>A chart can be included in a slide by adding a <code class="language-plaintext highlighter-rouge">canvas</code> element and a JSON string specifying the chart options.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;canvas</span> <span class="na">class=</span><span class="s">"chart stretch"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+{
+ "type": "line",
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets":[
+   {
+    "data":[" 65"," 59"," 80"," 81"," 56"," 55"," 40"],
+    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[" 28"," 48"," 40"," 19"," 86"," 27"," 90"],
+    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ }, 
+ "options": { "responsive": "true" }
+}
+--&gt;</span>
+<span class="nt">&lt;/canvas&gt;</span>
+</code></pre></div></div>
+<p>Note, that the <a href="https://github.com/rajgoel/reveal.js-plugins/tree/master/chart" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Chart  plugin</a> provides an easier way to use Chart.js.</p>
+
+<h3 id="function-plotjs">Function-plot.js</h3>
+
+<p>With the plugin plots of functions created by <a href="https://github.com/maurizzzio/function-plot" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">Function-plot.js</a> can easily be  included in the slides.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+		<span class="na">className</span><span class="p">:</span> <span class="dl">"</span><span class="s2">plot</span><span class="dl">"</span><span class="p">,</span>
+		<span class="na">defaults</span><span class="p">:</span> <span class="p">{</span><span class="na">width</span><span class="p">:</span><span class="mi">500</span><span class="p">,</span> <span class="na">height</span><span class="p">:</span> <span class="mi">500</span><span class="p">,</span> <span class="na">grid</span><span class="p">:</span><span class="kc">true</span><span class="p">},</span>
+		<span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> <span class="nx">options</span><span class="p">.</span><span class="nx">target</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">#</span><span class="dl">"</span><span class="o">+</span><span class="nx">container</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span> <span class="nx">functionPlot</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">})</span>
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">reveal.js-plugins/function-plot/site/js/vendor/jquery-1.11.2.min.js</span><span class="dl">'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">reveal.js-plugins/function-plot/site/js/vendor/d3.js</span><span class="dl">'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">reveal.js-plugins/function-plot/site/js/function-plot.js</span><span class="dl">'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">plugin/anything/anything.js</span><span class="dl">'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>A plot can be included in a slide by adding a <code class="language-plaintext highlighter-rouge">div</code> element and a JSON string specifying the options.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"plot"</span> <span class="na">id=</span><span class="s">"myplot1"</span> <span class="na">style=</span><span class="s">"background-color:#fff; width:800px; height:400px; margin: 0 auto;"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+{
+ "target":"#myplot1",
+ "height":400,
+ "width":"800",
+ "xAxis":{"domain":[-10,10]},
+ "yAxis":{"domain":[-5,5]},
+ "grid":true,
+ "data":[{"fn":"sin(x)","color":"darkred"}]
+}
+--&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>With the above <code class="language-plaintext highlighter-rouge">defaults</code>, the input can be eased, e.g.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"plot"</span> <span class="na">id=</span><span class="s">"myplot2"</span> <span class="na">style=</span><span class="s">"background-color:#fff; width:500px; height:500px; margin: 0 auto;"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+ {
+  "xAxis": {"domain": ["-10", "10"]},
+  "yAxis": {"domain": ["0", "10"]},
+  "data": [{ "fn": "10 -x * x/10" }]
+}
+--&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<h2 id="more-advanced-usage">More advanced usage</h2>
+
+<p>The plugin allows to define functions within the JSON options.</p>
+
+<h3 id="example">Example</h3>
+
+<p>In the following example, the function <code class="language-plaintext highlighter-rouge">options.initialize(container)</code> is called for each element of the class <code class="language-plaintext highlighter-rouge">anything</code>. The function  is defined within the JSON string.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Reveal</span><span class="p">.</span><span class="nx">initialize</span><span class="p">({</span>
+	<span class="c1">// ...</span>
+	<span class="na">anything</span><span class="p">:</span> <span class="p">[</span> 
+	 <span class="p">{</span>
+		<span class="na">className</span><span class="p">:</span> <span class="dl">"</span><span class="s2">anything</span><span class="dl">"</span><span class="p">,</span>
+		<span class="na">initialize</span><span class="p">:</span> <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">container</span><span class="p">,</span> <span class="nx">options</span><span class="p">){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">options</span> <span class="o">&amp;&amp;</span> <span class="nx">options</span><span class="p">.</span><span class="nx">initialize</span><span class="p">)</span> <span class="p">{</span> <span class="nx">options</span><span class="p">.</span><span class="nx">initialize</span><span class="p">(</span><span class="nx">container</span><span class="p">)}</span> <span class="p">})</span>
+	 <span class="p">},</span>
+	 <span class="c1">// ...</span>
+	<span class="p">],</span>
+	<span class="na">dependencies</span><span class="p">:</span> <span class="p">[</span>
+		<span class="c1">// ... </span>
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">reveal.js-plugins/anything/d3/d3.v3.min.js</span><span class="dl">'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">reveal.js-plugins/anything/d3/topojson.v1.min.js</span><span class="dl">'</span> <span class="p">},</span>				
+		<span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">'</span><span class="s1">plugin/anything/anything.js</span><span class="dl">'</span> <span class="p">},</span>
+		<span class="c1">// ... </span>
+	<span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>The <a href="d3js.org">d3.js</a> library can now be used to draw a <a href="http://bl.ocks.org/mbostock/ba63c55dd2dbc3ab0127" target="_blank" rel="noopener noreferrer" class="css-class-one css-class-two">globe</a> within a canvas element.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;canvas</span> <span class="na">width=</span><span class="s">500</span> <span class="na">height=</span><span class="s">500</span> <span class="na">class=</span><span class="s">"anything"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!--
+{
+  "initialize": "function(container) { 
+	var width = container.width,
+	    height = container.height;
+	var radius = height / 2 - 5,
+	    scale = radius,
+	    velocity = .02;
+	var projection = d3.geo.orthographic()
+	    .translate([width / 2, height / 2])
+	    .scale(scale)
+	    .clipAngle(90);
+	var context = container.getContext('2d');
+	var path = d3.geo.path()
+	    .projection(projection)
+	    .context(context);
+
+	d3.json('reveal.js-plugins/anything/d3/world-110m.json', function(error, world) {
+	  if (error) throw error;
+	  var land = topojson.feature(world, world.objects.land);
+	  d3.timer(function(elapsed) {
+	    context.clearRect(0, 0, width, height);
+	    projection.rotate([velocity * elapsed, 0]);
+	    context.beginPath();
+	    path(land);
+	    context.fillStyle = '#fff';
+	    context.fill();
+	    context.beginPath();
+	    context.arc(width / 2, height / 2, radius, 0, 2 * Math.PI, true);
+	    context.lineWidth = 2.5;
+	    context.strokeStyle = '#fff';
+	    context.stroke();
+	  });
+	});
+	d3.select(self.frameElement).style('height', height + 'px');
+
+    }"
+}
+--&gt;</span>
+<span class="nt">&lt;/canvas&gt;</span>
+</code></pre></div></div>
+
+<h2 id="license">License</h2>
+
+<p>MIT licensed</p>
+
+<p>Copyright (C) 2016 Asvin Goel</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+  <input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  <div id="results" class="results"></div>
+</div>
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2019 Yueh-Chou Lee. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank" class="css-class-one css-class-two">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank" class="css-class-one css-class-two">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+  <script src="http://localhost:4000/assets/js/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/js/lunr-en.js"></script>
+
+
+
+
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
