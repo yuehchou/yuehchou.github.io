@@ -33,7 +33,7 @@ It has two major branches, differential calculus and integral calculus. Differen
    * Chapter 6: Applications of Integration<br>
         Note: [11/21](/PDF/courses/TA/Calculus/Note1121.pdf)<br>
    * Chapter 7: Techniques of Integration<br>
-        Note: [11/28](/PDF/courses/TA/Calculus/Note1128.pdf)<br>
+        Note: [11/28](/PDF/courses/TA/Calculus/Note1128.pdf), &nbsp;[12/5](/PDF/courses/TA/Calculus/Note1205.pdf)<br>
    * Chapter 8: Further Applications of Integration<br>
    * Chpater 9: Differential Equations<br>
    * Chapter 10: Parametric Equations and Polar Coordinates<br>
@@ -75,17 +75,21 @@ It has two major branches, differential calculus and integral calculus. Differen
     &nbsp; &nbsp; &nbsp; &nbsp; [Location and more information](/PDF/courses/TA/Calculus/108_1_Final.pdf)<br><br>
 
    * **Calculus 2 Module class 07** (2019)<br/>
-    1. Homework 1 (From TA 黃常勛):<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_2_Hw1.pdf)<br>
+    1. Homework 5 (From TA 黃常勛):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw5.pdf)<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Announce: November 12(Tue.), 2019<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Deadline: November 21 (Thur.), 2019<br>
-    2. Quiz 1 (From TA 鄭楷融):<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; [Download solution]()<br>
+    2. Quiz 3 (From TA 鄭楷融):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Q3.pdf)<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Date: November 28 (Thur.), 2019<br>
-    3. Homework 2 (From TA 鄭楷融):<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; [Download file]()<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; Announce: <br>
-    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: <br><br>
+    3. Homework 6 (From TA 鄭楷融):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw6.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: November 28 (Thur.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: December 5 (Thur.), 2019<br><br>
+    4. Homework 7 (From TA 陳世昕):<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw7.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Announce: December 4 (Wed.), 2019<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Deadline: December 12 (Thur.), 2019<br><br>
 
 
    * **Calculus 1 A05 Class** (2018)<br/>
