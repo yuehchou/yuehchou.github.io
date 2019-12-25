@@ -36,7 +36,7 @@ It has two major branches, differential calculus and integral calculus. Differen
         Note: [11/28](/PDF/courses/TA/Calculus/Note1128.pdf), &nbsp;[12/5](/PDF/courses/TA/Calculus/Note1205.pdf), &nbsp;[12/12](/PDF/courses/TA/Calculus/Note1212.pdf)<br>
    * Chapter 8: Further Applications of Integration<br>
    * Chpater 9: Differential Equations<br>
-        Note: [12/19](/PDF/courses/TA/Calculus/Note1219.pdf)<br>
+        Note: [12/19](/PDF/courses/TA/Calculus/Note1219.pdf), &nbsp;[12/26](/PDF/courses/TA/Calculus/Note1226.pdf)<br>
    * Chapter 10: Parametric Equations and Polar Coordinates<br>
    * Chapter 11: Infinite Sequences and Series<br>
    * Chapter 12: Vectors and the Geometry of Space<br>
@@ -65,7 +65,7 @@ It has two major branches, differential calculus and integral calculus. Differen
     &nbsp; &nbsp; &nbsp; &nbsp; Announce: December 4 (Wed.), 2019<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Deadline: December 12 (Thur.), 2019<br>
     5. Quiz 4 (From TA Yuehchou Lee):<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; [Download file]()<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Q4_sol.pdf)<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Date: December 19 (Thur.), 2019<br>
     6. Homework 8 (From TA Yuehchou Lee):<br>
     &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw8.pdf)<br>
