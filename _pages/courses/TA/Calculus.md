@@ -65,10 +65,12 @@ It has two major branches, differential calculus and integral calculus. Differen
     &nbsp; &nbsp; &nbsp; &nbsp; Announce: December 4 (Wed.), 2019<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Deadline: December 12 (Thur.), 2019<br>
     5. Quiz 4 (From TA Yuehchou Lee):<br>
-    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Q4_sol.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Q4.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Solution](/PDF/courses/TA/Calculus/108_1_Q4_sol.pdf)<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Date: December 19 (Thur.), 2019<br>
     6. Homework 8 (From TA Yuehchou Lee):<br>
     &nbsp; &nbsp; &nbsp; &nbsp; [Download file](/PDF/courses/TA/Calculus/108_1_Hw8.pdf)<br>
+    &nbsp; &nbsp; &nbsp; &nbsp; [Solution](/PDF/courses/TA/Calculus/108_1_Hw8_sol.pdf)<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Announce: December 17 (Tue.), 2019<br>
     &nbsp; &nbsp; &nbsp; &nbsp; Deadline: December 26 (Thur.), 2019<br><br>
 
