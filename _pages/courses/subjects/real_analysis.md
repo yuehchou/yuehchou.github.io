@@ -51,7 +51,9 @@ Real analysis is the basis of advanced analysis theory, and is also an important
    * Chapter 2: Integration Theory<br>
     [Extra Hw](/PDF/courses/subjects/real_analysis/108_1_Extra_Hw_Ch2.pdf), &nbsp; [Hw5](/PDF/courses/subjects/real_analysis/108_1_Hw5.pdf)<br>
    * Chapter 3: Construction of Measures<br>
-    [Hw6](/PDF/courses/subjects/real_analysis/108_1_Hw6.pdf)<br><br>
+    [Hw6](/PDF/courses/subjects/real_analysis/108_1_Hw6.pdf)<br>
+   * Chapter 4: Product Measures<br>
+    [Hw7](/PDF/courses/subjects/real_analysis/108_1_Hw7.pdf)<br><br>
 
 
 ## Text Book
