@@ -38,6 +38,7 @@ It has two major branches, differential calculus and integral calculus. Differen
    * Chpater 9: Differential Equations<br>
         Note: [12/19](/PDF/courses/TA/Calculus/Note1219.pdf), &nbsp;[12/26](/PDF/courses/TA/Calculus/Note1226.pdf)<br>
    * Chapter 10: Parametric Equations and Polar Coordinates<br>
+        Note: [1/2](/PDF/courses/TA/Calculus/Note0102.pdf)<br>
    * Chapter 11: Infinite Sequences and Series<br>
    * Chapter 12: Vectors and the Geometry of Space<br>
    * Chapter 13: Vector Function<br>
