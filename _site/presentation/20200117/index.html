@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>MeDA:FORESEER</title>
+
+		<link rel="stylesheet" href="../reveal.js/css/reset.css">
+		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../reveal.js/lib/css/monokai.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+        <link rel="stylesheet" href="../template/custom.css">
+
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+                <section class="title-slide" data-background="../template/banner.png">
+                    <h1 style="text-align:left; color:black">
+                        FORESEER<br><br>
+                    </h1>
+                    <br>
+                    <div style="position:absolute; bottom: 2%; right:5%">
+                        <h6 style="text-align:right; color:black"><em>
+                            Yuehchou Lee<br>
+                            National Taiwan University, Mathematics
+                        </em></h6>
+                    </div>
+                </section>
+
+                <section>
+                    <section data-background-color="#FFFFFF">
+                        <h1>Slide QR code</h1>
+                        <p style="text-align:center;">
+                            <img src="pic/slide_qrcode.png" width="30%"/>
+                        </p>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Members</h1>
+                    </section>
+                    <section>
+                        <ol>
+                            <li><h2>Dr. Cheyu Hsu</h2>
+                                <em>National Taiwan University Hospital</em></i><br><br>
+
+                            <li><h2>Chengen Lee</h2>
+                                <em>National Taiwan University, Institute of Applied Mathematical Sciences</em></i><br><br>
+
+                            <li><h2>Yuehchou Lee</h2>
+                                <em>National Taiwan University, Mathematics</em></i><br>
+                        </ol>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Introduction</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ol>
+                            <li>
+                            </li><br>
+                            <li>
+                            </li><br>
+                            <li>
+                            </li><br>
+                        </ol>
+                    </section>
+                    <section>
+                        <h1>Goal</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ol>
+                            <li>
+                            </li><br>
+                            <li>
+                            </li><br>
+                        </ol>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Workflow</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <img src="pic/workflow.png" width="35%"/>
+                    </section>
+                    <section>
+                        <h1>Step 1: Image Dataset Preprocessing</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ol>
+                            <li>
+                            </li><br>
+                            <li>
+                            </li><br>
+                        </ol>
+                    </section>
+                    <section>
+                        <h1>Step 2: Radiomics Features Extraction</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ul>
+                            <li>Radiomics can exract lots of features, such as shape, volume, first-order and high-order features<br><br>
+                            <a href="https://www.radiomics.io/pyradiomics.html">
+                                <p style="text-align:center;">
+                                    <img src="pic/radiomics.png" width="50%"/>
+                                </p>
+                            </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Step 3: Classification Models Establishment</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ul>
+                            <li><a href="https://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf">
+                                    eXtreme Gradient Boosting<br><br>
+                                    <p style="text-align:center;">
+                                        <img src="pic/XGBoost.jpg" width="100%"/>
+                                    </p>
+                            </a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Step 4: Classification Models Validation</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ul>
+                            <li>
+                                Use thousands of cases to validate the above steps
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Preliminary Result</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ul>
+                            <li>
+                                <h3>All features:</h3>
+                                <img src="pic/all_features_roc.png" width="40%"/>
+                                &nbsp; &nbsp;
+                                <img src="pic/all_features_confusion_matrix.png" width="40%"/>
+                            </li>
+                         </ul>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                         <ul>
+                            <li>
+                                <h3>Selected features:</h3>
+                                <img src="pic/select_features_roc.png" width="40%"/>
+                                &nbsp; &nbsp;
+                                <img src="pic/select_features_confusion_matrix.png" width="40%"/>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Conclusion</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ol>
+                            <li>
+                                Reduce the cost of labeling tumors by multiple radiologists
+                            </li><br><br>
+                            <li class="fragment">
+                                Improve AUC and sensitivity of one-year prognosis classification by using selected features
+                            </li><br>
+                        </ol>
+                    </section>
+                    <section>
+                        <h1>Future Works</h1>
+                    </section>
+                    <section data-background-color="#FFFFFF">
+                        <ol>
+                            <li>
+                                Validate above all steps by using NHI dataset (over 3000 cases)
+                            </li><br>
+                            <li class="fragment">
+                                Construct the segmentation model to support the radiologist to label tumor
+                            </li><br>
+                            <li class="fragment">
+                                Combine VAE to improve the result of classification
+                            </li>
+                        </ol>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#28306a">
+                        <h1>Thank You</h1>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background-color="#FFFFFF">
+                        <h1><a href="https://meda.ai/">
+                            MeDA Lab
+                            </a></h1>
+                            <p style="text-align:center;">
+                                <img src="pic/MeDA.png" width="30%"/>
+                            </p>
+                    </section>
+                </section>
+			</div>
+		</div>
+
+		<script src="../reveal.js/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+                history: true,
+                slideNumber: true,
+                mouseWheel: true,
+                width: "90%",
+                height: "90%",
+                pdfSeparateFragments: false,
+                <!-- width: 1024, -->
+                <!-- height: 640, -->
+                margin: 0.1,
+				dependencies: [
+					{ src: '../reveal.js/plugin/markdown/marked.js' },
+					{ src: '../reveal.js/plugin/markdown/markdown.js' },
+					{ src: '../reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '../reveal.js/plugin/highlight/highlight.js', async: true },
+                    { src: '../reveal.js/plugin/math/math.js', async: true },
+                    { src: '../reveal.js-plugins/chalkboard/chalkboard.js', async: true }
+				],
+			});
+		</script>
+	</body>
+</html>
