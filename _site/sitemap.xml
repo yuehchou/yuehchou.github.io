@@ -560,10 +560,6 @@
 <lastmod>2020-01-16T10:08:04+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/presentation/foreseer_code/</loc>
-<lastmod>2020-05-22T02:20:18+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/presentation/reveal.js-plugins/broadcast/generatehash.html</loc>
 <lastmod>2019-12-03T10:21:58+00:00</lastmod>
 </url>
@@ -658,5 +654,9 @@
 <url>
 <loc>http://localhost:4000/presentation/reveal.js/test/test.html</loc>
 <lastmod>2019-12-03T10:14:07+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/presentation/thesis_presentation/</loc>
+<lastmod>2020-07-29T17:52:25+00:00</lastmod>
 </url>
 </urlset>
