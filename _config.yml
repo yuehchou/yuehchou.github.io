@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yueh-Chou Lee Blog"
+title                    : "Yueh-Chou Lee's Blog"
 title_separator          : "|"
 name                     : "Yueh-Chou Lee"
 description              : "Myself blog."
@@ -56,6 +56,10 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 
+collections:
+  pages:
+    output: true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -76,7 +80,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.facebook.com/profile.php?id=100000499267906"
+  # - "https://www.facebook.com/profile.php?id=100000499267906"
     - "https://www.linkedin.com/in/yuehchoulee/"
 
 # Analytics
@@ -88,19 +92,19 @@ analytics:
 # Site Author
 author:
   name             : "Yueh-Chou Lee"
-  avatar           : "/images/SelfPhoto.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master Student<br>
-                      Mathematics<br>
-                      National Taiwan University"
+  avatar           : "/images/SelfPhoto.jpg"
+  bio              : "<a href='https://www.ecloudvalley.com/en'>eCloudvalley</a><br>
+                      <i><small>AI/ML Specialist Solutions Architect<br>
+                      Data Scientist</small></i>"
   location         : "Taiwan"
-  email            : "R06221012@ntu.edu.tw"
+  email            : "yuehchou.lee@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "profile.php?id=100000499267906"
+  facebook         : # "profile.php?id=100000499267906"
   foursquare       :
   github           : # github username, "my_github_username"
   gitlab           :

@@ -15,7 +15,7 @@ comments: true
 
 ## Materials
    1. Slide<br>
-      [Lecture](/PDF/courses/workshop/Liver_20191017.pdf), [Radiomics features introduction](/PDF/courses/workshop/Radiomics_20170904.pdf)<br>
+      [Lecture](https://github.com/yuehchou/gitblog-ntu-public-doc/blob/main/courses/workshop/Liver_20191017.pdf), [Radiomics features introduction](https://github.com/yuehchou/gitblog-ntu-public-doc/blob/main/courses/workshop/Radiomics_20170904.pdf)<br>
    2. Hands-on<br>
    [Download via GitHub](https://github.com/yuehchou/NHI-mini-course-20191017), [Online demo](https://mybinder.org/v2/gh/yuehchou/NHI-mini-course-20191017/master)<br>
 
