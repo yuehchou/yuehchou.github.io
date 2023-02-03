@@ -8,6 +8,8 @@ main:
     url: /projects/
   - title: "Courses"
     url: /courses/
+  - title: "Cloud"
+    url: /cloud/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
