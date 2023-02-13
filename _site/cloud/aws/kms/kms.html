@@ -19,12 +19,12 @@
 
 
 
-<title>            Projects      Yueh-Chou Lee’s Blog      </title>
+<title>            AWS KMS      Yueh-Chou Lee’s Blog      </title>
 
 
 
 
-<meta name="description" content="This page contains the projects I have involved.">
+<meta name="description" content="Myself blog.">
 
 
 
@@ -33,15 +33,15 @@
 
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Yueh-Chou Lee's Blog">
-<meta property="og:title" content="Projects">
+<meta property="og:title" content="AWS KMS">
 
 
-  <link rel="canonical" href="http://localhost:4000/projects/">
-  <meta property="og:url" content="http://localhost:4000/projects/">
+  <link rel="canonical" href="http://localhost:4000/cloud/aws/kms/kms.html">
+  <meta property="og:url" content="http://localhost:4000/cloud/aws/kms/kms.html">
 
 
 
-  <meta property="og:description" content="This page contains the projects I have involved.">
+  <meta property="og:description" content="Myself blog.">
 
 
 
@@ -65,7 +65,7 @@
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/projects/coding.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/images/cloud/aws/aws-cover.jpeg">
 
 
 
@@ -222,17 +222,17 @@
 
 
 
-<div class="page__hero--overlay" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://localhost:4000/assets/images/projects/coding.jpg');">
+<div class="page__hero--overlay" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://localhost:4000/assets/images/cloud/aws/aws-cover.jpeg');">
   
     <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
         
-          Projects
+          AWS KMS
 
         
       </h1>
       
-        <p class="page__lead">This page contains the projects I have involved.
+        <p class="page__lead">
 </p>
       
       
@@ -363,8 +363,8 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Projects">
-    <meta itemprop="description" content="This page contains the projects I have involved.">
+    <meta itemprop="headline" content="AWS KMS">
+    <meta itemprop="description" content="">
     
     
 
@@ -373,39 +373,23 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="national-taiwan-university-x-national-taiwan-university-hospital">National Taiwan University x National Taiwan University Hospital</h2>
+        <h2 id="aws-kms">AWS KMS</h2>
+
+<h2 id="操作示範說明">操作示範&amp;說明</h2>
 
 <ol>
-  <li>
-<a href="NTUH/Brain_Tumor.html">Brain Tumor Classification</a><br>
-</li>
-  <li>
-<a href="NTUH/Hypopharyngeal.html">Hypopharyngeal Tumor Classification</a><br>
-</li>
-  <li>
-<a href="NTUH/Radiomics.html">Radiomics</a><br>
-</li>
+  <li>創建 AWS Managed Keys</li>
+  <li>創建 Customer Managed Keys</li>
+  <li>操作 Rotate KMS Key</li>
+  <li>物件加密並上傳至 Amazon S3</li>
 </ol>
 
-<h2 id="national-taiwan-university-x-ibm-tj-watson-reasearch-center">National Taiwan University x IBM T.J. Watson Reasearch Center</h2>
+<h2 id="注意事項">注意事項</h2>
 
 <ol>
-  <li>
-<a href="IBM/CSD.html">Cortical Spreading Despression</a> (CSD)<br>
-</li>
-  <li>
-<a href="IBM/ECS.html">Extracellular Space</a> (ECS)<br>
-</li>
+  <li>不要隨意刪除KMS Key，若需要刪除請先<font color="red">「停用」</font>，並確認是否有傳輸有被此KMS Key加密。</li>
+  <li>由於刪除 KMS Key 屬於高風險行為，所以 AWS KMS 會強制要求設定等待期為 7 至 30 天。預設等待期間為 30 天。</li>
 </ol>
-
-<h2 id="national-taiwan-university-x-national-yang-ming-university">National Taiwan University x National Yang-Ming University</h2>
-
-<ol>
-  <li>
-<a href="NYMU/disorder.html">Disorder</a><br>
-</li>
-</ol>
-
 
         
       </section>

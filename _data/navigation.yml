@@ -2,10 +2,10 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Cloud Grimoire"
+    url: /cloud/
   - title: "Posts"
     url: /posts/
-  - title: "Cloud Notes"
-    url: /cloud/
   - title: "NTU Projects"
     url: /projects/
   - title: "NTU Courses"

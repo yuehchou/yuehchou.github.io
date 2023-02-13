@@ -38,11 +38,20 @@ var idx = lunr(function () {
     
   
     idx.add({
-      title: "Cloud Platform Public Notes",
-      excerpt: "AWS Learning Notes\n\n AWS Lambda\n\n AWS IoT\n",
+      title: "AWS KMS",
+      excerpt: "AWS KMS 操作示範&amp;說明 創建 AWS Managed Keys 創建 Customer Managed Keys 操作 Rotate KMS Key 物件加密並上傳至 Amazon S3 注意事項 不要隨意刪除KMS...",
       categories: [],
       tags: [],
       id: 3
+    });
+    
+  
+    idx.add({
+      title: "Cloud Grimoire",
+      excerpt: "AWS Learning Notes\n\n AWS Lambda\n\n AWS IoT\n\n AWS KMS\n",
+      categories: [],
+      tags: [],
+      id: 4
     });
     
   
@@ -51,7 +60,7 @@ var idx = lunr(function () {
       excerpt: "Introduction Calculus, originally called infinitesimal calculus or “the calculus of infinitesimals”, is the mathematical study of continuous change, in the...",
       categories: [],
       tags: [],
-      id: 4
+      id: 5
     });
     
   
@@ -60,7 +69,7 @@ var idx = lunr(function () {
       excerpt: "Introduction Fundamentals of Numerical Computation is an advanced undergraduate-level introduction to the mathematics and use of algorithms for the fundamental...",
       categories: [],
       tags: [],
-      id: 5
+      id: 6
     });
     
   
@@ -69,7 +78,7 @@ var idx = lunr(function () {
       excerpt: "Required or Elective Subjects: National Taiwan University 1. Real Analysis 2. Graph Theory 3. Numerical Linear Algebra 4. High-Performance Numerical...",
       categories: [],
       tags: [],
-      id: 6
+      id: 7
     });
     
   
@@ -78,7 +87,7 @@ var idx = lunr(function () {
       excerpt: "Teacher Edmond Chow Associate Professor School of Computational Science and Engineering College of Computing Georgia Institute of Technology Topics Asynchornous...",
       categories: [],
       tags: [],
-      id: 7
+      id: 8
     });
     
   
@@ -87,7 +96,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\n圖論的各種研究方法中，重要的有拓樸方法、機率方法、代數方法、演算法。有效的演算法能協助電腦達到快速計算，對實用端有很大的好處。從數學的觀點來看，演算法其實是數學歸納法的化身，所以它可以用來幫忙證明定理；反過來，一些定理的歸納法證明，也常能轉化成演算法。本書在各處盡可能地展現數學歸納法和演算法的一體兩面特性。\n\nText Book\n\n\n  演算法觀點的圖論\n   張鎮華\n   \n\n\n",
       categories: [],
       tags: [],
-      id: 8
+      id: 9
     });
     
   
@@ -96,7 +105,7 @@ var idx = lunr(function () {
       excerpt: "Introduction Real analysis is the basis of advanced analysis theory, and is also an important tool commonly used in other...",
       categories: [],
       tags: [],
-      id: 9
+      id: 10
     });
     
   
@@ -105,16 +114,16 @@ var idx = lunr(function () {
       excerpt: "Date 17 October, 2019 (Thus.) Materials Slide Lecture, Radiomics features introduction Hands-on Download via GitHub, Online demo Agenda Course introduction...",
       categories: [],
       tags: [],
-      id: 10
+      id: 11
     });
     
   
     idx.add({
-      title: "<br><br>",
+      title: "<br><br><br><br>",
       excerpt: "ABOUT Hi, I’m Kevin Lee Your Data Wizard, Help You to Deliver Magic and Powerful Data-driven Solutions on Cloud. Learn...",
       categories: [],
       tags: [],
-      id: 11
+      id: 12
     });
     
   
@@ -123,7 +132,7 @@ var idx = lunr(function () {
       excerpt: "2019 Basic LaTeX Symbols July 22, 2019 &emsp; &nbsp; 2 minute read Introduction of LaTeX July 21, 2019 &emsp; &nbsp;...",
       categories: [],
       tags: [],
-      id: 12
+      id: 13
     });
     
   
@@ -132,7 +141,7 @@ var idx = lunr(function () {
       excerpt: "Introduction Cortical spreading depression (CSD) is an electrical silent wave across all over the cerebral cortex and impairs some cortical...",
       categories: [],
       tags: [],
-      id: 13
+      id: 14
     });
     
   
@@ -141,7 +150,7 @@ var idx = lunr(function () {
       excerpt: "\n",
       categories: [],
       tags: [],
-      id: 14
+      id: 15
     });
     
   
@@ -150,7 +159,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\nGoal\n\nData\n\nResults\n\nConclusions\n\nFuture works\n\nReferencess\n\nAcknowledgements\n\nExtesion\n\n",
       categories: [],
       tags: [],
-      id: 15
+      id: 16
     });
     
   
@@ -159,7 +168,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\nGoal\n\nData\n\nResults\n\nConculsions\n\nFuture works\n\nReferences\n\nAcknowledgements\n\nExtension\n\n",
       categories: [],
       tags: [],
-      id: 16
+      id: 17
     });
     
   
@@ -168,7 +177,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\nApplication\n\nTutorial\n\nExtesion\n\n",
       categories: [],
       tags: [],
-      id: 17
+      id: 18
     });
     
   
@@ -177,7 +186,7 @@ var idx = lunr(function () {
       excerpt: "Introduction Disorder is often called the hidden disability because our behavior and thinking may have very serious problems, and yet...",
       categories: [],
       tags: [],
-      id: 18
+      id: 19
     });
     
   
@@ -186,7 +195,7 @@ var idx = lunr(function () {
       excerpt: "National Taiwan University x National Taiwan University Hospital Brain Tumor Classification Hypopharyngeal Tumor Classification Radiomics National Taiwan University x IBM...",
       categories: [],
       tags: [],
-      id: 19
+      id: 20
     });
     
   
@@ -198,7 +207,7 @@ var idx = lunr(function () {
       excerpt: "Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of...",
       categories: ["/posts/update"],
       tags: ["jekyll"],
-      id: 20
+      id: 21
     });
     
   
@@ -207,7 +216,7 @@ var idx = lunr(function () {
       excerpt: "You can enable math support through use_math: true front matter which enable the MathJax.js rendering. After enable math support, use...",
       categories: ["/posts/MathJax/"],
       tags: ["MathJax"],
-      id: 21
+      id: 22
     });
     
   
@@ -216,7 +225,7 @@ var idx = lunr(function () {
       excerpt: "What is Linux? Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system....",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 22
+      id: 23
     });
     
   
@@ -225,7 +234,7 @@ var idx = lunr(function () {
       excerpt: "In ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands....",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 23
+      id: 24
     });
     
   
@@ -234,7 +243,7 @@ var idx = lunr(function () {
       excerpt: "After understanding some basic linux commands, we will continue to introduce other intermediate linux commands. 1. cat Use the this...",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 24
+      id: 25
     });
     
   
@@ -243,7 +252,7 @@ var idx = lunr(function () {
       excerpt: "Here are five tips that can help you operate Linux system more easily and conveniently. You can use the clear...",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 25
+      id: 26
     });
     
   
@@ -252,7 +261,7 @@ var idx = lunr(function () {
       excerpt: "What is LaTeX? LaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the...",
       categories: ["/posts/latex/"],
       tags: ["LaTeX"],
-      id: 26
+      id: 27
     });
     
   
@@ -261,7 +270,7 @@ var idx = lunr(function () {
       excerpt: "Greek Letters Output Code Output Code Output Code Output Code \\alpha \\theta o \\tau \\beta \\vartheta \\pi \\upsilon \\gamma \\xi...",
       categories: ["/posts/latex/"],
       tags: ["LaTeX"],
-      id: 27
+      id: 28
     });
     
   
@@ -309,9 +318,20 @@ var store = [
     
       
       {
-        "title": "Cloud Platform Public Notes",
+        "title": "AWS KMS",
+        "url": "http://localhost:4000/cloud/aws/kms/kms.html",
+        "excerpt": "AWS KMS 操作示範&amp;說明 創建 AWS Managed Keys 創建 Customer Managed Keys 操作 Rotate KMS Key 物件加密並上傳至 Amazon S3 注意事項 不要隨意刪除KMS...",
+        "teaser":
+          
+            "http://localhost:4000/"
+          
+      },
+    
+      
+      {
+        "title": "Cloud Grimoire",
         "url": "http://localhost:4000/cloud/",
-        "excerpt": "AWS Learning Notes\n\n AWS Lambda\n\n AWS IoT\n",
+        "excerpt": "AWS Learning Notes\n\n AWS Lambda\n\n AWS IoT\n\n AWS KMS\n",
         "teaser":
           
             "http://localhost:4000/"
@@ -397,7 +417,7 @@ var store = [
     
       
       {
-        "title": "<br><br>",
+        "title": "<br><br><br><br>",
         "url": "http://localhost:4000/",
         "excerpt": "ABOUT Hi, I’m Kevin Lee Your Data Wizard, Help You to Deliver Magic and Powerful Data-driven Solutions on Cloud. Learn...",
         "teaser":

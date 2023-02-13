@@ -6,7 +6,7 @@ author_profile: true
 comments: false
 ---
 
-<small>_Professional AI/ML specialist solutions architect with 4+ years of experience in Big Data and Analytics, including 3 years AI research assistant and 2+ years data scientist. Provision of big data consultations and solutions to some of the biggest multinational conglomerate companies spanning multiple regions such as Hong Kong, Singapore, Philippines, Indonesia, and industries including telecom, mining, automotive, forestry, and financial. Technical skills include various technology stacks such as <b>Python</b>, C++, <b>SQL</b>, <b>AWS</b>, GCP, Azure, Databricks, Linux and now focuses on using AWS Cloud Platform to leverage machine learning or data-driven solutions._</small>
+<small>_Professional AI/ML specialist solutions architect with 4+ years of experience in Big Data and Analytics, including 3 years AI research assistant and 2+ years data scientist. Provision of big data consultations and solutions to some of the biggest multinational conglomerate companies spanning multiple regions such as Hong Kong, Singapore, Philippines, Indonesia, and industries including telecom, mining, automotive, forestry, and financial. Technical skills include various technology stacks such as <b>Python</b>, <b>SQL</b>, <b>AWS</b>, GCP, Azure, Databricks, Linux, C++ and now focuses on using AWS Cloud Platform to leverage machine learning or data-driven solutions._</small>
 
 ## Experience:
 

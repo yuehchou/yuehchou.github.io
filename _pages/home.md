@@ -2,12 +2,12 @@
 layout: splash
 permalink: /
 hidden: true
-title: "<br><br>"
+title: "<br><br><br><br>"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home/snow-mountain-background-top.png
 excerpt: >
-  <br><br><br>
+  <br><br><br><br>
 feature_row:
   - image_path: /assets/images/home/about-me.png
     alt: "about me"

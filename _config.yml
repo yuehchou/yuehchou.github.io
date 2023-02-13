@@ -93,8 +93,8 @@ analytics:
 author:
   name             : "Yueh-Chou Lee"
   avatar           : "/assets//images/SelfPhoto.jpg"
-  bio              : "<a href='https://www.ecloudvalley.com/en'>eCloudvalley</a><br>
-                      <i><small>AI/ML Specialist Solutions Architect<br>
+  bio              : "<i><small>AI/ML Specialist Solutions Architect<br>
+                      Cloud Engineer<br>
                       Data Scientist</small></i>"
   location         : "Taiwan"
   email            : "yuehchou.lee@gmail.com"
