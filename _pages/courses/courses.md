@@ -3,7 +3,7 @@ layout: single
 permalink: /courses/
 excerpt: "This page contains the courses I have studied or taught."
 header:
-  overlay_image: /images/Mathematics.jpg
+  overlay_image: /assets/images/Mathematics.jpg
   overlay_filter: 0.5
 title: "Courses"
 author_profile: true

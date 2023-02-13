@@ -13,13 +13,13 @@ title                    : "Yueh-Chou Lee's Blog"
 title_separator          : "|"
 name                     : "Yueh-Chou Lee"
 description              : "Myself blog."
-url                      : "https://yuehchou.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yuehchou.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : " " # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 header:
-  logo: "/images/NTU_logo.png"
+  logo: "/assets/images/NTU_logo.png"
   teaser: /
 words_per_minute         : 200
 comments:
@@ -92,7 +92,7 @@ analytics:
 # Site Author
 author:
   name             : "Yueh-Chou Lee"
-  avatar           : "/images/SelfPhoto.jpg"
+  avatar           : "/assets//images/SelfPhoto.jpg"
   bio              : "<a href='https://www.ecloudvalley.com/en'>eCloudvalley</a><br>
                       <i><small>AI/ML Specialist Solutions Architect<br>
                       Data Scientist</small></i>"

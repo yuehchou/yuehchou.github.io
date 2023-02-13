@@ -3,7 +3,7 @@ layout: single
 permalink: /courses/subjects/graph_theory.html
 excerpt: "This course is the required subject of the Institute of Mathematics."
 header:
-  overlay_image: /images/Mathematics.jpg
+  overlay_image: /assets/images/Mathematics.jpg
   overlay_filter: 0.5
 title: "Graph Theory"
 author_profile: true
@@ -18,6 +18,6 @@ comments: true
 
    1. 演算法觀點的圖論<br>
    <small>張鎮華</small><br><br>
-   ![](./../../../images/courses/GraphTheory.jpg){:height="20%" width="20%"}
+   ![](/assets/images/courses/GraphTheory.jpg){:height="20%" width="20%"}
 
 

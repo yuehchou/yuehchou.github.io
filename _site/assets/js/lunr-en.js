@@ -110,8 +110,8 @@ var idx = lunr(function () {
     
   
     idx.add({
-      title: "Posts",
-      excerpt: "2019 Basic LaTeX Symbols July 22, 2019 &emsp; &nbsp; 2 minute read Introduction of LaTeX July 21, 2019 &emsp; &nbsp;...",
+      title: "<br><br>",
+      excerpt: "ABOUT Hi, I’m Kevin Lee Your Data Wizard, Help You to Deliver Magic and Powerful Data-driven Solutions on Cloud. Learn...",
       categories: [],
       tags: [],
       id: 11
@@ -119,8 +119,8 @@ var idx = lunr(function () {
     
   
     idx.add({
-      title: "Cortical Spreading Depression",
-      excerpt: "Introduction Cortical spreading depression (CSD) is an electrical silent wave across all over the cerebral cortex and impairs some cortical...",
+      title: "Posts",
+      excerpt: "2019 Basic LaTeX Symbols July 22, 2019 &emsp; &nbsp; 2 minute read Introduction of LaTeX July 21, 2019 &emsp; &nbsp;...",
       categories: [],
       tags: [],
       id: 12
@@ -129,10 +129,19 @@ var idx = lunr(function () {
   
     idx.add({
       title: "Cortical Spreading Depression",
-      excerpt: "\n",
+      excerpt: "Introduction Cortical spreading depression (CSD) is an electrical silent wave across all over the cerebral cortex and impairs some cortical...",
       categories: [],
       tags: [],
       id: 13
+    });
+    
+  
+    idx.add({
+      title: "Cortical Spreading Depression",
+      excerpt: "\n",
+      categories: [],
+      tags: [],
+      id: 14
     });
     
   
@@ -141,7 +150,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\nGoal\n\nData\n\nResults\n\nConclusions\n\nFuture works\n\nReferencess\n\nAcknowledgements\n\nExtesion\n\n",
       categories: [],
       tags: [],
-      id: 14
+      id: 15
     });
     
   
@@ -150,7 +159,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\nGoal\n\nData\n\nResults\n\nConculsions\n\nFuture works\n\nReferences\n\nAcknowledgements\n\nExtension\n\n",
       categories: [],
       tags: [],
-      id: 15
+      id: 16
     });
     
   
@@ -159,7 +168,7 @@ var idx = lunr(function () {
       excerpt: "Introduction\n\nApplication\n\nTutorial\n\nExtesion\n\n",
       categories: [],
       tags: [],
-      id: 16
+      id: 17
     });
     
   
@@ -168,7 +177,7 @@ var idx = lunr(function () {
       excerpt: "Introduction Disorder is often called the hidden disability because our behavior and thinking may have very serious problems, and yet...",
       categories: [],
       tags: [],
-      id: 17
+      id: 18
     });
     
   
@@ -177,7 +186,7 @@ var idx = lunr(function () {
       excerpt: "National Taiwan University x National Taiwan University Hospital Brain Tumor Classification Hypopharyngeal Tumor Classification Radiomics National Taiwan University x IBM...",
       categories: [],
       tags: [],
-      id: 18
+      id: 19
     });
     
   
@@ -189,7 +198,7 @@ var idx = lunr(function () {
       excerpt: "Welcome to the first blog posts of Minimal Mistakes Jekyll. You may edit the title, date, categories, and tags of...",
       categories: ["/posts/update"],
       tags: ["jekyll"],
-      id: 19
+      id: 20
     });
     
   
@@ -198,7 +207,7 @@ var idx = lunr(function () {
       excerpt: "You can enable math support through use_math: true front matter which enable the MathJax.js rendering. After enable math support, use...",
       categories: ["/posts/MathJax/"],
       tags: ["MathJax"],
-      id: 20
+      id: 21
     });
     
   
@@ -207,7 +216,7 @@ var idx = lunr(function () {
       excerpt: "What is Linux? Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system....",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 21
+      id: 22
     });
     
   
@@ -216,7 +225,7 @@ var idx = lunr(function () {
       excerpt: "In ubuntu system, we can open the terminal to do some command operations, and then manage the files through commands....",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 22
+      id: 23
     });
     
   
@@ -225,7 +234,7 @@ var idx = lunr(function () {
       excerpt: "After understanding some basic linux commands, we will continue to introduce other intermediate linux commands. 1. cat Use the this...",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 23
+      id: 24
     });
     
   
@@ -234,7 +243,7 @@ var idx = lunr(function () {
       excerpt: "Here are five tips that can help you operate Linux system more easily and conveniently. You can use the clear...",
       categories: ["/posts/linux/"],
       tags: ["Linux"],
-      id: 24
+      id: 25
     });
     
   
@@ -243,7 +252,7 @@ var idx = lunr(function () {
       excerpt: "What is LaTeX? LaTeX is a document preparation system. When writing, the writer uses plain text as opposed to the...",
       categories: ["/posts/latex/"],
       tags: ["LaTeX"],
-      id: 25
+      id: 26
     });
     
   
@@ -252,7 +261,7 @@ var idx = lunr(function () {
       excerpt: "Greek Letters Output Code Output Code Output Code Output Code \\alpha \\theta o \\tau \\beta \\vartheta \\pi \\upsilon \\gamma \\xi...",
       categories: ["/posts/latex/"],
       tags: ["LaTeX"],
-      id: 26
+      id: 27
     });
     
   
@@ -380,6 +389,17 @@ var store = [
         "title": "Mini-course (10/17)",
         "url": "http://localhost:4000/courses/workshop/ai_application.html",
         "excerpt": "Date 17 October, 2019 (Thus.) Materials Slide Lecture, Radiomics features introduction Hands-on Download via GitHub, Online demo Agenda Course introduction...",
+        "teaser":
+          
+            "http://localhost:4000/"
+          
+      },
+    
+      
+      {
+        "title": "<br><br>",
+        "url": "http://localhost:4000/",
+        "excerpt": "ABOUT Hi, I’m Kevin Lee Your Data Wizard, Help You to Deliver Magic and Powerful Data-driven Solutions on Cloud. Learn...",
         "teaser":
           
             "http://localhost:4000/"

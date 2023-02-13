@@ -3,7 +3,7 @@ layout: single
 permalink: /projects/NYMU/disorder.html
 excerpt: "This project cooperates with National Yang-Ming University from Feb. 2018 to Jun. 2018."
 header:
-  overlay_image: /images/projects/NYMU/NYMU.jpg
+  overlay_image: /assets/images/projects/NYMU/NYMU.jpg
   overlay_filter: 0.5
 title: "Disorder (Mental)"
 author_profile: true
@@ -65,7 +65,7 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
     2. Train the CNN model and predict
     3. Tesorflow (v.1.13.1) Model Graph (display by Tensorboard):<br>
 
-<div style="text-align:center"><img src="/images/projects/NYMU/model.png" width="150%" height="150%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/model.png" width="150%" height="150%"/></div>
 <p align="center">Fig1. CNN model</p><br>
 
 
@@ -96,10 +96,10 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   &ensp; Training Results Figure:<br>
   &emsp; a. Accuracy:<br>
 
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div><p align="center">Fig2. Accuracy</p>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/acc_r_000001.png" width="60%" height="60%"/></div><p align="center">Fig2. Accuracy</p>
 
    <br>&emsp; &emsp; &ensp; b. Loss:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/loss_r_000001.png" width="60%" height="60%"/></div>
 <p align="center">Fig3. Loss</p>
 
    <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.625<br>
@@ -129,11 +129,11 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
    <br>&emsp; 2. Learning Rate: $$1\times10^{-4}$$, Batch Size: 10, Epoch: 100<br>
    &emsp; &emsp; Training Results Figure:<br>
    &emsp; &emsp; &ensp; a. Accuracy:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/acc_r_00001.png" width="60%" height="60%"/></div>
 <p align="center">Fig4. Accuracy</p>
 
    <br>&emsp; &emsp; &ensp; b. Loss:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/loss_r_00001.png" width="60%" height="60%"/></div>
 <p align="center">Fig5. Loss</p>
 
    <br>&emsp; &emsp; &emsp; Testing Accuracy: 0.6625<br>
@@ -167,15 +167,15 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   <br>1. Construct brain mask:<br>
   &ensp; a. Original brain images:<br>
 
-<div style="text-align:center"><img src="/images/projects/NYMU/brain.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/brain.png" width="60%" height="60%"/></div>
 <p align="center">Fig6. Slice of the brain MR image</p><br>
 
   &emsp; &emsp; &ensp; b. Generate brain mask:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/brain_mask.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/brain_mask.png" width="60%" height="60%"/></div>
 <p align="center">Fig7. Preliminary brain mask</p><br>
 
   &emsp; &emsp; &ensp; c. Fill the holes:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/full_mask.png" width="60%" height="60%"/></div>
 <p align="center">Fig8. Final brain mask</p><br><br>
 
   &emsp; 2. Extract Radiomics features:<br>
@@ -198,16 +198,16 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
 
 * <big><b>Method 3 (Use CNN model with segmentation MR images):</b></big>
   <br>1. Segment the white matter<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/WM.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/WM.png" width="60%" height="60%"/></div>
 <p align="center">Fig9. White matter</p><br>
   &emsp; 2. Use linear normalize original value of the white matter to 0 ~ 1024<br>
   &emsp; 3. Learning Rate: $$1 \times 10^{-5}$$, Batch Size: 10, Epoch: 100<br>
   &emsp; &ensp; Training Results Figure:<br>
   &emsp; &emsp; a. Accuracy:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/acc_r_000001_WM.png" width="60%" height="60%"/></div>
 <p align="center">Fig10. Accuracy</p><br>
   &emsp; &emsp; b. Loss:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_000001_WM.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/loss_r_000001_WM.png" width="60%" height="60%"/></div>
 <p align="center">Fig11. Loss</p><br>
   &emsp; &emsp; &ensp; Testing Accuracy: 0.7125<br>
   &emsp; &emsp; &ensp; Confusion Matrix:<br>
@@ -237,10 +237,10 @@ To assist the psychiatrist in diagnosing and simplify the consultation process, 
   &emsp; 4. Learning Rate: $$1 \times 10^{-4}$$, Batch Size: 10, Epoch: 100<br>
   &emsp; &ensp; Training Results Figure:<br>
   &emsp; &emsp; a. Accuracy:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/acc_r_00001_WM.png" width="60%" height="60%"/></div>
 <p align="center">Fig12. Accuracy</p><br>
   &emsp; &emsp; b. Loss:<br>
-<div style="text-align:center"><img src="/images/projects/NYMU/loss_r_00001_WM.png" width="60%" height="60%"/></div>
+<div style="text-align:center"><img src="/assets/images/projects/NYMU/loss_r_00001_WM.png" width="60%" height="60%"/></div>
 <p align="center">Fig13. Loss</p><br>
   &emsp; &emsp; &ensp; Testing Accuracy: 0.65<br>
   &emsp; &emsp; &ensp; Confusion Matrix:<br>

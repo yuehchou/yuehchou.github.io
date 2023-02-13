@@ -3,7 +3,7 @@ layout: single
 permalink: /cloud/aws/iot/iot.html
 excerpt: ""
 header:
-  overlay_image: /images/cloud/aws/aws-cover.jpeg
+  overlay_image: /assets/images/cloud/aws/aws-cover.jpeg
   overlay_filter: 0.5
 title: "AWS IoT"
 author_profile: true

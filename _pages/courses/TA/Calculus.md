@@ -3,7 +3,7 @@ layout: single
 permalink: /courses/TA/Calculus.html
 excerpt: "This course is the required subject of all freshman."
 header:
-  overlay_image: /images/Mathematics.jpg
+  overlay_image: /assets/images/Mathematics.jpg
   overlay_filter: 0.5
 title: "Calculus"
 author_profile: true
@@ -124,7 +124,7 @@ It has two major branches, differential calculus and integral calculus. Differen
 
    * Calculus, Early Transcendentals, International Metric Edition, 8th Edition<br>
     <small>James Stewart</small><br><br>
-    ![](/imageshttps://github.com/yuehchou/gitblog-ntu-public-doc/blob/main/courses/Calculus.jpg){:height="30%" width="30%"}<br>
+    ![](/assets/images/courses/Calculus.jpg){:height="30%" width="30%"}<br>
 
 ## Awards
    * Excellent Teaching Assistant (2017-2018)

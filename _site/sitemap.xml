@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/courses/workshop/ai_application.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
@@ -127,6 +130,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/courses/subjects/graph_theory.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

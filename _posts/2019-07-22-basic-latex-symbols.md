@@ -3,7 +3,7 @@ title: "Basic LaTeX Symbols"
 date: 2019-07-22
 tags: LaTeX
 header:
-  overlay_image: /images/posts/latex/header.jpg
+  overlay_image: /assets/images/posts/latex/header.jpg
   overlay_filter: 0.25
 categories: /posts/latex/
 author_profile: true

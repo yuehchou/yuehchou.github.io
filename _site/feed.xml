@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-03T10:53:44+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee’s Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>yuehchou.lee@gmail.com</email></author><entry><title type="html">Basic LaTeX Symbols</title><link href="http://localhost:4000/posts/latex/basic-latex-symbols/" rel="alternate" type="text/html" title="Basic LaTeX Symbols" /><published>2019-07-22T00:00:00+00:00</published><updated>2019-07-22T00:00:00+00:00</updated><id>http://localhost:4000/posts/latex/basic-latex-symbols</id><content type="html" xml:base="http://localhost:4000/posts/latex/basic-latex-symbols/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-13T09:35:57+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yueh-Chou Lee’s Blog</title><subtitle>Myself blog.</subtitle><author><name>Yueh-Chou Lee</name><email>yuehchou.lee@gmail.com</email></author><entry><title type="html">Basic LaTeX Symbols</title><link href="http://localhost:4000/posts/latex/basic-latex-symbols/" rel="alternate" type="text/html" title="Basic LaTeX Symbols" /><published>2019-07-22T00:00:00+00:00</published><updated>2019-07-22T00:00:00+00:00</updated><id>http://localhost:4000/posts/latex/basic-latex-symbols</id><content type="html" xml:base="http://localhost:4000/posts/latex/basic-latex-symbols/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;greek-letters&quot;&gt;Greek Letters&lt;/h2&gt;
 
@@ -1089,7 +1089,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name>Yueh-Chou Lee</name><email>yuehchou.lee@gmail.com</email></author><category term="LaTeX" /><summary type="html"></summary></entry><entry><title type="html">Introduction of LaTeX</title><link href="http://localhost:4000/posts/latex/introduction-of-latex/" rel="alternate" type="text/html" title="Introduction of LaTeX" /><published>2019-07-21T00:00:00+00:00</published><updated>2019-07-21T00:00:00+00:00</updated><id>http://localhost:4000/posts/latex/introduction-of-latex</id><content type="html" xml:base="http://localhost:4000/posts/latex/introduction-of-latex/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/latex/logo.png&quot; width=&quot;30%&quot; height=&quot;30%&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/assets/images/posts/latex/logo.png&quot; width=&quot;30%&quot; height=&quot;30%&quot; /&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;what-is-latex&quot;&gt;What is LaTeX?&lt;/h2&gt;
 
@@ -1232,7 +1232,7 @@
 
 &lt;p&gt;Use this command to create a file. It can be anything, from an empty txt file to an empty zip file. For example, &lt;b&gt;“touch new.txt”&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;</content><author><name>Yueh-Chou Lee</name><email>yuehchou.lee@gmail.com</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">Introduction of Linux</title><link href="http://localhost:4000/posts/linux/introduction-of-linux/" rel="alternate" type="text/html" title="Introduction of Linux" /><published>2019-07-09T00:00:00+00:00</published><updated>2019-07-09T00:00:00+00:00</updated><id>http://localhost:4000/posts/linux/introduction-of-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/introduction-of-linux/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/posts/linux/logo.png&quot; width=&quot;40%&quot; height=&quot;40%&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/assets/images/posts/linux/logo.png&quot; width=&quot;40%&quot; height=&quot;40%&quot; /&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;what-is-linux&quot;&gt;What is Linux?&lt;/h2&gt;
 

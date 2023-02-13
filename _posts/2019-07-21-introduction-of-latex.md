@@ -3,7 +3,7 @@ title: "Introduction of LaTeX"
 date: 2019-07-21
 tags: LaTeX
 header:
-  overlay_image: /images/posts/latex/header.jpg
+  overlay_image: /assets/images/posts/latex/header.jpg
   overlay_filter: 0.25
 categories: /posts/latex/
 author_profile: true
@@ -11,7 +11,7 @@ author_profile: true
 
 <br>
 
-<div style="text-align:center"><img src="/images/posts/latex/logo.png" width="30%" height="30%"/></div>
+<div style="text-align:center"><img src="/assets/images/posts/latex/logo.png" width="30%" height="30%"/></div>
 
 ## What is LaTeX?
 

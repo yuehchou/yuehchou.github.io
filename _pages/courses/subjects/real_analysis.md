@@ -3,7 +3,7 @@ layout: single
 permalink: /courses/subjects/real_analysis.html
 excerpt: "This course is the required subject of the Institute of Mathematics."
 header:
-  overlay_image: /images/Mathematics.jpg
+  overlay_image: /assets/images/Mathematics.jpg
   overlay_filter: 0.5
 title: "Real Analysis"
 author_profile: true
@@ -60,12 +60,12 @@ Real analysis is the basis of advanced analysis theory, and is also an important
 
    1. (2018)  Measure and Integral: An Introduction to Real Analysis<br>
       <small>Richard L. Wheeden and Antoni Zygmund, Second Edition</small><br><br>
-      ![](./../../../images/courses/Zygmund.png){:height="30%" width="30%"}<br><br><br>
+      ![](/assets/images/courses/Zygmund.png){:height="30%" width="30%"}<br><br><br>
    2. (2018-2) Introduction to the theory of distributions<br>
       <small>F. G. Friedlander and  M. Joshi, Second Edition</small><br><br>
-      ![](/images/courses/Friedlander.png){:height="30%" width="30%"}<br><br><br>
+      ![](/assets/images/courses/Friedlander.png){:height="30%" width="30%"}<br><br><br>
    3. (2019-1) Real Analysis<br>
       <small>Elias M. Stein and Rami Shakarchi</small><br><br>
-      ![](/images/courses/Stein.jpg){:height="30%" width="30%"}<br><br><br>
+      ![](/assets/images/courses/Stein.jpg){:height="30%" width="30%"}<br><br><br>
 
 

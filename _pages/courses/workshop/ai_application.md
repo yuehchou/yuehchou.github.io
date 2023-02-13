@@ -3,7 +3,7 @@ layout: single
 permalink: /courses/workshop/ai_application.html
 excerpt: "This mini-course is for National Health Insurance Administration(NHI), and this page only shows my materials."
 header:
-  overlay_image: /images/courses/NHI.jpg
+  overlay_image: /assets/images/courses/NHI.jpg
   overlay_filter: 0.5
 title: "Mini-course (10/17)"
 author_profile: true

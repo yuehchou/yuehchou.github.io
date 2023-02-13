@@ -4,9 +4,9 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
-  - title: "Cloud Platform"
+  - title: "Cloud Notes"
     url: /cloud/
   - title: "NTU Projects"
     url: /projects/
-  - title: "Courses"
+  - title: "NTU Courses"
     url: /courses/

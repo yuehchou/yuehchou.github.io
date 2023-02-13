@@ -3,7 +3,7 @@ title:  "Introduction of Linux"
 date:   2019-07-09
 tags: Linux
 header:
-  overlay_image: /images/posts/linux/cover.jpg
+  overlay_image: /assets/images/posts/linux/cover.jpg
   overlay_filter: 0.5
 categories: /posts/linux/
 author_profile: true
@@ -11,7 +11,7 @@ author_profile: true
 
 <br>
 
-<div style="text-align:center"><img src="/images/posts/linux/logo.png" width="40%" height="40%"/></div>
+<div style="text-align:center"><img src="/assets/images/posts/linux/logo.png" width="40%" height="40%"/></div>
 
 ## What is Linux?
 
